@@ -1,0 +1,734 @@
+{
+ "job": "j0076-r11-worlds",
+ "round": 11,
+ "created": "2026-11-11",
+ "model": "chatgpt",
+ "label": "r11-worlds",
+ "size": 8,
+ "slots": [
+  {
+   "slot": "jl1-il2-og4-gs1-x01__sam.wenyang__fantasy-world-slit",
+   "file": "jl1-il2-og4-gs1-x01__sam.wenyang__fantasy-world-slit__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "fantasy",
+   "kind": "world",
+   "exposure": "slit",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "jl1-il2-og4-gs1-x01",
+    "name": "ln_drawn_oil",
+    "display": "그린 얼굴 · 가볍게 단순화 · 유화 글레이즈 · 얼굴 말 뺌 — 전역광 · 림 라이트 · 맑은 채도 (일본 라이트노벨 표지)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "jp_light_novel",
+      "v": "v1",
+      "code": "jl",
+      "ko": "일본 라이트노벨 표지",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "illustrated",
+      "v": "v2",
+      "code": "il",
+      "ko": "그린 얼굴 · 가볍게 단순화",
+      "pairs": {
+       "paint": [
+        "smooth",
+        "painted_refined",
+        "brush_layered",
+        "matte_soft",
+        "cel_gradient"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "oil_glaze",
+      "v": "v4",
+      "code": "og",
+      "ko": "유화 글레이즈 · 얼굴 말 뺌",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "global_soft",
+      "v": "v1",
+      "code": "gs",
+      "ko": "전역광 · 림 라이트 · 맑은 채도",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0",
+      "ko": "미지정",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": [
+     "face/illustrated 의 추천 짝 밖 — paint smooth · painted_refined · brush_layered · matte_soft · cel_gradient"
+    ]
+   },
+   "subject_overrides": [
+    "head: character card illustration → character image",
+    "faceFrame:  in this style → ",
+    "costume: a plumed helmet or a war headband → a war headband with a single white plume",
+    "costume: a plumed helm or circlet → a circlet with a single white plume",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined"
+   ],
+   "prompt_sha256": "7d9a22b53d7a5e211d73b273fa04886f706dad1467225bf025af3583d0454459",
+   "prompt_file": "jobs/j0076-r11-worlds/prompts/jl1-il2-og4-gs1-x01__sam.wenyang__fantasy-world-slit__chatgpt__1.txt"
+  },
+  {
+   "slot": "km2-aa2-ba3-gs1-x01__sam.wenyang__fantasy-world-slit",
+   "file": "km2-aa2-ba3-gs1-x01__sam.wenyang__fantasy-world-slit__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "fantasy",
+   "kind": "world",
+   "exposure": "slit",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "km2-aa2-ba3-gs1-x01",
+    "name": "kr_anime_brush",
+    "display": "애니 · 단순화 · 2D 붓질 · 색 선 — 전역광 · 림 라이트 · 맑은 채도 (한국 MMORPG)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_mmorpg",
+      "v": "v2",
+      "code": "km",
+      "ko": "한국 MMORPG",
+      "pairs": {
+       "face": [
+        "semi_soft",
+        "semi_paint",
+        "semi_ideal",
+        "illustrated",
+        "anime_adult"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "anime_adult",
+      "v": "v2",
+      "code": "aa",
+      "ko": "애니 · 단순화",
+      "pairs": {
+       "paint": [
+        "brush_anime",
+        "cel_gradient",
+        "matte_soft",
+        "smooth",
+        "painted_refined"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "brush_anime",
+      "v": "v3",
+      "code": "ba",
+      "ko": "2D 붓질 · 색 선",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "global_soft",
+      "v": "v1",
+      "code": "gs",
+      "ko": "전역광 · 림 라이트 · 맑은 채도",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0",
+      "ko": "미지정",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": []
+   },
+   "subject_overrides": [
+    "head: character card illustration → character image",
+    "faceFrame:  in this style → ",
+    "costume: a plumed helmet or a war headband → a war headband with a single white plume",
+    "costume: a plumed helm or circlet → a circlet with a single white plume",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined"
+   ],
+   "prompt_sha256": "dccb80a8e7d8e832b894045a452170c432ad9b0a12c7f95662d820d3a802aff0",
+   "prompt_file": "jobs/j0076-r11-worlds/prompts/km2-aa2-ba3-gs1-x01__sam.wenyang__fantasy-world-slit__chatgpt__1.txt"
+  },
+  {
+   "slot": "km2-il2-ba3-rg2-x01__sam.wenyang__fantasy-world-slit",
+   "file": "km2-il2-ba3-rg2-x01__sam.wenyang__fantasy-world-slit__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "fantasy",
+   "kind": "world",
+   "exposure": "slit",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "km2-il2-ba3-rg2-x01",
+    "name": "kr_drawn_brush_rim",
+    "display": "그린 얼굴 · 가볍게 단순화 · 2D 붓질 · 색 선 — 림 라이트 · 강한 하이라이트 (한국 MMORPG)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_mmorpg",
+      "v": "v2",
+      "code": "km",
+      "ko": "한국 MMORPG",
+      "pairs": {
+       "face": [
+        "semi_soft",
+        "semi_paint",
+        "semi_ideal",
+        "illustrated",
+        "anime_adult"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "illustrated",
+      "v": "v2",
+      "code": "il",
+      "ko": "그린 얼굴 · 가볍게 단순화",
+      "pairs": {
+       "paint": [
+        "smooth",
+        "painted_refined",
+        "brush_layered",
+        "matte_soft",
+        "cel_gradient"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "brush_anime",
+      "v": "v3",
+      "code": "ba",
+      "ko": "2D 붓질 · 색 선",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "rim_gloss",
+      "v": "v2",
+      "code": "rg",
+      "ko": "림 라이트 · 강한 하이라이트",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0",
+      "ko": "미지정",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": [
+     "face/illustrated 의 추천 짝 밖 — paint smooth · painted_refined · brush_layered · matte_soft · cel_gradient"
+    ]
+   },
+   "subject_overrides": [
+    "head: character card illustration → character image",
+    "faceFrame:  in this style → ",
+    "costume: a plumed helmet or a war headband → a war headband with a single white plume",
+    "costume: a plumed helm or circlet → a circlet with a single white plume",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined"
+   ],
+   "prompt_sha256": "b7b9ccf80067cdffdd1696c483a5f0c84c8fc11dc3e568142bec99e29d677e0a",
+   "prompt_file": "jobs/j0076-r11-worlds/prompts/km2-il2-ba3-rg2-x01__sam.wenyang__fantasy-world-slit__chatgpt__1.txt"
+  },
+  {
+   "slot": "km2-sp3-og4-rg2-x01__sam.wenyang__fantasy-world-slit",
+   "file": "km2-sp3-og4-rg2-x01__sam.wenyang__fantasy-world-slit__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "fantasy",
+   "kind": "world",
+   "exposure": "slit",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "km2-sp3-og4-rg2-x01",
+    "name": "kr_semi_oil_rim",
+    "display": "반실사 · 그린 살결 · 유화 글레이즈 · 얼굴 말 뺌 — 림 라이트 · 강한 하이라이트 (한국 MMORPG)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_mmorpg",
+      "v": "v2",
+      "code": "km",
+      "ko": "한국 MMORPG",
+      "pairs": {
+       "face": [
+        "semi_soft",
+        "semi_paint",
+        "semi_ideal",
+        "illustrated",
+        "anime_adult"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "semi_paint",
+      "v": "v3",
+      "code": "sp",
+      "ko": "반실사 · 그린 살결",
+      "pairs": {
+       "paint": [
+        "smooth",
+        "painted_refined",
+        "brush_layered",
+        "oil_glaze",
+        "oil_brush",
+        "impasto",
+        "matte_soft"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "oil_glaze",
+      "v": "v4",
+      "code": "og",
+      "ko": "유화 글레이즈 · 얼굴 말 뺌",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "rim_gloss",
+      "v": "v2",
+      "code": "rg",
+      "ko": "림 라이트 · 강한 하이라이트",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0",
+      "ko": "미지정",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": []
+   },
+   "subject_overrides": [
+    "head: character card illustration → character image",
+    "faceFrame:  in this style → ",
+    "costume: a plumed helmet or a war headband → a war headband with a single white plume",
+    "costume: a plumed helm or circlet → a circlet with a single white plume",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined"
+   ],
+   "prompt_sha256": "38622375a491aa2b5f88a14025d020669e5cc0c4ff1e6d88ecd07ad7465cdaa6",
+   "prompt_file": "jobs/j0076-r11-worlds/prompts/km2-sp3-og4-rg2-x01__sam.wenyang__fantasy-world-slit__chatgpt__1.txt"
+  },
+  {
+   "slot": "jl1-il2-og4-gs1-x01__sam.wenyang__mecha-world-slit",
+   "file": "jl1-il2-og4-gs1-x01__sam.wenyang__mecha-world-slit__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "mecha",
+   "kind": "world",
+   "exposure": "slit",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "jl1-il2-og4-gs1-x01",
+    "name": "ln_drawn_oil",
+    "display": "그린 얼굴 · 가볍게 단순화 · 유화 글레이즈 · 얼굴 말 뺌 — 전역광 · 림 라이트 · 맑은 채도 (일본 라이트노벨 표지)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "jp_light_novel",
+      "v": "v1",
+      "code": "jl",
+      "ko": "일본 라이트노벨 표지",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "illustrated",
+      "v": "v2",
+      "code": "il",
+      "ko": "그린 얼굴 · 가볍게 단순화",
+      "pairs": {
+       "paint": [
+        "smooth",
+        "painted_refined",
+        "brush_layered",
+        "matte_soft",
+        "cel_gradient"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "oil_glaze",
+      "v": "v4",
+      "code": "og",
+      "ko": "유화 글레이즈 · 얼굴 말 뺌",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "global_soft",
+      "v": "v1",
+      "code": "gs",
+      "ko": "전역광 · 림 라이트 · 맑은 채도",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0",
+      "ko": "미지정",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": [
+     "face/illustrated 의 추천 짝 밖 — paint smooth · painted_refined · brush_layered · matte_soft · cel_gradient"
+    ]
+   },
+   "subject_overrides": [
+    "head: character card illustration → character image",
+    "faceFrame:  in this style → ",
+    "costume: a plumed helmet or a war headband → a war headband with a single white plume",
+    "costume: a plumed helm or circlet → a circlet with a single white plume",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined"
+   ],
+   "prompt_sha256": "17a99cc5f6488e477c2d48a39c28d3f1e410ff73d1ed03123524f08474402cad",
+   "prompt_file": "jobs/j0076-r11-worlds/prompts/jl1-il2-og4-gs1-x01__sam.wenyang__mecha-world-slit__chatgpt__1.txt"
+  },
+  {
+   "slot": "km2-aa2-ba3-gs1-x01__sam.wenyang__mecha-world-slit",
+   "file": "km2-aa2-ba3-gs1-x01__sam.wenyang__mecha-world-slit__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "mecha",
+   "kind": "world",
+   "exposure": "slit",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "km2-aa2-ba3-gs1-x01",
+    "name": "kr_anime_brush",
+    "display": "애니 · 단순화 · 2D 붓질 · 색 선 — 전역광 · 림 라이트 · 맑은 채도 (한국 MMORPG)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_mmorpg",
+      "v": "v2",
+      "code": "km",
+      "ko": "한국 MMORPG",
+      "pairs": {
+       "face": [
+        "semi_soft",
+        "semi_paint",
+        "semi_ideal",
+        "illustrated",
+        "anime_adult"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "anime_adult",
+      "v": "v2",
+      "code": "aa",
+      "ko": "애니 · 단순화",
+      "pairs": {
+       "paint": [
+        "brush_anime",
+        "cel_gradient",
+        "matte_soft",
+        "smooth",
+        "painted_refined"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "brush_anime",
+      "v": "v3",
+      "code": "ba",
+      "ko": "2D 붓질 · 색 선",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "global_soft",
+      "v": "v1",
+      "code": "gs",
+      "ko": "전역광 · 림 라이트 · 맑은 채도",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0",
+      "ko": "미지정",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": []
+   },
+   "subject_overrides": [
+    "head: character card illustration → character image",
+    "faceFrame:  in this style → ",
+    "costume: a plumed helmet or a war headband → a war headband with a single white plume",
+    "costume: a plumed helm or circlet → a circlet with a single white plume",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined"
+   ],
+   "prompt_sha256": "5c687416406f7e09a22f4f9e289eaec6e432d80c63268c94096228de2ed0674d",
+   "prompt_file": "jobs/j0076-r11-worlds/prompts/km2-aa2-ba3-gs1-x01__sam.wenyang__mecha-world-slit__chatgpt__1.txt"
+  },
+  {
+   "slot": "km2-il2-ba3-rg2-x01__sam.wenyang__mecha-world-slit",
+   "file": "km2-il2-ba3-rg2-x01__sam.wenyang__mecha-world-slit__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "mecha",
+   "kind": "world",
+   "exposure": "slit",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "km2-il2-ba3-rg2-x01",
+    "name": "kr_drawn_brush_rim",
+    "display": "그린 얼굴 · 가볍게 단순화 · 2D 붓질 · 색 선 — 림 라이트 · 강한 하이라이트 (한국 MMORPG)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_mmorpg",
+      "v": "v2",
+      "code": "km",
+      "ko": "한국 MMORPG",
+      "pairs": {
+       "face": [
+        "semi_soft",
+        "semi_paint",
+        "semi_ideal",
+        "illustrated",
+        "anime_adult"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "illustrated",
+      "v": "v2",
+      "code": "il",
+      "ko": "그린 얼굴 · 가볍게 단순화",
+      "pairs": {
+       "paint": [
+        "smooth",
+        "painted_refined",
+        "brush_layered",
+        "matte_soft",
+        "cel_gradient"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "brush_anime",
+      "v": "v3",
+      "code": "ba",
+      "ko": "2D 붓질 · 색 선",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "rim_gloss",
+      "v": "v2",
+      "code": "rg",
+      "ko": "림 라이트 · 강한 하이라이트",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0",
+      "ko": "미지정",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": [
+     "face/illustrated 의 추천 짝 밖 — paint smooth · painted_refined · brush_layered · matte_soft · cel_gradient"
+    ]
+   },
+   "subject_overrides": [
+    "head: character card illustration → character image",
+    "faceFrame:  in this style → ",
+    "costume: a plumed helmet or a war headband → a war headband with a single white plume",
+    "costume: a plumed helm or circlet → a circlet with a single white plume",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined"
+   ],
+   "prompt_sha256": "4fcca3d87a57353f3d22017e2718b82c3a46af4e1ebe82482fb68782e375288b",
+   "prompt_file": "jobs/j0076-r11-worlds/prompts/km2-il2-ba3-rg2-x01__sam.wenyang__mecha-world-slit__chatgpt__1.txt"
+  },
+  {
+   "slot": "km2-sp3-og4-rg2-x01__sam.wenyang__mecha-world-slit",
+   "file": "km2-sp3-og4-rg2-x01__sam.wenyang__mecha-world-slit__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "mecha",
+   "kind": "world",
+   "exposure": "slit",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "km2-sp3-og4-rg2-x01",
+    "name": "kr_semi_oil_rim",
+    "display": "반실사 · 그린 살결 · 유화 글레이즈 · 얼굴 말 뺌 — 림 라이트 · 강한 하이라이트 (한국 MMORPG)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_mmorpg",
+      "v": "v2",
+      "code": "km",
+      "ko": "한국 MMORPG",
+      "pairs": {
+       "face": [
+        "semi_soft",
+        "semi_paint",
+        "semi_ideal",
+        "illustrated",
+        "anime_adult"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "semi_paint",
+      "v": "v3",
+      "code": "sp",
+      "ko": "반실사 · 그린 살결",
+      "pairs": {
+       "paint": [
+        "smooth",
+        "painted_refined",
+        "brush_layered",
+        "oil_glaze",
+        "oil_brush",
+        "impasto",
+        "matte_soft"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "oil_glaze",
+      "v": "v4",
+      "code": "og",
+      "ko": "유화 글레이즈 · 얼굴 말 뺌",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "rim_gloss",
+      "v": "v2",
+      "code": "rg",
+      "ko": "림 라이트 · 강한 하이라이트",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0",
+      "ko": "미지정",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": []
+   },
+   "subject_overrides": [
+    "head: character card illustration → character image",
+    "faceFrame:  in this style → ",
+    "costume: a plumed helmet or a war headband → a war headband with a single white plume",
+    "costume: a plumed helm or circlet → a circlet with a single white plume",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined"
+   ],
+   "prompt_sha256": "7a0f37fa87537a4c6d2969b59c3a7e7d1730d7521e02d306d26c5a3e312118b5",
+   "prompt_file": "jobs/j0076-r11-worlds/prompts/km2-sp3-og4-rg2-x01__sam.wenyang__mecha-world-slit__chatgpt__1.txt"
+  }
+ ]
+}
