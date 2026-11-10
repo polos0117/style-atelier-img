@@ -1,0 +1,99 @@
+{
+ "id": "jn2-aa2-ms2-oc1-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
+ "job": "j0077-r12-spread",
+ "slot": "jn2-aa2-ms2-oc1-x01__sam.wenyang__samguk-world-slit",
+ "subject": "sam.wenyang",
+ "subject_commit": "89ab31a",
+ "world": "samguk",
+ "kind": "world",
+ "exposure": "slit",
+ "model": "chatgpt",
+ "n": 1,
+ "recipe": {
+  "id": "jn2-aa2-ms2-oc1-x01",
+  "name": "anime_matte_jp",
+  "display": "애니 · 단순화 · 2D 무광 소프트 — 흐린 빛 · 차분한 색 (일본 애니)",
+  "parts": [
+   {
+    "axis": "direction",
+    "key": "jp_anime",
+    "v": "v2",
+    "code": "jn",
+    "ko": "일본 애니",
+    "pairs": {
+     "face": [
+      "anime_adult",
+      "anime_gacha"
+     ]
+    },
+    "requires": null
+   },
+   {
+    "axis": "face",
+    "key": "anime_adult",
+    "v": "v2",
+    "code": "aa",
+    "ko": "애니 · 단순화",
+    "pairs": {
+     "paint": [
+      "brush_anime",
+      "cel_gradient",
+      "matte_soft",
+      "smooth",
+      "painted_refined"
+     ]
+    },
+    "requires": null
+   },
+   {
+    "axis": "paint",
+    "key": "matte_soft",
+    "v": "v2",
+    "code": "ms",
+    "ko": "2D 무광 소프트",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "light",
+    "key": "overcast",
+    "v": "v1",
+    "code": "oc",
+    "ko": "흐린 빛 · 차분한 색",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "fx",
+    "key": "none",
+    "v": "v1",
+    "code": "x0",
+    "ko": "미지정",
+    "pairs": null,
+    "requires": null
+   }
+  ],
+  "untested": []
+ },
+ "prompt_file": "jobs/j0077-r12-spread/prompts/jn2-aa2-ms2-oc1-x01__sam.wenyang__samguk-world-slit__chatgpt__1.txt",
+ "prompt_sha256": "afa8d1b1855670a35897578c06bd581e91e35998f5cef61662c6bc6ffb26820d",
+ "file": "img/sam.wenyang/samguk/jn2-aa2-ms2-oc1-x01__sam.wenyang__samguk-world-slit__chatgpt__1.webp",
+ "thumb": "thumb/sam.wenyang/samguk/jn2-aa2-ms2-oc1-x01__sam.wenyang__samguk-world-slit__chatgpt__1.webp",
+ "size": [
+  1024,
+  1536
+ ],
+ "resized_from": null,
+ "source": {
+  "name": "jn2-aa2-ms2-oc1-x01__sam.wenyang__samguk-world-slit__chatgpt__1.webp",
+  "sha256": "e9efa92d4a274393ad16fe3d4fa8a32b702935b81aa103cdd8bf57c5efb7c7d9",
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "note": null,
+ "generation": null,
+ "added": "2026-11-11",
+ "rating": null
+}

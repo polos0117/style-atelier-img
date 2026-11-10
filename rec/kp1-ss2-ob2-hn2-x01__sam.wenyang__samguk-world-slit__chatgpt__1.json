@@ -1,0 +1,105 @@
+{
+ "id": "kp1-ss2-ob2-hn2-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
+ "job": "j0077-r12-spread",
+ "slot": "kp1-ss2-ob2-hn2-x01__sam.wenyang__samguk-world-slit",
+ "subject": "sam.wenyang",
+ "subject_commit": "89ab31a",
+ "world": "samguk",
+ "kind": "world",
+ "exposure": "slit",
+ "model": "chatgpt",
+ "n": 1,
+ "recipe": {
+  "id": "kp1-ss2-ob2-hn2-x01",
+  "name": "oil_hikey",
+  "display": "반실사 · 이상화 · 섬세 · 유화 붓질 · 글레이즈 — 하이키 자연광 (한국 MMORPG 프로모)",
+  "parts": [
+   {
+    "axis": "direction",
+    "key": "kr_mmorpg_promo",
+    "v": "v1",
+    "code": "kp",
+    "ko": "한국 MMORPG 프로모",
+    "pairs": {
+     "face": [
+      "semi_soft",
+      "semi_paint",
+      "semi_ideal",
+      "illustrated",
+      "anime_adult"
+     ]
+    },
+    "requires": null
+   },
+   {
+    "axis": "face",
+    "key": "semi_soft",
+    "v": "v2",
+    "code": "ss",
+    "ko": "반실사 · 이상화 · 섬세",
+    "pairs": {
+     "paint": [
+      "smooth",
+      "painted_refined",
+      "brush_layered",
+      "oil_glaze",
+      "oil_brush",
+      "impasto",
+      "matte_soft",
+      "photoreal_cgi"
+     ]
+    },
+    "requires": null
+   },
+   {
+    "axis": "paint",
+    "key": "oil_brush",
+    "v": "v2",
+    "code": "ob",
+    "ko": "유화 붓질 · 글레이즈",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "light",
+    "key": "hikey_natural",
+    "v": "v2",
+    "code": "hn",
+    "ko": "하이키 자연광",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "fx",
+    "key": "none",
+    "v": "v1",
+    "code": "x0",
+    "ko": "미지정",
+    "pairs": null,
+    "requires": null
+   }
+  ],
+  "untested": []
+ },
+ "prompt_file": "jobs/j0077-r12-spread/prompts/kp1-ss2-ob2-hn2-x01__sam.wenyang__samguk-world-slit__chatgpt__1.txt",
+ "prompt_sha256": "2326a7a4002531005a8ac708b35cfd2488fdf2df9da67cb18d5128da8e4c3ed8",
+ "file": "img/sam.wenyang/samguk/kp1-ss2-ob2-hn2-x01__sam.wenyang__samguk-world-slit__chatgpt__1.webp",
+ "thumb": "thumb/sam.wenyang/samguk/kp1-ss2-ob2-hn2-x01__sam.wenyang__samguk-world-slit__chatgpt__1.webp",
+ "size": [
+  1024,
+  1536
+ ],
+ "resized_from": null,
+ "source": {
+  "name": "kp1-ss2-ob2-hn2-x01__sam.wenyang__samguk-world-slit__chatgpt__1.webp",
+  "sha256": "b874fcc20a063a811f0bbd25fd688bfad26db026a9e4c89c00cce7cdac1c9321",
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "note": null,
+ "generation": null,
+ "added": "2026-11-11",
+ "rating": null
+}

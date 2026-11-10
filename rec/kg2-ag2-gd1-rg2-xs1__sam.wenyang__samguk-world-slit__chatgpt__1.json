@@ -1,0 +1,107 @@
+{
+ "id": "kg2-ag2-gd1-rg2-xs1__sam.wenyang__samguk-world-slit__chatgpt__1",
+ "job": "j0077-r12-spread",
+ "slot": "kg2-ag2-gd1-rg2-xs1__sam.wenyang__samguk-world-slit",
+ "subject": "sam.wenyang",
+ "subject_commit": "89ab31a",
+ "world": "samguk",
+ "kind": "world",
+ "exposure": "slit",
+ "model": "chatgpt",
+ "n": 1,
+ "recipe": {
+  "id": "kg2-ag2-gd1-rg2-xs1",
+  "name": null,
+  "display": "가챠 애니 · 강하게 단순화 · 디지털 페인팅 · 유광 — 림 라이트 · 강한 하이라이트 · 이펙트 부드럽게(블룸 · 작은 반짝임) (한국 가챠)",
+  "parts": [
+   {
+    "axis": "direction",
+    "key": "kr_gacha",
+    "v": "v2",
+    "code": "kg",
+    "ko": "한국 가챠",
+    "pairs": {
+     "face": [
+      "anime_gacha",
+      "anime_adult"
+     ],
+     "paint": [
+      "cel_gradient",
+      "matte_soft",
+      "brush_anime"
+     ]
+    },
+    "requires": null
+   },
+   {
+    "axis": "face",
+    "key": "anime_gacha",
+    "v": "v2",
+    "code": "ag",
+    "ko": "가챠 애니 · 강하게 단순화",
+    "pairs": {
+     "paint": [
+      "brush_anime",
+      "cel_gradient",
+      "matte_soft",
+      "smooth",
+      "painted_refined"
+     ]
+    },
+    "requires": null
+   },
+   {
+    "axis": "paint",
+    "key": "glossy_digital",
+    "v": "v1",
+    "code": "gd",
+    "ko": "디지털 페인팅 · 유광",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "light",
+    "key": "rim_gloss",
+    "v": "v2",
+    "code": "rg",
+    "ko": "림 라이트 · 강한 하이라이트",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "fx",
+    "key": "soft",
+    "v": "v1",
+    "code": "xs",
+    "ko": "부드럽게(블룸 · 작은 반짝임)",
+    "pairs": null,
+    "requires": null
+   }
+  ],
+  "untested": [
+   "direction/kr_gacha 의 추천 짝 밖 — paint cel_gradient · matte_soft · brush_anime",
+   "face/anime_gacha 의 추천 짝 밖 — paint brush_anime · cel_gradient · matte_soft · smooth · painted_refined"
+  ]
+ },
+ "prompt_file": "jobs/j0077-r12-spread/prompts/kg2-ag2-gd1-rg2-xs1__sam.wenyang__samguk-world-slit__chatgpt__1.txt",
+ "prompt_sha256": "da775abe31861a73e56d2afcf116d1d7be9c2bd4c34960bf48d55d0d680b952b",
+ "file": "img/sam.wenyang/samguk/kg2-ag2-gd1-rg2-xs1__sam.wenyang__samguk-world-slit__chatgpt__1.webp",
+ "thumb": "thumb/sam.wenyang/samguk/kg2-ag2-gd1-rg2-xs1__sam.wenyang__samguk-world-slit__chatgpt__1.webp",
+ "size": [
+  1024,
+  1536
+ ],
+ "resized_from": null,
+ "source": {
+  "name": "kg2-ag2-gd1-rg2-xs1__sam.wenyang__samguk-world-slit__chatgpt__1.webp",
+  "sha256": "4791bba9be66f732d9f87889022bae570f9f6dc583f6ea30bae70866bea14dc6",
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "note": null,
+ "generation": null,
+ "added": "2026-11-11",
+ "rating": null
+}
