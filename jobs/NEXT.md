@@ -14,5 +14,6 @@ GPT 세션: **묻지 않고 끝까지** 한다(그림을 보여 주고 확인을
 | [j0022-r2-light](j0022-r2-light/REQUEST.md) | 2차 | r2-light | 0 / 6 | chatgpt | — |
 | [j0023-r2-light](j0023-r2-light/REQUEST.md) | 2차 | r2-light | 0 / 5 | chatgpt | — |
 | [j0024-r2-fx](j0024-r2-fx/REQUEST.md) | 2차 | r2-fx | 0 / 4 | chatgpt | — |
+| [j0027-r2-gloss](j0027-r2-gloss/REQUEST.md) | 2차 | r2-gloss | 0 / 3 | chatgpt | — |
 
 닫힌 일감 3개.
