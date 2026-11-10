@@ -4,12 +4,13 @@
 
 ## GPT 세션이 할 일
 
-[`jobs/NEXT.md`](jobs/NEXT.md) 에서 일감 **하나**를 골라 그 `REQUEST.md` 만 읽고 그대로 한다. 그림은 `inbox/` 에 정해진 이름으로 올린다(main 에 일반 push). 나머지는 워크플로가 한다.
+[`jobs/NEXT.md`](jobs/NEXT.md) 에서 「예약」 칸이 — 인 일감 **하나**를 골라, 먼저 `jobs/<일감>/CLAIM.md` 를 새 파일로 만들어 예약하고(이미 있으면 다른 세션이 하는 중 — 다른 일감으로), 그 `REQUEST.md` 만 읽고 그대로 한다. 그림은 `inbox/` 에 정해진 이름으로 올린다(main 에 일반 push). 나머지는 워크플로가 한다.
 
 ## 자리
 
 ```
 jobs/NEXT.md                         열린 일감 목록(워크플로가 다시 쓴다)
+jobs/<일감>/CLAIM.md                 예약 — 세션이 시작 전에 새로 만든다(이름 · 시각)
 jobs/<일감>/REQUEST.md               세션이 읽는 주문 — 칸 4개, 칸마다 파일 이름 · 지시문
 jobs/<일감>/slots.json               같은 내용을 기계용으로
 jobs/<일감>/prompts/<그림 이름>.txt  지시문 원문
