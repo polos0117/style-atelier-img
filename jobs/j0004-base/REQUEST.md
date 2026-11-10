@@ -1,0 +1,128 @@
+# 일감 j0004-base — 그림 4장
+
+polos0117/style-atelier-img 저장소의 일감이야. 아래 칸마다 그림 한 장씩 그려서 `inbox/` 폴더에 정해진 이름으로 올려줘(main 에 일반 push). ChatGPT 이미지 생성으로 그린다(세로 2:3, 1024×1536).
+
+규칙
+- 지시문(코드 블록 안 영어)은 **한 글자도 바꾸지 않고** 그대로 넣는다. 설명 · 앞말을 붙이지 않는다.
+- 파일 이름은 칸에 적힌 이름 그대로 + 확장자(.png · .webp · .jpg). 예: `inbox/km1-ss1-sm1-mu1-xf1__el.fe__fantasy-world__chatgpt__1.png`
+- 막히면(정책 거절) 같은 지시문으로 한 번 더. 그래도 막히면 그림 대신 `inbox/<이름>.blocked.txt` 에 거절 문구 한 줄. 지시문은 고치지 않는다.
+- 그림을 보고 한 줄 남기고 싶으면 `inbox/<이름>.note.txt`(선택).
+- 다른 파일은 고치지 않는다. 이미 있는 이름은 덮지 않는다.
+- 하다 끊기면 다음 세션은 이 파일을 다시 읽고, `rec/` 에 기록이 없는 칸만 그린다.
+- 다 올리면 끝. 변환 · 썸네일 · 기록 · 목록은 워크플로가 한다.
+
+## 1. `km1-ss1-sm1-mu1-xf1__el.fe__fantasy-world__chatgpt__1`
+
+반실사 · 작고 부드러운 얼굴 · 매끄러운 디지털 페인팅 — 차분 · 낮은 채도 · 깊은 그림자 · 이펙트 옅게(발광은 가늘고 적게) (한국 MMORPG) — el.fe · fantasy · 노출 bold
+
+```text
+A full-body vertical 2:3 (1024×1536) character card image of an adult woman — the personification of the element Iron (철) itself — the sovereign of the Iron Nation. A female character who IS the element; her costume, ornaments and colors carry the element’s traits. Both hands are ordinary human hands and hold nothing. Age: late twenties — a settled, mature adult face with defined cheekbones; no wrinkles, folds or under-eye bags.
+
+1. STYLE
+Korean MMORPG character illustration. A mature, idealised semi-realistic beauty with a small, soft face and delicate features. Smooth digital painting — softly blended dimensional shading, rich clear midtones and barely visible brushwork; silk, metal and leather are told apart by their finish.
+Face proportions: a short midface and a soft, gently rounded jawline with a small soft chin — never a long face or a long, pointed or heavy jaw; any crown or headpiece sits above her hairline and never lengthens her face. Her eyes keep the shape described above at a natural open size — never squeezed into narrow slits.
+
+2. CHARACTER
+Look: a glamorous, sultry allure; bronze-brown skin; oval face; moderately sized, realistically proportioned eyes — wide almond eyes, level outer eye corners; soft rounded brows; straight narrow nose; full heart-shaped lips; ember-orange eyes; bold red lipstick. toned athletic-curvy, full-busted with rounded hips build; long wavy hair with center-parted bangs framing the face; iron-grey hair with a brushed-steel sheen.
+Element: dark grey iron with bright steel highlights, orange-brown rust and glowing forge-orange heat, magnetism (iron filings, lodestone), hardness and weight, the smell of a smithy; it is the element of tools, weapons, bridges, machines and blood. Palette: iron grey, steel silver, rust orange, ember red, black soot.
+
+3. COSTUME AND EQUIPMENT — HIGH FANTASY
+World and costume: a fantasy kingdom of smiths: a mountain fortress built around a great forge, rivers of molten iron glowing in channels, hammered-iron gates, anvils as altars, iron filings drawn into patterns by magic magnetism, ember sparks in the air. COSTUME (fantasy): a high-fantasy royal or warrior costume — plate pauldrons or a gorget, mail or scale over a long tabard or robe, a circlet or crown, a flowing cape; metal ornament and regalia built from the traits above, subtle magical glow along the patterns. No corset, no bustle, no Victorian tailoring, no modern material, no machinery.
+Silhouette: dragon-scale armor covering the body with horn-shaped shoulder and head ornaments — a beastly, imposing silhouette. Only the overall shape is fixed; design the details freely in the element's materials and palette. This silhouette overrides the overall shape of the costume above.
+Exposure (bold): her regalia opens to show skin — bare shoulders and arms between pauldron and bracer, a deep open neckline under the gorget with natural cleavage, a high slit in the tabard or robe showing the thigh; armor pieces stay on and symmetrical. Nothing slipped off. Intimate areas covered; no corset; keep the costume WORLD describes, material and palette.
+
+4. SCENE
+Pose: standing confidently, her body turned slightly while her face looks toward the viewer. Expression: level brow, direct unhurried gaze, chin slightly raised, mouth closed and composed.
+Light: soft, even key light on her face; a muted, slightly desaturated palette with deep soft shadows and small restrained highlights. Any glowing details stay thin, sparse and pale, lighting only their own edges.
+Composition: vertical 2:3 full-body framing with modest headroom and clear space below the boots — the whole figure from the top of her head or headpiece to both feet stays inside the frame, occupying about four-fifths of the image height, with the same camera distance in every world; her hands stay inside the frame. Camera at chest height with natural portrait perspective — no wide-angle distortion, no low angle, no close crop.
+
+5. CONSTRAINTS
+One figure only, natural hands with five fingers; no text or numbers except her element's own chemical symbol (Fe) and atomic number (26) — and those only as part of the scene: engraved, embroidered or glowing on her costume, a banner, a sign or a machine, never as a floating label, corner badge, periodic-table tile, caption or overlay on the picture; no logo or watermark.
+```
+
+## 2. `cl1-ss1-og1-ws1-x01__el.fe__fantasy-world__chatgpt__1`
+
+반실사 · 작고 부드러운 얼굴 · 유화 글레이즈(고전) — 한쪽 따뜻한 빛 · 어두운 배경 (고전 초상) — el.fe · fantasy · 노출 bold
+
+```text
+A full-body vertical 2:3 (1024×1536) character card image of an adult woman — the personification of the element Iron (철) itself — the sovereign of the Iron Nation. A female character who IS the element; her costume, ornaments and colors carry the element’s traits. Both hands are ordinary human hands and hold nothing. Age: late twenties — a settled, mature adult face with defined cheekbones; no wrinkles, folds or under-eye bags.
+
+1. STYLE
+Fantasy character portrait in a classical oil-painting manner. A mature, idealised semi-realistic beauty with a small, soft face and delicate features. Smooth oil glazes with deep layered colour, soft lost-and-found edges and fine detail kept for the face and the ornaments.
+Face proportions: a short midface and a soft, gently rounded jawline with a small soft chin — never a long face or a long, pointed or heavy jaw; any crown or headpiece sits above her hairline and never lengthens her face. Her eyes keep the shape described above at a natural open size — never squeezed into narrow slits.
+
+2. CHARACTER
+Look: a glamorous, sultry allure; bronze-brown skin; oval face; moderately sized, realistically proportioned eyes — wide almond eyes, level outer eye corners; soft rounded brows; straight narrow nose; full heart-shaped lips; ember-orange eyes; bold red lipstick. toned athletic-curvy, full-busted with rounded hips build; long wavy hair with center-parted bangs framing the face; iron-grey hair with a brushed-steel sheen.
+Element: dark grey iron with bright steel highlights, orange-brown rust and glowing forge-orange heat, magnetism (iron filings, lodestone), hardness and weight, the smell of a smithy; it is the element of tools, weapons, bridges, machines and blood. Palette: iron grey, steel silver, rust orange, ember red, black soot.
+
+3. COSTUME AND EQUIPMENT — HIGH FANTASY
+World and costume: a fantasy kingdom of smiths: a mountain fortress built around a great forge, rivers of molten iron glowing in channels, hammered-iron gates, anvils as altars, iron filings drawn into patterns by magic magnetism, ember sparks in the air. COSTUME (fantasy): a high-fantasy royal or warrior costume — plate pauldrons or a gorget, mail or scale over a long tabard or robe, a circlet or crown, a flowing cape; metal ornament and regalia built from the traits above, subtle magical glow along the patterns. No corset, no bustle, no Victorian tailoring, no modern material, no machinery.
+Silhouette: dragon-scale armor covering the body with horn-shaped shoulder and head ornaments — a beastly, imposing silhouette. Only the overall shape is fixed; design the details freely in the element's materials and palette. This silhouette overrides the overall shape of the costume above.
+Exposure (bold): her regalia opens to show skin — bare shoulders and arms between pauldron and bracer, a deep open neckline under the gorget with natural cleavage, a high slit in the tabard or robe showing the thigh; armor pieces stay on and symmetrical. Nothing slipped off. Intimate areas covered; no corset; keep the costume WORLD describes, material and palette.
+
+4. SCENE
+Pose: standing confidently, her body turned slightly while her face looks toward the viewer. Expression: level brow, direct unhurried gaze, chin slightly raised, mouth closed and composed.
+Light: a single warm light from one side, deep umber shadows and a dark, quiet background; rich but restrained colour, soft satin highlights.
+Composition: vertical 2:3 full-body framing with modest headroom and clear space below the boots — the whole figure from the top of her head or headpiece to both feet stays inside the frame, occupying about four-fifths of the image height, with the same camera distance in every world; her hands stay inside the frame. Camera at chest height with natural portrait perspective — no wide-angle distortion, no low angle, no close crop.
+
+5. CONSTRAINTS
+One figure only, natural hands with five fingers; no text or numbers except her element's own chemical symbol (Fe) and atomic number (26) — and those only as part of the scene: engraved, embroidered or glowing on her costume, a banner, a sign or a machine, never as a floating label, corner badge, periodic-table tile, caption or overlay on the picture; no logo or watermark.
+```
+
+## 3. `an1-aa1-ba1-dl1-x01__el.fe__fantasy-world__chatgpt__1`
+
+성인 애니 · 애니 붓질 · 색 선 — 밝은 자연광 · 무광 (애니(나라 말 없음)) — el.fe · fantasy · 노출 bold
+
+```text
+A full-body vertical 2:3 (1024×1536) character card image of an adult woman — the personification of the element Iron (철) itself — the sovereign of the Iron Nation. A female character who IS the element; her costume, ornaments and colors carry the element’s traits. Both hands are ordinary human hands and hold nothing. Age: late twenties — a settled, mature adult face with defined cheekbones; no wrinkles, folds or under-eye bags.
+
+1. STYLE
+Anime character illustration. An elegant adult anime face with large expressive eyes. Painted with visible brushwork: layered strokes of colour, soft broken edges and a few crisp accents on the face and costume, with thin coloured linework.
+Face proportions: a short midface and a soft, gently rounded jawline with a small soft chin — never a long face or a long, pointed or heavy jaw; any crown or headpiece sits above her hairline and never lengthens her face. Her eyes keep the shape described above at a natural open size — never squeezed into narrow slits.
+
+2. CHARACTER
+Look: a glamorous, sultry allure; bronze-brown skin; oval face; moderately sized, realistically proportioned eyes — wide almond eyes, level outer eye corners; soft rounded brows; straight narrow nose; full heart-shaped lips; ember-orange eyes; bold red lipstick. toned athletic-curvy, full-busted with rounded hips build; long wavy hair with center-parted bangs framing the face; iron-grey hair with a brushed-steel sheen.
+Element: dark grey iron with bright steel highlights, orange-brown rust and glowing forge-orange heat, magnetism (iron filings, lodestone), hardness and weight, the smell of a smithy; it is the element of tools, weapons, bridges, machines and blood. Palette: iron grey, steel silver, rust orange, ember red, black soot.
+
+3. COSTUME AND EQUIPMENT — HIGH FANTASY
+World and costume: a fantasy kingdom of smiths: a mountain fortress built around a great forge, rivers of molten iron glowing in channels, hammered-iron gates, anvils as altars, iron filings drawn into patterns by magic magnetism, ember sparks in the air. COSTUME (fantasy): a high-fantasy royal or warrior costume — plate pauldrons or a gorget, mail or scale over a long tabard or robe, a circlet or crown, a flowing cape; metal ornament and regalia built from the traits above, subtle magical glow along the patterns. No corset, no bustle, no Victorian tailoring, no modern material, no machinery.
+Silhouette: dragon-scale armor covering the body with horn-shaped shoulder and head ornaments — a beastly, imposing silhouette. Only the overall shape is fixed; design the details freely in the element's materials and palette. This silhouette overrides the overall shape of the costume above.
+Exposure (bold): her regalia opens to show skin — bare shoulders and arms between pauldron and bracer, a deep open neckline under the gorget with natural cleavage, a high slit in the tabard or robe showing the thigh; armor pieces stay on and symmetrical. Nothing slipped off. Intimate areas covered; no corset; keep the costume WORLD describes, material and palette.
+
+4. SCENE
+Pose: standing confidently, her body turned slightly while her face looks toward the viewer. Expression: level brow, direct unhurried gaze, chin slightly raised, mouth closed and composed.
+Light: bright natural daylight, clear luminous colour, matte painted surfaces with only small highlights.
+Composition: vertical 2:3 full-body framing with modest headroom and clear space below the boots — the whole figure from the top of her head or headpiece to both feet stays inside the frame, occupying about four-fifths of the image height, with the same camera distance in every world; her hands stay inside the frame. Camera at chest height with natural portrait perspective — no wide-angle distortion, no low angle, no close crop.
+
+5. CONSTRAINTS
+One figure only, natural hands with five fingers; no text or numbers except her element's own chemical symbol (Fe) and atomic number (26) — and those only as part of the scene: engraved, embroidered or glowing on her costume, a banner, a sign or a machine, never as a floating label, corner badge, periodic-table tile, caption or overlay on the picture; no logo or watermark.
+```
+
+## 4. `f31-s31-r31-gs1-x01__el.fe__fantasy-world__chatgpt__1`
+
+스타일라이즈드 3D · 3D 렌더(단순한 재질) — 전역광 · 림 라이트 · 맑은 채도 (3D 애니메이션 영화) — el.fe · fantasy · 노출 bold
+
+```text
+A full-body vertical 2:3 (1024×1536) character card image of an adult woman — the personification of the element Iron (철) itself — the sovereign of the Iron Nation. A female character who IS the element; her costume, ornaments and colors carry the element’s traits. Both hands are ordinary human hands and hold nothing. Age: late twenties — a settled, mature adult face with defined cheekbones; no wrinkles, folds or under-eye bags.
+
+1. STYLE
+Stylised 3D animated-film character render. A simplified, sculpted face with large clear eyes and hair modelled in clean, chunky shapes. Smooth appealing forms, soft subsurface skin and simplified, readable materials rather than photoreal detail.
+Face proportions: a short midface and a soft, gently rounded jawline with a small soft chin — never a long face or a long, pointed or heavy jaw; any crown or headpiece sits above her hairline and never lengthens her face. Her eyes keep the shape described above at a natural open size — never squeezed into narrow slits.
+
+2. CHARACTER
+Look: a glamorous, sultry allure; bronze-brown skin; oval face; moderately sized, realistically proportioned eyes — wide almond eyes, level outer eye corners; soft rounded brows; straight narrow nose; full heart-shaped lips; ember-orange eyes; bold red lipstick. toned athletic-curvy, full-busted with rounded hips build; long wavy hair with center-parted bangs framing the face; iron-grey hair with a brushed-steel sheen.
+Element: dark grey iron with bright steel highlights, orange-brown rust and glowing forge-orange heat, magnetism (iron filings, lodestone), hardness and weight, the smell of a smithy; it is the element of tools, weapons, bridges, machines and blood. Palette: iron grey, steel silver, rust orange, ember red, black soot.
+
+3. COSTUME AND EQUIPMENT — HIGH FANTASY
+World and costume: a fantasy kingdom of smiths: a mountain fortress built around a great forge, rivers of molten iron glowing in channels, hammered-iron gates, anvils as altars, iron filings drawn into patterns by magic magnetism, ember sparks in the air. COSTUME (fantasy): a high-fantasy royal or warrior costume — plate pauldrons or a gorget, mail or scale over a long tabard or robe, a circlet or crown, a flowing cape; metal ornament and regalia built from the traits above, subtle magical glow along the patterns. No corset, no bustle, no Victorian tailoring, no modern material, no machinery.
+Silhouette: dragon-scale armor covering the body with horn-shaped shoulder and head ornaments — a beastly, imposing silhouette. Only the overall shape is fixed; design the details freely in the element's materials and palette. This silhouette overrides the overall shape of the costume above.
+Exposure (bold): her regalia opens to show skin — bare shoulders and arms between pauldron and bracer, a deep open neckline under the gorget with natural cleavage, a high slit in the tabard or robe showing the thigh; armor pieces stay on and symmetrical. Nothing slipped off. Intimate areas covered; no corset; keep the costume WORLD describes, material and palette.
+
+4. SCENE
+Pose: standing confidently, her body turned slightly while her face looks toward the viewer. Expression: level brow, direct unhurried gaze, chin slightly raised, mouth closed and composed.
+Light: soft global illumination with a gentle rim light, clean saturated colour and broad soft highlights.
+Composition: vertical 2:3 full-body framing with modest headroom and clear space below the boots — the whole figure from the top of her head or headpiece to both feet stays inside the frame, occupying about four-fifths of the image height, with the same camera distance in every world; her hands stay inside the frame. Camera at chest height with natural portrait perspective — no wide-angle distortion, no low angle, no close crop.
+
+5. CONSTRAINTS
+One figure only, natural hands with five fingers; no text or numbers except her element's own chemical symbol (Fe) and atomic number (26) — and those only as part of the scene: engraved, embroidered or glowing on her costume, a banner, a sign or a machine, never as a floating label, corner badge, periodic-table tile, caption or overlay on the picture; no logo or watermark.
+```

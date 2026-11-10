@@ -1,0 +1,209 @@
+{
+ "job": "j0002-base",
+ "created": "2026-11-10",
+ "model": "chatgpt",
+ "label": "base",
+ "size": 4,
+ "slots": [
+  {
+   "slot": "an1-aa1-ms1-oc1-x01__sam.wenyang__samguk-world",
+   "file": "an1-aa1-ms1-oc1-x01__sam.wenyang__samguk-world__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "4bc7624",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "bold",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "an1-aa1-ms1-oc1-x01",
+    "name": "anime_matte",
+    "display": "성인 애니 · 무광 소프트 — 흐린 빛 · 차분한 색 (애니(나라 말 없음))",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "anime",
+      "v": "v1",
+      "code": "an"
+     },
+     {
+      "axis": "face",
+      "key": "anime_adult",
+      "v": "v1",
+      "code": "aa"
+     },
+     {
+      "axis": "paint",
+      "key": "matte_soft",
+      "v": "v1",
+      "code": "ms"
+     },
+     {
+      "axis": "light",
+      "key": "overcast",
+      "v": "v1",
+      "code": "oc"
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0"
+     }
+    ]
+   },
+   "prompt_sha256": "7d1c19de4881faff50ab76edd16064496900b5c6899806ecfb2a7782cf56d03f",
+   "prompt_file": "jobs/j0002-base/prompts/an1-aa1-ms1-oc1-x01__sam.wenyang__samguk-world__chatgpt__1.txt"
+  },
+  {
+   "slot": "fp1-si1-im1-dr1-x01__sam.wenyang__samguk-world",
+   "file": "fp1-si1-im1-dr1-x01__sam.wenyang__samguk-world__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "4bc7624",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "bold",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "fp1-si1-im1-dr1-x01",
+    "name": "semi_impasto",
+    "display": "반실사 · 이상화 · 두꺼운 붓질 — 강한 방향광 (판타지 페인팅)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "fantasy_paint",
+      "v": "v1",
+      "code": "fp"
+     },
+     {
+      "axis": "face",
+      "key": "semi_ideal",
+      "v": "v1",
+      "code": "si"
+     },
+     {
+      "axis": "paint",
+      "key": "impasto",
+      "v": "v1",
+      "code": "im"
+     },
+     {
+      "axis": "light",
+      "key": "directional",
+      "v": "v1",
+      "code": "dr"
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0"
+     }
+    ]
+   },
+   "prompt_sha256": "ed39507464b5ee09902690c7953ae6f81364f79f0fe5958022a16491474b464c",
+   "prompt_file": "jobs/j0002-base/prompts/fp1-si1-im1-dr1-x01__sam.wenyang__samguk-world__chatgpt__1.txt"
+  },
+  {
+   "slot": "jg1-sp1-bl1-md1-x01__sam.wenyang__samguk-world",
+   "file": "jg1-sp1-bl1-md1-x01__sam.wenyang__samguk-world__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "4bc7624",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "bold",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "jg1-sp1-bl1-md1-x01",
+    "name": "semi_paint_jp",
+    "display": "반실사 · 그린 얼굴 · 보이는 붓질 · 겹친 색 — 또렷한 키 라이트 · 깊은 명암 (일본 게임 페인팅)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "jp_game_paint",
+      "v": "v1",
+      "code": "jg"
+     },
+     {
+      "axis": "face",
+      "key": "semi_paint",
+      "v": "v1",
+      "code": "sp"
+     },
+     {
+      "axis": "paint",
+      "key": "brush_layered",
+      "v": "v1",
+      "code": "bl"
+     },
+     {
+      "axis": "light",
+      "key": "modelled_deep",
+      "v": "v1",
+      "code": "md"
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0"
+     }
+    ]
+   },
+   "prompt_sha256": "3959aaa4f665254c9edc8b86e6536e42620790c30bfcd08afd00a2c7445346ad",
+   "prompt_file": "jobs/j0002-base/prompts/jg1-sp1-bl1-md1-x01__sam.wenyang__samguk-world__chatgpt__1.txt"
+  },
+  {
+   "slot": "km1-il1-pr1-cs1-xf1__sam.wenyang__samguk-world",
+   "file": "km1-il1-pr1-cs1-xf1__sam.wenyang__samguk-world__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "4bc7624",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "bold",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "km1-il1-pr1-cs1-xf1",
+    "name": "illus_23d",
+    "display": "일러스트형(2.3D) · 정돈된 페인팅 · 재질 묘사 — 깨끗한 부드러운 빛 · 절제된 하이라이트 · 이펙트 옅게(발광은 가늘고 적게) (한국 MMORPG)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_mmorpg",
+      "v": "v1",
+      "code": "km"
+     },
+     {
+      "axis": "face",
+      "key": "illustrated",
+      "v": "v1",
+      "code": "il"
+     },
+     {
+      "axis": "paint",
+      "key": "painted_refined",
+      "v": "v1",
+      "code": "pr"
+     },
+     {
+      "axis": "light",
+      "key": "clean_soft",
+      "v": "v1",
+      "code": "cs"
+     },
+     {
+      "axis": "fx",
+      "key": "faint",
+      "v": "v1",
+      "code": "xf"
+     }
+    ]
+   },
+   "prompt_sha256": "190bf314d2a565d46e6d838288350923aec02292a4014c0fcf5fdfb11c66cbf2",
+   "prompt_file": "jobs/j0002-base/prompts/km1-il1-pr1-cs1-xf1__sam.wenyang__samguk-world__chatgpt__1.txt"
+  }
+ ]
+}

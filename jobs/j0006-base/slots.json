@@ -1,0 +1,109 @@
+{
+ "job": "j0006-base",
+ "created": "2026-11-10",
+ "model": "chatgpt",
+ "label": "base",
+ "size": 2,
+ "slots": [
+  {
+   "slot": "ja1-ag1-cg1-hp1-xs1__el.fe__fantasy-world",
+   "file": "ja1-ag1-cg1-hp1-xs1__el.fe__fantasy-world__chatgpt__1",
+   "subject": "el.fe",
+   "subject_commit": "74eb6d8",
+   "world": "fantasy",
+   "kind": "world",
+   "exposure": "bold",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "ja1-ag1-cg1-hp1-xs1",
+    "name": "anime_gloss_jp",
+    "display": "가챠 애니 · 큰 눈 · 홍조 · 선화 + 셀~그라데이션 — 하이키 파스텔 · 햇빛 광택 · 이펙트 부드럽게(블룸 · 작은 반짝임) (일본 가챠 애니)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "jp_gacha",
+      "v": "v1",
+      "code": "ja"
+     },
+     {
+      "axis": "face",
+      "key": "anime_gacha",
+      "v": "v1",
+      "code": "ag"
+     },
+     {
+      "axis": "paint",
+      "key": "cel_gradient",
+      "v": "v1",
+      "code": "cg"
+     },
+     {
+      "axis": "light",
+      "key": "hikey_pastel",
+      "v": "v1",
+      "code": "hp"
+     },
+     {
+      "axis": "fx",
+      "key": "soft",
+      "v": "v1",
+      "code": "xs"
+     }
+    ]
+   },
+   "prompt_sha256": "ed175ab9e3634686fdfdc7aaa0e7af1241125f3b8c688771151b7ce74f2ee681",
+   "prompt_file": "jobs/j0006-base/prompts/ja1-ag1-cg1-hp1-xs1__el.fe__fantasy-world__chatgpt__1.txt"
+  },
+  {
+   "slot": "kp1-ss1-ob1-hn1-x01__el.fe__fantasy-world",
+   "file": "kp1-ss1-ob1-hn1-x01__el.fe__fantasy-world__chatgpt__1",
+   "subject": "el.fe",
+   "subject_commit": "74eb6d8",
+   "world": "fantasy",
+   "kind": "world",
+   "exposure": "bold",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "kp1-ss1-ob1-hn1-x01",
+    "name": "oil_hikey",
+    "display": "반실사 · 작고 부드러운 얼굴 · 유화 붓질 · 글레이즈 — 하이키 자연광 (한국 MMORPG 프로모)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_mmorpg_promo",
+      "v": "v1",
+      "code": "kp"
+     },
+     {
+      "axis": "face",
+      "key": "semi_soft",
+      "v": "v1",
+      "code": "ss"
+     },
+     {
+      "axis": "paint",
+      "key": "oil_brush",
+      "v": "v1",
+      "code": "ob"
+     },
+     {
+      "axis": "light",
+      "key": "hikey_natural",
+      "v": "v1",
+      "code": "hn"
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0"
+     }
+    ]
+   },
+   "prompt_sha256": "d752f4141eeecee899e48b2e91cfc489065a003f8061e9d3685effefb4049815",
+   "prompt_file": "jobs/j0006-base/prompts/kp1-ss1-ob1-hn1-x01__el.fe__fantasy-world__chatgpt__1.txt"
+  }
+ ]
+}

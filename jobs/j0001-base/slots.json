@@ -1,0 +1,209 @@
+{
+ "job": "j0001-base",
+ "created": "2026-11-10",
+ "model": "chatgpt",
+ "label": "base",
+ "size": 4,
+ "slots": [
+  {
+   "slot": "km1-ss1-sm1-mu1-xf1__sam.wenyang__samguk-world",
+   "file": "km1-ss1-sm1-mu1-xf1__sam.wenyang__samguk-world__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "4bc7624",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "bold",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "km1-ss1-sm1-mu1-xf1",
+    "name": "semi_smooth",
+    "display": "반실사 · 작고 부드러운 얼굴 · 매끄러운 디지털 페인팅 — 차분 · 낮은 채도 · 깊은 그림자 · 이펙트 옅게(발광은 가늘고 적게) (한국 MMORPG)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_mmorpg",
+      "v": "v1",
+      "code": "km"
+     },
+     {
+      "axis": "face",
+      "key": "semi_soft",
+      "v": "v1",
+      "code": "ss"
+     },
+     {
+      "axis": "paint",
+      "key": "smooth",
+      "v": "v1",
+      "code": "sm"
+     },
+     {
+      "axis": "light",
+      "key": "muted",
+      "v": "v1",
+      "code": "mu"
+     },
+     {
+      "axis": "fx",
+      "key": "faint",
+      "v": "v1",
+      "code": "xf"
+     }
+    ]
+   },
+   "prompt_sha256": "764a5a85f8550c55a00e26e9303e65ca315099a7e92b92a12cd7b216072314d3",
+   "prompt_file": "jobs/j0001-base/prompts/km1-ss1-sm1-mu1-xf1__sam.wenyang__samguk-world__chatgpt__1.txt"
+  },
+  {
+   "slot": "cl1-ss1-og1-ws1-x01__sam.wenyang__samguk-world",
+   "file": "cl1-ss1-og1-ws1-x01__sam.wenyang__samguk-world__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "4bc7624",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "bold",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "cl1-ss1-og1-ws1-x01",
+    "name": "semi_oil_classic",
+    "display": "반실사 · 작고 부드러운 얼굴 · 유화 글레이즈(고전) — 한쪽 따뜻한 빛 · 어두운 배경 (고전 초상)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "classical",
+      "v": "v1",
+      "code": "cl"
+     },
+     {
+      "axis": "face",
+      "key": "semi_soft",
+      "v": "v1",
+      "code": "ss"
+     },
+     {
+      "axis": "paint",
+      "key": "oil_glaze",
+      "v": "v1",
+      "code": "og"
+     },
+     {
+      "axis": "light",
+      "key": "warm_side",
+      "v": "v1",
+      "code": "ws"
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0"
+     }
+    ]
+   },
+   "prompt_sha256": "f648341ccd22bd6f5211c50155db0e7cf293124dd21c4d5a00032255d0a20123",
+   "prompt_file": "jobs/j0001-base/prompts/cl1-ss1-og1-ws1-x01__sam.wenyang__samguk-world__chatgpt__1.txt"
+  },
+  {
+   "slot": "an1-aa1-ba1-dl1-x01__sam.wenyang__samguk-world",
+   "file": "an1-aa1-ba1-dl1-x01__sam.wenyang__samguk-world__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "4bc7624",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "bold",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "an1-aa1-ba1-dl1-x01",
+    "name": "anime_brush",
+    "display": "성인 애니 · 애니 붓질 · 색 선 — 밝은 자연광 · 무광 (애니(나라 말 없음))",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "anime",
+      "v": "v1",
+      "code": "an"
+     },
+     {
+      "axis": "face",
+      "key": "anime_adult",
+      "v": "v1",
+      "code": "aa"
+     },
+     {
+      "axis": "paint",
+      "key": "brush_anime",
+      "v": "v1",
+      "code": "ba"
+     },
+     {
+      "axis": "light",
+      "key": "daylight",
+      "v": "v1",
+      "code": "dl"
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0"
+     }
+    ]
+   },
+   "prompt_sha256": "2bc24f8fd5b3c88aa5f6f78316e038efabbe05715800715f30941c0467d319a7",
+   "prompt_file": "jobs/j0001-base/prompts/an1-aa1-ba1-dl1-x01__sam.wenyang__samguk-world__chatgpt__1.txt"
+  },
+  {
+   "slot": "f31-s31-r31-gs1-x01__sam.wenyang__samguk-world",
+   "file": "f31-s31-r31-gs1-x01__sam.wenyang__samguk-world__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "4bc7624",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "bold",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "f31-s31-r31-gs1-x01",
+    "name": "styl3d",
+    "display": "스타일라이즈드 3D · 3D 렌더(단순한 재질) — 전역광 · 림 라이트 · 맑은 채도 (3D 애니메이션 영화)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "film3d",
+      "v": "v1",
+      "code": "f3"
+     },
+     {
+      "axis": "face",
+      "key": "stylised3d",
+      "v": "v1",
+      "code": "s3"
+     },
+     {
+      "axis": "paint",
+      "key": "render3d",
+      "v": "v1",
+      "code": "r3"
+     },
+     {
+      "axis": "light",
+      "key": "global_soft",
+      "v": "v1",
+      "code": "gs"
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0"
+     }
+    ]
+   },
+   "prompt_sha256": "1ce4e186143b848de91730eb6a2c95c426e9debd18cdb3f36c5e69b04da08a5d",
+   "prompt_file": "jobs/j0001-base/prompts/f31-s31-r31-gs1-x01__sam.wenyang__samguk-world__chatgpt__1.txt"
+  }
+ ]
+}

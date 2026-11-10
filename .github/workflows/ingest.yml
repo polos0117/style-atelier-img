@@ -1,0 +1,66 @@
+name: 수거
+
+# inbox/ 에 그림(또는 .blocked.txt · .note.txt)이 오면 받아서 img/ · thumb/ · rec/ 로 옮기고
+# index/ 와 jobs/NEXT.md 를 다시 짓는다. 도구는 코드 저장소(style-atelier)의 tools/ingest.py — 그때그때 받아 온다.
+# 되커밋에는 [skip actions] 를 붙여 다시 돌지 않게 한다. 비밀은 쓰지 않는다(이 저장소 GITHUB_TOKEN 으로 되커밋).
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'inbox/**'
+      - 'jobs/**'
+  workflow_dispatch:
+
+concurrency:
+  group: ingest
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/checkout@v4
+        with:
+          repository: polos0117/style-atelier
+          path: .code
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Pillow 설치
+        run: pip install --quiet Pillow
+
+      - name: 수거
+        run: python3 .code/tools/ingest.py --img .
+
+      # 받은 것이 없으면 커밋하지 않는다. 그 사이 세션이 또 올렸으면 rebase 뒤 다시 민다(세 번까지)
+      - name: 되커밋
+        run: |
+          rm -rf .code
+          git add -A
+          if git diff --cached --quiet; then echo "달라진 것 없음"; exit 0; fi
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+            commit -q -m "수거: inbox → img · rec · 색인 [skip actions]"
+          for i in 1 2 3; do
+            git push origin HEAD:main && exit 0
+            git pull --rebase origin main || exit 1
+          done
+          exit 1
+
+      # inbox 에 남은 것(모르는 이름 · 이미 있는 그림)이 있으면 실행을 빨갛게 남긴다 — 되커밋은 이미 끝났다
+      - name: 남은 것
+        run: |
+          python3 - <<'PY'
+          import json, sys
+          p = json.load(open('index/problems.json'))
+          for x in p: print('남김', x['file'], '—', x['why'])
+          sys.exit(1 if p else 0)
+          PY

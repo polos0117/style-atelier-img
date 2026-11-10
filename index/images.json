@@ -1,0 +1,22 @@
+{
+ "version": 1,
+ "cols": [
+  "id",
+  "subject",
+  "world",
+  "kind",
+  "exposure",
+  "model",
+  "n",
+  "recipe",
+  "direction",
+  "face",
+  "paint",
+  "light",
+  "fx",
+  "job",
+  "added",
+  "rating"
+ ],
+ "rows": []
+}
