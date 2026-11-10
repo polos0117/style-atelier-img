@@ -1,0 +1,96 @@
+{
+ "id": "jl1-il2-og3-gs1-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
+ "job": "j0056-r5-light",
+ "slot": "jl1-il2-og3-gs1-x01__sam.wenyang__samguk-world-slit",
+ "subject": "sam.wenyang",
+ "subject_commit": "89ab31a",
+ "world": "samguk",
+ "kind": "world",
+ "exposure": "slit",
+ "model": "chatgpt",
+ "n": 1,
+ "recipe": {
+  "id": "jl1-il2-og3-gs1-x01",
+  "name": null,
+  "display": "그린 얼굴 · 가볍게 단순화 · 유화 글레이즈 — 전역광 · 림 라이트 · 맑은 채도 (일본 라이트노벨 표지)",
+  "parts": [
+   {
+    "axis": "direction",
+    "key": "jp_light_novel",
+    "v": "v1",
+    "code": "jl",
+    "ko": "일본 라이트노벨 표지",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "face",
+    "key": "illustrated",
+    "v": "v2",
+    "code": "il",
+    "ko": "그린 얼굴 · 가볍게 단순화",
+    "pairs": {
+     "paint": [
+      "smooth",
+      "painted_refined",
+      "brush_layered",
+      "matte_soft",
+      "cel_gradient"
+     ]
+    },
+    "requires": null
+   },
+   {
+    "axis": "paint",
+    "key": "oil_glaze",
+    "v": "v3",
+    "code": "og",
+    "ko": "유화 글레이즈",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "light",
+    "key": "global_soft",
+    "v": "v1",
+    "code": "gs",
+    "ko": "전역광 · 림 라이트 · 맑은 채도",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "fx",
+    "key": "none",
+    "v": "v1",
+    "code": "x0",
+    "ko": "미지정",
+    "pairs": null,
+    "requires": null
+   }
+  ],
+  "untested": [
+   "face/illustrated 의 추천 짝 밖 — paint smooth · painted_refined · brush_layered · matte_soft · cel_gradient"
+  ]
+ },
+ "prompt_file": "jobs/j0056-r5-light/prompts/jl1-il2-og3-gs1-x01__sam.wenyang__samguk-world-slit__chatgpt__1.txt",
+ "prompt_sha256": "2705318bbeebd8db906f30ec893547056333dd04e8f8a6f6aff6cca94e096cee",
+ "file": "img/sam.wenyang/samguk/jl1-il2-og3-gs1-x01__sam.wenyang__samguk-world-slit__chatgpt__1.webp",
+ "thumb": "thumb/sam.wenyang/samguk/jl1-il2-og3-gs1-x01__sam.wenyang__samguk-world-slit__chatgpt__1.webp",
+ "size": [
+  1024,
+  1536
+ ],
+ "resized_from": null,
+ "source": {
+  "name": "jl1-il2-og3-gs1-x01__sam.wenyang__samguk-world-slit__chatgpt__1.webp",
+  "sha256": "ca16734cc31f0e18432a9e9da3c64cd9b05836204d9a8878f613098f3f5d263f",
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "note": null,
+ "generation": null,
+ "added": "2026-11-10",
+ "rating": null
+}

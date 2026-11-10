@@ -1,0 +1,102 @@
+{
+ "id": "km2-aa2-ba3-cs1-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
+ "job": "j0056-r5-light",
+ "slot": "km2-aa2-ba3-cs1-x01__sam.wenyang__samguk-world-slit",
+ "subject": "sam.wenyang",
+ "subject_commit": "89ab31a",
+ "world": "samguk",
+ "kind": "world",
+ "exposure": "slit",
+ "model": "chatgpt",
+ "n": 1,
+ "recipe": {
+  "id": "km2-aa2-ba3-cs1-x01",
+  "name": null,
+  "display": "애니 · 단순화 · 2D 붓질 · 색 선 — 깨끗한 부드러운 빛 · 절제된 하이라이트 (한국 MMORPG)",
+  "parts": [
+   {
+    "axis": "direction",
+    "key": "kr_mmorpg",
+    "v": "v2",
+    "code": "km",
+    "ko": "한국 MMORPG",
+    "pairs": {
+     "face": [
+      "semi_soft",
+      "semi_paint",
+      "semi_ideal",
+      "illustrated",
+      "anime_adult"
+     ]
+    },
+    "requires": null
+   },
+   {
+    "axis": "face",
+    "key": "anime_adult",
+    "v": "v2",
+    "code": "aa",
+    "ko": "애니 · 단순화",
+    "pairs": {
+     "paint": [
+      "brush_anime",
+      "cel_gradient",
+      "matte_soft",
+      "smooth",
+      "painted_refined"
+     ]
+    },
+    "requires": null
+   },
+   {
+    "axis": "paint",
+    "key": "brush_anime",
+    "v": "v3",
+    "code": "ba",
+    "ko": "2D 붓질 · 색 선",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "light",
+    "key": "clean_soft",
+    "v": "v1",
+    "code": "cs",
+    "ko": "깨끗한 부드러운 빛 · 절제된 하이라이트",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "fx",
+    "key": "none",
+    "v": "v1",
+    "code": "x0",
+    "ko": "미지정",
+    "pairs": null,
+    "requires": null
+   }
+  ],
+  "untested": []
+ },
+ "prompt_file": "jobs/j0056-r5-light/prompts/km2-aa2-ba3-cs1-x01__sam.wenyang__samguk-world-slit__chatgpt__1.txt",
+ "prompt_sha256": "26113f39ca9fd56d332d10a7eaf624d431500c5cfc7a8cd2492ad3332e2a754f",
+ "file": "img/sam.wenyang/samguk/km2-aa2-ba3-cs1-x01__sam.wenyang__samguk-world-slit__chatgpt__1.webp",
+ "thumb": "thumb/sam.wenyang/samguk/km2-aa2-ba3-cs1-x01__sam.wenyang__samguk-world-slit__chatgpt__1.webp",
+ "size": [
+  1024,
+  1536
+ ],
+ "resized_from": null,
+ "source": {
+  "name": "km2-aa2-ba3-cs1-x01__sam.wenyang__samguk-world-slit__chatgpt__1.webp",
+  "sha256": "07df518ffffb1d5435e38cdea619602f05ac9b6c2ee1d643998b73bceeddce64",
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "note": null,
+ "generation": null,
+ "added": "2026-11-10",
+ "rating": null
+}
