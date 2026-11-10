@@ -1,0 +1,105 @@
+{
+ "id": "km2-ss2-sm2-mu1-xx1__sam.wenyang__samguk-world-low__chatgpt__1",
+ "job": "j0043-r2-fx",
+ "slot": "km2-ss2-sm2-mu1-xx1__sam.wenyang__samguk-world-low",
+ "subject": "sam.wenyang",
+ "subject_commit": "89ab31a",
+ "world": "samguk",
+ "kind": "world",
+ "exposure": "low",
+ "model": "chatgpt",
+ "n": 1,
+ "recipe": {
+  "id": "km2-ss2-sm2-mu1-xx1",
+  "name": null,
+  "display": "반실사 · 이상화 · 섬세 · 디지털 페인팅 · 매끄러움 — 차분 · 낮은 채도 · 깊은 그림자 · 이펙트 강하게(블룸 · 입자 · 발광선) (한국 MMORPG)",
+  "parts": [
+   {
+    "axis": "direction",
+    "key": "kr_mmorpg",
+    "v": "v2",
+    "code": "km",
+    "ko": "한국 MMORPG",
+    "pairs": {
+     "face": [
+      "semi_soft",
+      "semi_paint",
+      "semi_ideal",
+      "illustrated",
+      "anime_adult"
+     ]
+    },
+    "requires": null
+   },
+   {
+    "axis": "face",
+    "key": "semi_soft",
+    "v": "v2",
+    "code": "ss",
+    "ko": "반실사 · 이상화 · 섬세",
+    "pairs": {
+     "paint": [
+      "smooth",
+      "painted_refined",
+      "brush_layered",
+      "oil_glaze",
+      "oil_brush",
+      "impasto",
+      "matte_soft",
+      "photoreal_cgi"
+     ]
+    },
+    "requires": null
+   },
+   {
+    "axis": "paint",
+    "key": "smooth",
+    "v": "v2",
+    "code": "sm",
+    "ko": "디지털 페인팅 · 매끄러움",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "light",
+    "key": "muted",
+    "v": "v1",
+    "code": "mu",
+    "ko": "차분 · 낮은 채도 · 깊은 그림자",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "fx",
+    "key": "strong",
+    "v": "v1",
+    "code": "xx",
+    "ko": "강하게(블룸 · 입자 · 발광선)",
+    "pairs": null,
+    "requires": null
+   }
+  ],
+  "untested": []
+ },
+ "prompt_file": "jobs/j0043-r2-fx/prompts/km2-ss2-sm2-mu1-xx1__sam.wenyang__samguk-world-low__chatgpt__1.txt",
+ "prompt_sha256": "3f767d190dcdc75e0f64e2a9754bfe04681d2caf3dc648297635196ed1cc8e9d",
+ "file": "img/sam.wenyang/samguk/km2-ss2-sm2-mu1-xx1__sam.wenyang__samguk-world-low__chatgpt__1.webp",
+ "thumb": "thumb/sam.wenyang/samguk/km2-ss2-sm2-mu1-xx1__sam.wenyang__samguk-world-low__chatgpt__1.webp",
+ "size": [
+  1024,
+  1536
+ ],
+ "resized_from": null,
+ "source": {
+  "name": "km2-ss2-sm2-mu1-xx1__sam.wenyang__samguk-world-low__chatgpt__1.webp",
+  "sha256": "2e47233b5b7bcc687c088a9dd1b5c9c8be06e93176eab8fc7a3d78a038f3c603",
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "note": null,
+ "generation": null,
+ "added": "2026-11-10",
+ "rating": null
+}
