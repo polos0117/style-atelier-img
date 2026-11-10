@@ -6,10 +6,9 @@ GPT 세션: **묻지 않고 끝까지** 한다(그림을 보여 주고 확인을
 
 | 일감 | 차수 | 이름 | 그린 칸 | 모델 | 예약 |
 |---|---|---|---|---|---|
-| [j0049-r3-face](j0049-r3-face/REQUEST.md) | 3차 | r3-face | 0 / 8 | chatgpt | — |
-| [j0050-r3-paint](j0050-r3-paint/REQUEST.md) | 3차 | r3-paint | 0 / 9 | chatgpt | — |
-| [j0051-r3-light](j0051-r3-light/REQUEST.md) | 3차 | r3-light | 0 / 6 | chatgpt | — |
 | [j0052-r3-light](j0052-r3-light/REQUEST.md) | 3차 | r3-light | 0 / 6 | chatgpt | — |
 | [j0053-r3-fx](j0053-r3-fx/REQUEST.md) | 3차 | r3-fx | 0 / 4 | chatgpt | — |
+| [j0050-r3-paint](j0050-r3-paint/REQUEST.md) | 3차 | r3-paint | 0 / 9 | chatgpt | 예약 중 · chatgpt-j0050-6593cf0701fc · 8분 전 |
+| [j0051-r3-light](j0051-r3-light/REQUEST.md) | 3차 | r3-light | 0 / 6 | chatgpt | 예약 중 · ChatGPT j0051-r3-light · 91d7292cce4a · 0분 전 |
 
-닫힌 일감 13개.
+닫힌 일감 14개.
