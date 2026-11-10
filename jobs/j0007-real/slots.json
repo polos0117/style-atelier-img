@@ -1,0 +1,110 @@
+{
+ "job": "j0007-real",
+ "round": 1,
+ "created": "2026-11-10",
+ "model": "chatgpt",
+ "label": "real",
+ "size": 2,
+ "slots": [
+  {
+   "slot": "cc1-ci1-pc1-ch1-x01__sam.wenyang__samguk-world",
+   "file": "cc1-ci1-pc1-ch1-x01__sam.wenyang__samguk-world__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "4bc7624",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "bold",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "cc1-ci1-pc1-ch1-x01",
+    "name": "cgi_hikey",
+    "display": "CGI 이상화 얼굴 · 포토리얼 CGI 표면 — 시네마틱 하이키 · 앞쪽 보조광 (시네마틱 CGI)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "cinematic_cgi",
+      "v": "v1",
+      "code": "cc"
+     },
+     {
+      "axis": "face",
+      "key": "cgi_ideal",
+      "v": "v1",
+      "code": "ci"
+     },
+     {
+      "axis": "paint",
+      "key": "photoreal_cgi",
+      "v": "v1",
+      "code": "pc"
+     },
+     {
+      "axis": "light",
+      "key": "cine_hikey",
+      "v": "v1",
+      "code": "ch"
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0"
+     }
+    ]
+   },
+   "prompt_sha256": "e147bdb9d484848ce8a880d7281809c1aad3a0d8c099e7e2d240c9d068d57778",
+   "prompt_file": "jobs/j0007-real/prompts/cc1-ci1-pc1-ch1-x01__sam.wenyang__samguk-world__chatgpt__1.txt"
+  },
+  {
+   "slot": "ps1-rn1-pp1-ch1-x01__sam.wenyang__samguk-world",
+   "file": "ps1-rn1-pp1-ch1-x01__sam.wenyang__samguk-world__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "4bc7624",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "bold",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "ps1-rn1-pp1-ch1-x01",
+    "name": "photo_real",
+    "display": "실제 사람 얼굴 · 사진 — 시네마틱 하이키 · 앞쪽 보조광 (실사 사진(영화 스틸))",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "photo_still",
+      "v": "v1",
+      "code": "ps"
+     },
+     {
+      "axis": "face",
+      "key": "real_natural",
+      "v": "v1",
+      "code": "rn"
+     },
+     {
+      "axis": "paint",
+      "key": "photo",
+      "v": "v1",
+      "code": "pp"
+     },
+     {
+      "axis": "light",
+      "key": "cine_hikey",
+      "v": "v1",
+      "code": "ch"
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0"
+     }
+    ]
+   },
+   "prompt_sha256": "9ce173dd63908d56d96f1454705a382efe7fc7f2a374080887775b2330c03b84",
+   "prompt_file": "jobs/j0007-real/prompts/ps1-rn1-pp1-ch1-x01__sam.wenyang__samguk-world__chatgpt__1.txt"
+  }
+ ]
+}

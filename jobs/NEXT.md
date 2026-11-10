@@ -9,6 +9,8 @@ GPT 세션: 모델이 **chatgpt** 이고 「예약」 칸이 **—** 인 일감 
 | [j0004-base](j0004-base/REQUEST.md) | 1차 | base | 0 / 4 | chatgpt | — |
 | [j0005-base](j0005-base/REQUEST.md) | 1차 | base | 0 / 4 | chatgpt | — |
 | [j0006-base](j0006-base/REQUEST.md) | 1차 | base | 0 / 2 | chatgpt | — |
-| [j0002-base](j0002-base/REQUEST.md) | 1차 | base | 0 / 4 | chatgpt | 예약 중 · Codex ChatGPT / 31a05c1910f1 · 12분 전 |
+| [j0007-real](j0007-real/REQUEST.md) | 1차 | real | 0 / 2 | chatgpt | — |
+| [j0008-real](j0008-real/REQUEST.md) | 1차 | real | 0 / 2 | chatgpt | — |
+| [j0002-base](j0002-base/REQUEST.md) | 1차 | base | 0 / 4 | chatgpt | 예약 중 · Codex ChatGPT / 31a05c1910f1 · 20분 전 |
 
 닫힌 일감 0개.

@@ -1,0 +1,110 @@
+{
+ "job": "j0008-real",
+ "round": 1,
+ "created": "2026-11-10",
+ "model": "chatgpt",
+ "label": "real",
+ "size": 2,
+ "slots": [
+  {
+   "slot": "cc1-ci1-pc1-ch1-x01__el.fe__fantasy-world",
+   "file": "cc1-ci1-pc1-ch1-x01__el.fe__fantasy-world__chatgpt__1",
+   "subject": "el.fe",
+   "subject_commit": "74eb6d8",
+   "world": "fantasy",
+   "kind": "world",
+   "exposure": "bold",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "cc1-ci1-pc1-ch1-x01",
+    "name": "cgi_hikey",
+    "display": "CGI 이상화 얼굴 · 포토리얼 CGI 표면 — 시네마틱 하이키 · 앞쪽 보조광 (시네마틱 CGI)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "cinematic_cgi",
+      "v": "v1",
+      "code": "cc"
+     },
+     {
+      "axis": "face",
+      "key": "cgi_ideal",
+      "v": "v1",
+      "code": "ci"
+     },
+     {
+      "axis": "paint",
+      "key": "photoreal_cgi",
+      "v": "v1",
+      "code": "pc"
+     },
+     {
+      "axis": "light",
+      "key": "cine_hikey",
+      "v": "v1",
+      "code": "ch"
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0"
+     }
+    ]
+   },
+   "prompt_sha256": "9705e28a3bab2595974dc5dcea95132a6e1808b6dc339594e8a863585c0c392c",
+   "prompt_file": "jobs/j0008-real/prompts/cc1-ci1-pc1-ch1-x01__el.fe__fantasy-world__chatgpt__1.txt"
+  },
+  {
+   "slot": "ps1-rn1-pp1-ch1-x01__el.fe__fantasy-world",
+   "file": "ps1-rn1-pp1-ch1-x01__el.fe__fantasy-world__chatgpt__1",
+   "subject": "el.fe",
+   "subject_commit": "74eb6d8",
+   "world": "fantasy",
+   "kind": "world",
+   "exposure": "bold",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "ps1-rn1-pp1-ch1-x01",
+    "name": "photo_real",
+    "display": "실제 사람 얼굴 · 사진 — 시네마틱 하이키 · 앞쪽 보조광 (실사 사진(영화 스틸))",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "photo_still",
+      "v": "v1",
+      "code": "ps"
+     },
+     {
+      "axis": "face",
+      "key": "real_natural",
+      "v": "v1",
+      "code": "rn"
+     },
+     {
+      "axis": "paint",
+      "key": "photo",
+      "v": "v1",
+      "code": "pp"
+     },
+     {
+      "axis": "light",
+      "key": "cine_hikey",
+      "v": "v1",
+      "code": "ch"
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0"
+     }
+    ]
+   },
+   "prompt_sha256": "88fe87a8cb86b10a7f6b21e4451bbb338424c88b06e080304b5d4ff102ad4e41",
+   "prompt_file": "jobs/j0008-real/prompts/ps1-rn1-pp1-ch1-x01__el.fe__fantasy-world__chatgpt__1.txt"
+  }
+ ]
+}
