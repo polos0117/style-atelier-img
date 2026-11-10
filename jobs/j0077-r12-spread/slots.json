@@ -1,0 +1,927 @@
+{
+ "job": "j0077-r12-spread",
+ "round": 12,
+ "created": "2026-11-11",
+ "model": "chatgpt",
+ "label": "r12-spread",
+ "size": 10,
+ "slots": [
+  {
+   "slot": "ja2-ag2-cg2-hp2-xs1__sam.wenyang__samguk-world-slit",
+   "file": "ja2-ag2-cg2-hp2-xs1__sam.wenyang__samguk-world-slit__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "slit",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "ja2-ag2-cg2-hp2-xs1",
+    "name": "anime_gloss_jp",
+    "display": "가챠 애니 · 강하게 단순화 · 2D 셀~그라데이션 · 선화 — 하이키 파스텔 · 햇빛 광택 · 이펙트 부드럽게(블룸 · 작은 반짝임) (일본 가챠)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "jp_gacha",
+      "v": "v2",
+      "code": "ja",
+      "ko": "일본 가챠",
+      "pairs": {
+       "face": [
+        "anime_gacha",
+        "anime_adult"
+       ],
+       "paint": [
+        "cel_gradient",
+        "matte_soft",
+        "brush_anime"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "anime_gacha",
+      "v": "v2",
+      "code": "ag",
+      "ko": "가챠 애니 · 강하게 단순화",
+      "pairs": {
+       "paint": [
+        "brush_anime",
+        "cel_gradient",
+        "matte_soft",
+        "smooth",
+        "painted_refined"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "cel_gradient",
+      "v": "v2",
+      "code": "cg",
+      "ko": "2D 셀~그라데이션 · 선화",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "hikey_pastel",
+      "v": "v2",
+      "code": "hp",
+      "ko": "하이키 파스텔 · 햇빛 광택",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "soft",
+      "v": "v1",
+      "code": "xs",
+      "ko": "부드럽게(블룸 · 작은 반짝임)",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": []
+   },
+   "subject_overrides": [
+    "head: character card illustration → character image",
+    "faceFrame:  in this style → ",
+    "costume: a plumed helmet or a war headband → a war headband with a single white plume",
+    "costume: a plumed helm or circlet → a circlet with a single white plume",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined"
+   ],
+   "prompt_sha256": "170615a6f0466ba3a81953f18dafda36d03b7481e2fe2501ff6c436c6ac031da",
+   "prompt_file": "jobs/j0077-r12-spread/prompts/ja2-ag2-cg2-hp2-xs1__sam.wenyang__samguk-world-slit__chatgpt__1.txt"
+  },
+  {
+   "slot": "jn2-aa2-ms2-oc1-x01__sam.wenyang__samguk-world-slit",
+   "file": "jn2-aa2-ms2-oc1-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "slit",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "jn2-aa2-ms2-oc1-x01",
+    "name": "anime_matte_jp",
+    "display": "애니 · 단순화 · 2D 무광 소프트 — 흐린 빛 · 차분한 색 (일본 애니)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "jp_anime",
+      "v": "v2",
+      "code": "jn",
+      "ko": "일본 애니",
+      "pairs": {
+       "face": [
+        "anime_adult",
+        "anime_gacha"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "anime_adult",
+      "v": "v2",
+      "code": "aa",
+      "ko": "애니 · 단순화",
+      "pairs": {
+       "paint": [
+        "brush_anime",
+        "cel_gradient",
+        "matte_soft",
+        "smooth",
+        "painted_refined"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "matte_soft",
+      "v": "v2",
+      "code": "ms",
+      "ko": "2D 무광 소프트",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "overcast",
+      "v": "v1",
+      "code": "oc",
+      "ko": "흐린 빛 · 차분한 색",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0",
+      "ko": "미지정",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": []
+   },
+   "subject_overrides": [
+    "head: character card illustration → character image",
+    "faceFrame:  in this style → ",
+    "costume: a plumed helmet or a war headband → a war headband with a single white plume",
+    "costume: a plumed helm or circlet → a circlet with a single white plume",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined"
+   ],
+   "prompt_sha256": "afa8d1b1855670a35897578c06bd581e91e35998f5cef61662c6bc6ffb26820d",
+   "prompt_file": "jobs/j0077-r12-spread/prompts/jn2-aa2-ms2-oc1-x01__sam.wenyang__samguk-world-slit__chatgpt__1.txt"
+  },
+  {
+   "slot": "jg2-sp3-bl2-md2-x01__sam.wenyang__samguk-world-slit",
+   "file": "jg2-sp3-bl2-md2-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "slit",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "jg2-sp3-bl2-md2-x01",
+    "name": "semi_paint_jp",
+    "display": "반실사 · 그린 살결 · 페인터리 디지털 · 보이는 붓질 — 또렷한 키 라이트 · 깊은 명암 (일본 판타지 게임 키아트)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "jp_game_paint",
+      "v": "v2",
+      "code": "jg",
+      "ko": "일본 판타지 게임 키아트",
+      "pairs": {
+       "face": [
+        "semi_paint",
+        "semi_soft",
+        "semi_ideal",
+        "illustrated",
+        "anime_adult"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "semi_paint",
+      "v": "v3",
+      "code": "sp",
+      "ko": "반실사 · 그린 살결",
+      "pairs": {
+       "paint": [
+        "smooth",
+        "painted_refined",
+        "brush_layered",
+        "oil_glaze",
+        "oil_brush",
+        "impasto",
+        "matte_soft"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "brush_layered",
+      "v": "v2",
+      "code": "bl",
+      "ko": "페인터리 디지털 · 보이는 붓질",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "modelled_deep",
+      "v": "v2",
+      "code": "md",
+      "ko": "또렷한 키 라이트 · 깊은 명암",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0",
+      "ko": "미지정",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": []
+   },
+   "subject_overrides": [
+    "head: character card illustration → character image",
+    "faceFrame:  in this style → ",
+    "costume: a plumed helmet or a war headband → a war headband with a single white plume",
+    "costume: a plumed helm or circlet → a circlet with a single white plume",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined"
+   ],
+   "prompt_sha256": "66427b7cdd21729c5b3ebed3db5ecdcd7897d28d5d69f2b7dc4f9020dc7d6648",
+   "prompt_file": "jobs/j0077-r12-spread/prompts/jg2-sp3-bl2-md2-x01__sam.wenyang__samguk-world-slit__chatgpt__1.txt"
+  },
+  {
+   "slot": "km2-ss2-sm2-mu2-xf1__sam.wenyang__samguk-world-slit",
+   "file": "km2-ss2-sm2-mu2-xf1__sam.wenyang__samguk-world-slit__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "slit",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "km2-ss2-sm2-mu2-xf1",
+    "name": "semi_smooth",
+    "display": "반실사 · 이상화 · 섬세 · 디지털 페인팅 · 매끄러움 — 차분 · 낮은 채도 · 깊은 그림자 · 이펙트 옅게(발광은 가늘고 적게) (한국 MMORPG)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_mmorpg",
+      "v": "v2",
+      "code": "km",
+      "ko": "한국 MMORPG",
+      "pairs": {
+       "face": [
+        "semi_soft",
+        "semi_paint",
+        "semi_ideal",
+        "illustrated",
+        "anime_adult"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "semi_soft",
+      "v": "v2",
+      "code": "ss",
+      "ko": "반실사 · 이상화 · 섬세",
+      "pairs": {
+       "paint": [
+        "smooth",
+        "painted_refined",
+        "brush_layered",
+        "oil_glaze",
+        "oil_brush",
+        "impasto",
+        "matte_soft",
+        "photoreal_cgi"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "smooth",
+      "v": "v2",
+      "code": "sm",
+      "ko": "디지털 페인팅 · 매끄러움",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "muted",
+      "v": "v2",
+      "code": "mu",
+      "ko": "차분 · 낮은 채도 · 깊은 그림자",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "faint",
+      "v": "v1",
+      "code": "xf",
+      "ko": "옅게(발광은 가늘고 적게)",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": []
+   },
+   "subject_overrides": [
+    "head: character card illustration → character image",
+    "faceFrame:  in this style → ",
+    "costume: a plumed helmet or a war headband → a war headband with a single white plume",
+    "costume: a plumed helm or circlet → a circlet with a single white plume",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined"
+   ],
+   "prompt_sha256": "09a1fa77908e36f16f65d30ac76fdfe378f298c01607afc12d9d6af6caefbfb9",
+   "prompt_file": "jobs/j0077-r12-spread/prompts/km2-ss2-sm2-mu2-xf1__sam.wenyang__samguk-world-slit__chatgpt__1.txt"
+  },
+  {
+   "slot": "km2-il2-pr2-cs1-xf1__sam.wenyang__samguk-world-slit",
+   "file": "km2-il2-pr2-cs1-xf1__sam.wenyang__samguk-world-slit__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "slit",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "km2-il2-pr2-cs1-xf1",
+    "name": "illus_23d",
+    "display": "그린 얼굴 · 가볍게 단순화 · 디지털 일러스트 · 가벼운 입체(2.3D) — 깨끗한 부드러운 빛 · 절제된 하이라이트 · 이펙트 옅게(발광은 가늘고 적게) (한국 MMORPG)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_mmorpg",
+      "v": "v2",
+      "code": "km",
+      "ko": "한국 MMORPG",
+      "pairs": {
+       "face": [
+        "semi_soft",
+        "semi_paint",
+        "semi_ideal",
+        "illustrated",
+        "anime_adult"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "illustrated",
+      "v": "v2",
+      "code": "il",
+      "ko": "그린 얼굴 · 가볍게 단순화",
+      "pairs": {
+       "paint": [
+        "smooth",
+        "painted_refined",
+        "brush_layered",
+        "matte_soft",
+        "cel_gradient"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "painted_refined",
+      "v": "v2",
+      "code": "pr",
+      "ko": "디지털 일러스트 · 가벼운 입체(2.3D)",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "clean_soft",
+      "v": "v1",
+      "code": "cs",
+      "ko": "깨끗한 부드러운 빛 · 절제된 하이라이트",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "faint",
+      "v": "v1",
+      "code": "xf",
+      "ko": "옅게(발광은 가늘고 적게)",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": []
+   },
+   "subject_overrides": [
+    "head: character card illustration → character image",
+    "faceFrame:  in this style → ",
+    "costume: a plumed helmet or a war headband → a war headband with a single white plume",
+    "costume: a plumed helm or circlet → a circlet with a single white plume",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined"
+   ],
+   "prompt_sha256": "fc3e2fd50643534abc2d62ba5e65e6a35b1bc53f3297c9c4a85da3284ee357cf",
+   "prompt_file": "jobs/j0077-r12-spread/prompts/km2-il2-pr2-cs1-xf1__sam.wenyang__samguk-world-slit__chatgpt__1.txt"
+  },
+  {
+   "slot": "kp1-ss2-ob2-hn2-x01__sam.wenyang__samguk-world-slit",
+   "file": "kp1-ss2-ob2-hn2-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "slit",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "kp1-ss2-ob2-hn2-x01",
+    "name": "oil_hikey",
+    "display": "반실사 · 이상화 · 섬세 · 유화 붓질 · 글레이즈 — 하이키 자연광 (한국 MMORPG 프로모)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_mmorpg_promo",
+      "v": "v1",
+      "code": "kp",
+      "ko": "한국 MMORPG 프로모",
+      "pairs": {
+       "face": [
+        "semi_soft",
+        "semi_paint",
+        "semi_ideal",
+        "illustrated",
+        "anime_adult"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "semi_soft",
+      "v": "v2",
+      "code": "ss",
+      "ko": "반실사 · 이상화 · 섬세",
+      "pairs": {
+       "paint": [
+        "smooth",
+        "painted_refined",
+        "brush_layered",
+        "oil_glaze",
+        "oil_brush",
+        "impasto",
+        "matte_soft",
+        "photoreal_cgi"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "oil_brush",
+      "v": "v2",
+      "code": "ob",
+      "ko": "유화 붓질 · 글레이즈",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "hikey_natural",
+      "v": "v2",
+      "code": "hn",
+      "ko": "하이키 자연광",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0",
+      "ko": "미지정",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": []
+   },
+   "subject_overrides": [
+    "head: character card illustration → character image",
+    "faceFrame:  in this style → ",
+    "costume: a plumed helmet or a war headband → a war headband with a single white plume",
+    "costume: a plumed helm or circlet → a circlet with a single white plume",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined"
+   ],
+   "prompt_sha256": "2326a7a4002531005a8ac708b35cfd2488fdf2df9da67cb18d5128da8e4c3ed8",
+   "prompt_file": "jobs/j0077-r12-spread/prompts/kp1-ss2-ob2-hn2-x01__sam.wenyang__samguk-world-slit__chatgpt__1.txt"
+  },
+  {
+   "slot": "kn2-aa2-ba3-dl2-x01__sam.wenyang__samguk-world-slit",
+   "file": "kn2-aa2-ba3-dl2-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "slit",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "kn2-aa2-ba3-dl2-x01",
+    "name": "anime_brush_kr",
+    "display": "애니 · 단순화 · 2D 붓질 · 색 선 — 밝은 자연광 (한국 애니)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_anime",
+      "v": "v2",
+      "code": "kn",
+      "ko": "한국 애니",
+      "pairs": {
+       "face": [
+        "anime_adult",
+        "anime_gacha"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "anime_adult",
+      "v": "v2",
+      "code": "aa",
+      "ko": "애니 · 단순화",
+      "pairs": {
+       "paint": [
+        "brush_anime",
+        "cel_gradient",
+        "matte_soft",
+        "smooth",
+        "painted_refined"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "brush_anime",
+      "v": "v3",
+      "code": "ba",
+      "ko": "2D 붓질 · 색 선",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "daylight",
+      "v": "v2",
+      "code": "dl",
+      "ko": "밝은 자연광",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0",
+      "ko": "미지정",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": []
+   },
+   "subject_overrides": [
+    "head: character card illustration → character image",
+    "faceFrame:  in this style → ",
+    "costume: a plumed helmet or a war headband → a war headband with a single white plume",
+    "costume: a plumed helm or circlet → a circlet with a single white plume",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined"
+   ],
+   "prompt_sha256": "d95fd9252a90b1673222f35f79e0c1f10ea5ca14eb8eb62e6b04e7bda11c0bb1",
+   "prompt_file": "jobs/j0077-r12-spread/prompts/kn2-aa2-ba3-dl2-x01__sam.wenyang__samguk-world-slit__chatgpt__1.txt"
+  },
+  {
+   "slot": "kk1-si1-p31-cl1-x01__sam.wenyang__samguk-world-slit",
+   "file": "kk1-si1-p31-cl1-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "slit",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "kk1-si1-p31-cl1-x01",
+    "name": null,
+    "display": "반실사 · 이상화 · 핸드페인팅 텍스처 3D — 시네마틱 로키 · 한 줄기 빛 (한국 판타지 게임 키아트)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_game_keyart",
+      "v": "v1",
+      "code": "kk",
+      "ko": "한국 판타지 게임 키아트",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "semi_ideal",
+      "v": "v1",
+      "code": "si",
+      "ko": "반실사 · 이상화",
+      "pairs": {
+       "paint": [
+        "smooth",
+        "painted_refined",
+        "brush_layered",
+        "oil_glaze",
+        "oil_brush",
+        "impasto",
+        "matte_soft"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "painted_3d",
+      "v": "v1",
+      "code": "p3",
+      "ko": "핸드페인팅 텍스처 3D",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "cine_lowkey",
+      "v": "v1",
+      "code": "cl",
+      "ko": "시네마틱 로키 · 한 줄기 빛",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0",
+      "ko": "미지정",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": [
+     "face/semi_ideal 의 추천 짝 밖 — paint smooth · painted_refined · brush_layered · oil_glaze · oil_brush · impasto · matte_soft"
+    ]
+   },
+   "subject_overrides": [
+    "head: character card illustration → character image",
+    "faceFrame:  in this style → ",
+    "costume: a plumed helmet or a war headband → a war headband with a single white plume",
+    "costume: a plumed helm or circlet → a circlet with a single white plume",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined"
+   ],
+   "prompt_sha256": "576a49a4f798c31fc7cebc6a04435cd2c1e609d5ca49322a5c6b9ebd6f0fc975",
+   "prompt_file": "jobs/j0077-r12-spread/prompts/kk1-si1-p31-cl1-x01__sam.wenyang__samguk-world-slit__chatgpt__1.txt"
+  },
+  {
+   "slot": "kg2-ag2-gd1-rg2-xs1__sam.wenyang__samguk-world-slit",
+   "file": "kg2-ag2-gd1-rg2-xs1__sam.wenyang__samguk-world-slit__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "slit",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "kg2-ag2-gd1-rg2-xs1",
+    "name": null,
+    "display": "가챠 애니 · 강하게 단순화 · 디지털 페인팅 · 유광 — 림 라이트 · 강한 하이라이트 · 이펙트 부드럽게(블룸 · 작은 반짝임) (한국 가챠)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_gacha",
+      "v": "v2",
+      "code": "kg",
+      "ko": "한국 가챠",
+      "pairs": {
+       "face": [
+        "anime_gacha",
+        "anime_adult"
+       ],
+       "paint": [
+        "cel_gradient",
+        "matte_soft",
+        "brush_anime"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "anime_gacha",
+      "v": "v2",
+      "code": "ag",
+      "ko": "가챠 애니 · 강하게 단순화",
+      "pairs": {
+       "paint": [
+        "brush_anime",
+        "cel_gradient",
+        "matte_soft",
+        "smooth",
+        "painted_refined"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "glossy_digital",
+      "v": "v1",
+      "code": "gd",
+      "ko": "디지털 페인팅 · 유광",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "rim_gloss",
+      "v": "v2",
+      "code": "rg",
+      "ko": "림 라이트 · 강한 하이라이트",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "soft",
+      "v": "v1",
+      "code": "xs",
+      "ko": "부드럽게(블룸 · 작은 반짝임)",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": [
+     "direction/kr_gacha 의 추천 짝 밖 — paint cel_gradient · matte_soft · brush_anime",
+     "face/anime_gacha 의 추천 짝 밖 — paint brush_anime · cel_gradient · matte_soft · smooth · painted_refined"
+    ]
+   },
+   "subject_overrides": [
+    "head: character card illustration → character image",
+    "faceFrame:  in this style → ",
+    "costume: a plumed helmet or a war headband → a war headband with a single white plume",
+    "costume: a plumed helm or circlet → a circlet with a single white plume",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined"
+   ],
+   "prompt_sha256": "da775abe31861a73e56d2afcf116d1d7be9c2bd4c34960bf48d55d0d680b952b",
+   "prompt_file": "jobs/j0077-r12-spread/prompts/kg2-ag2-gd1-rg2-xs1__sam.wenyang__samguk-world-slit__chatgpt__1.txt"
+  },
+  {
+   "slot": "km2-il2-ba3-cl1-x01__sam.wenyang__samguk-world-slit",
+   "file": "km2-il2-ba3-cl1-x01__sam.wenyang__samguk-world-slit__chatgpt__2",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "slit",
+   "model": "chatgpt",
+   "n": 2,
+   "recipe": {
+    "id": "km2-il2-ba3-cl1-x01",
+    "name": null,
+    "display": "그린 얼굴 · 가볍게 단순화 · 2D 붓질 · 색 선 — 시네마틱 로키 · 한 줄기 빛 (한국 MMORPG)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_mmorpg",
+      "v": "v2",
+      "code": "km",
+      "ko": "한국 MMORPG",
+      "pairs": {
+       "face": [
+        "semi_soft",
+        "semi_paint",
+        "semi_ideal",
+        "illustrated",
+        "anime_adult"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "illustrated",
+      "v": "v2",
+      "code": "il",
+      "ko": "그린 얼굴 · 가볍게 단순화",
+      "pairs": {
+       "paint": [
+        "smooth",
+        "painted_refined",
+        "brush_layered",
+        "matte_soft",
+        "cel_gradient"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "brush_anime",
+      "v": "v3",
+      "code": "ba",
+      "ko": "2D 붓질 · 색 선",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "cine_lowkey",
+      "v": "v1",
+      "code": "cl",
+      "ko": "시네마틱 로키 · 한 줄기 빛",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0",
+      "ko": "미지정",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": [
+     "face/illustrated 의 추천 짝 밖 — paint smooth · painted_refined · brush_layered · matte_soft · cel_gradient"
+    ]
+   },
+   "subject_overrides": [
+    "head: character card illustration → character image",
+    "faceFrame:  in this style → ",
+    "costume: a plumed helmet or a war headband → a war headband with a single white plume",
+    "costume: a plumed helm or circlet → a circlet with a single white plume",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined"
+   ],
+   "prompt_sha256": "8981e73946e60b4beb9ef5147e7a6ef1961312732c4561e7c889362e95285a3b",
+   "prompt_file": "jobs/j0077-r12-spread/prompts/km2-il2-ba3-cl1-x01__sam.wenyang__samguk-world-slit__chatgpt__2.txt"
+  }
+ ]
+}
