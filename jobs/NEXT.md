@@ -15,6 +15,6 @@ GPT 세션: **묻지 않고 끝까지** 한다(그림을 보여 주고 확인을
 | [j0010-anime](j0010-anime/REQUEST.md) | 1차 | anime | 0 / 1 | chatgpt | — |
 | [j0011-anime](j0011-anime/REQUEST.md) | 1차 | anime | 0 / 4 | chatgpt | — |
 | [j0012-anime](j0012-anime/REQUEST.md) | 1차 | anime | 0 / 1 | chatgpt | — |
-| [j0002-base](j0002-base/REQUEST.md) | 1차 | base | 0 / 4 | chatgpt | 예약 중 · Codex ChatGPT / 31a05c1910f1 · 39분 전 |
+| [j0002-base](j0002-base/REQUEST.md) | 1차 | base | 0 / 4 | chatgpt | 예약 중 · Codex ChatGPT / 31a05c1910f1 · 43분 전 |
 
 닫힌 일감 0개.
