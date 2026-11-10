@@ -8,11 +8,11 @@ GPT 세션: **묻지 않고 끝까지** 한다(그림을 보여 주고 확인을
 |---|---|---|---|---|---|
 | [j0036-r2-direction](j0036-r2-direction/REQUEST.md) | 2차 | r2-direction | 0 / 6 | chatgpt | — |
 | [j0037-r2-direction](j0037-r2-direction/REQUEST.md) | 2차 | r2-direction | 0 / 6 | chatgpt | — |
-| [j0038-r2-face](j0038-r2-face/REQUEST.md) | 2차 | r2-face | 0 / 8 | chatgpt | — |
-| [j0039-r2-paint](j0039-r2-paint/REQUEST.md) | 2차 | r2-paint | 0 / 7 | chatgpt | — |
 | [j0040-r2-paint](j0040-r2-paint/REQUEST.md) | 2차 | r2-paint | 0 / 6 | chatgpt | — |
 | [j0041-r2-light](j0041-r2-light/REQUEST.md) | 2차 | r2-light | 0 / 6 | chatgpt | — |
-| [j0042-r2-light](j0042-r2-light/REQUEST.md) | 2차 | r2-light | 0 / 6 | chatgpt | — |
 | [j0043-r2-fx](j0043-r2-fx/REQUEST.md) | 2차 | r2-fx | 0 / 4 | chatgpt | — |
+| [j0044-r2-face](j0044-r2-face/REQUEST.md) | 2차 | r2-face | 0 / 8 | chatgpt | — |
+| [j0045-r2-paint](j0045-r2-paint/REQUEST.md) | 2차 | r2-paint | 0 / 7 | chatgpt | — |
+| [j0046-r2-light](j0046-r2-light/REQUEST.md) | 2차 | r2-light | 0 / 6 | chatgpt | — |
 
 닫힌 일감 3개.

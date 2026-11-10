@@ -699,5 +699,7 @@
    "prompt_sha256": "f77059c0d655ecb9d599402e81885adf9786ae6cc9a43f2493bf32812ba63bfa",
    "prompt_file": "jobs/j0038-r2-face/prompts/km2-rn2-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1.txt"
   }
- ]
+ ],
+ "retired": "2026-11-10",
+ "hold": "부품 문장 새 판(oil_glaze v3 · brush_anime v3 · real_natural v3 · hikey_natural v2 — 재검토안 c432626)으로 다시 만든다"
 }
