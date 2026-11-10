@@ -412,5 +412,7 @@
    "prompt_sha256": "6bd27ad21d912bd4e8be259e716467753fea35bfc26576de1b913f055e1919b1",
    "prompt_file": "jobs/j0015-base-real-anime/prompts/kg1-ag1-cg1-hp1-xs1__el.fe__fantasy-world__chatgpt__1.txt"
   }
- ]
+ ],
+ "retired": "2026-11-10",
+ "hold": "지금은 문앙 무협만 — 화풍 비교는 캐릭터 하나로(사용자 2026-11-10 「문앙 무협으로만 그리도록 지시해줘」)"
 }
