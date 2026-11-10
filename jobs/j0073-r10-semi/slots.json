@@ -1,0 +1,198 @@
+{
+ "job": "j0073-r10-semi",
+ "round": 10,
+ "created": "2026-11-11",
+ "model": "chatgpt",
+ "label": "r10-semi",
+ "size": 2,
+ "slots": [
+  {
+   "slot": "km2-sp3-og4-rg2-x01__sam.wenyang__samguk-world-slit",
+   "file": "km2-sp3-og4-rg2-x01__sam.wenyang__samguk-world-slit__chatgpt__3",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "slit",
+   "model": "chatgpt",
+   "n": 3,
+   "recipe": {
+    "id": "km2-sp3-og4-rg2-x01",
+    "name": "kr_semi_oil_rim",
+    "display": "반실사 · 그린 살결 · 유화 글레이즈 · 얼굴 말 뺌 — 림 라이트 · 강한 하이라이트 (한국 MMORPG)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_mmorpg",
+      "v": "v2",
+      "code": "km",
+      "ko": "한국 MMORPG",
+      "pairs": {
+       "face": [
+        "semi_soft",
+        "semi_paint",
+        "semi_ideal",
+        "illustrated",
+        "anime_adult"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "semi_paint",
+      "v": "v3",
+      "code": "sp",
+      "ko": "반실사 · 그린 살결",
+      "pairs": {
+       "paint": [
+        "smooth",
+        "painted_refined",
+        "brush_layered",
+        "oil_glaze",
+        "oil_brush",
+        "impasto",
+        "matte_soft"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "oil_glaze",
+      "v": "v4",
+      "code": "og",
+      "ko": "유화 글레이즈 · 얼굴 말 뺌",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "rim_gloss",
+      "v": "v2",
+      "code": "rg",
+      "ko": "림 라이트 · 강한 하이라이트",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0",
+      "ko": "미지정",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": []
+   },
+   "subject_overrides": [
+    "head: character card illustration → character image",
+    "faceFrame:  in this style → ",
+    "costume: a plumed helmet or a war headband → a war headband with a single white plume",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined"
+   ],
+   "prompt_sha256": "6c00d89cb315f68c748bbc8e0b2283e20b363ac91371393b69f5596376865f24",
+   "prompt_file": "jobs/j0073-r10-semi/prompts/km2-sp3-og4-rg2-x01__sam.wenyang__samguk-world-slit__chatgpt__3.txt"
+  },
+  {
+   "slot": "km2-sp3-og4-rg2-x01__sam.wenyang__samguk-world-slit",
+   "file": "km2-sp3-og4-rg2-x01__sam.wenyang__samguk-world-slit__chatgpt__4",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "slit",
+   "model": "chatgpt",
+   "n": 4,
+   "recipe": {
+    "id": "km2-sp3-og4-rg2-x01",
+    "name": "kr_semi_oil_rim",
+    "display": "반실사 · 그린 살결 · 유화 글레이즈 · 얼굴 말 뺌 — 림 라이트 · 강한 하이라이트 (한국 MMORPG)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_mmorpg",
+      "v": "v2",
+      "code": "km",
+      "ko": "한국 MMORPG",
+      "pairs": {
+       "face": [
+        "semi_soft",
+        "semi_paint",
+        "semi_ideal",
+        "illustrated",
+        "anime_adult"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "semi_paint",
+      "v": "v3",
+      "code": "sp",
+      "ko": "반실사 · 그린 살결",
+      "pairs": {
+       "paint": [
+        "smooth",
+        "painted_refined",
+        "brush_layered",
+        "oil_glaze",
+        "oil_brush",
+        "impasto",
+        "matte_soft"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "oil_glaze",
+      "v": "v4",
+      "code": "og",
+      "ko": "유화 글레이즈 · 얼굴 말 뺌",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "rim_gloss",
+      "v": "v2",
+      "code": "rg",
+      "ko": "림 라이트 · 강한 하이라이트",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0",
+      "ko": "미지정",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": []
+   },
+   "subject_overrides": [
+    "head: character card illustration → character image",
+    "faceFrame:  in this style → ",
+    "costume: a plumed helmet or a war headband → a war headband with a single white plume",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined"
+   ],
+   "prompt_sha256": "6c00d89cb315f68c748bbc8e0b2283e20b363ac91371393b69f5596376865f24",
+   "prompt_file": "jobs/j0073-r10-semi/prompts/km2-sp3-og4-rg2-x01__sam.wenyang__samguk-world-slit__chatgpt__4.txt"
+  }
+ ],
+ "retired": "2026-11-11",
+ "merged_into": [
+  "j0075-r10-semi"
+ ]
+}
