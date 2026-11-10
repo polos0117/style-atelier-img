@@ -6,13 +6,12 @@ GPT 세션: **묻지 않고 끝까지** 한다(그림을 보여 주고 확인을
 
 | 일감 | 차수 | 이름 | 그린 칸 | 모델 | 예약 |
 |---|---|---|---|---|---|
-| [j0036-r2-direction](j0036-r2-direction/REQUEST.md) | 2차 | r2-direction | 0 / 6 | chatgpt | — |
-| [j0037-r2-direction](j0037-r2-direction/REQUEST.md) | 2차 | r2-direction | 0 / 6 | chatgpt | — |
-| [j0040-r2-paint](j0040-r2-paint/REQUEST.md) | 2차 | r2-paint | 0 / 6 | chatgpt | — |
-| [j0041-r2-light](j0041-r2-light/REQUEST.md) | 2차 | r2-light | 0 / 6 | chatgpt | — |
-| [j0043-r2-fx](j0043-r2-fx/REQUEST.md) | 2차 | r2-fx | 0 / 4 | chatgpt | — |
 | [j0044-r2-face](j0044-r2-face/REQUEST.md) | 2차 | r2-face | 0 / 8 | chatgpt | — |
 | [j0045-r2-paint](j0045-r2-paint/REQUEST.md) | 2차 | r2-paint | 0 / 7 | chatgpt | — |
 | [j0046-r2-light](j0046-r2-light/REQUEST.md) | 2차 | r2-light | 0 / 6 | chatgpt | — |
+| [j0037-r2-direction](j0037-r2-direction/REQUEST.md) | 2차 | r2-direction | 0 / 6 | chatgpt | 예약 중 · ChatGPT j0037-r2-direction · a7878c08f0f · 10분 전 |
+| [j0040-r2-paint](j0040-r2-paint/REQUEST.md) | 2차 | r2-paint | 0 / 6 | chatgpt | 예약 중 · ChatGPT j0040-r2-paint · 1b445c46d93a · 5분 전 |
+| [j0041-r2-light](j0041-r2-light/REQUEST.md) | 2차 | r2-light | 0 / 6 | chatgpt | 예약 중 · chatgpt-d1921bb54c8f-j0041-r2-light · 3분 전 |
+| [j0043-r2-fx](j0043-r2-fx/REQUEST.md) | 2차 | r2-fx | 0 / 4 | chatgpt | 예약 중 · chatgpt · j0043-r2-fx · session 4de8254f · 2분 전 |
 
-닫힌 일감 3개.
+닫힌 일감 4개.

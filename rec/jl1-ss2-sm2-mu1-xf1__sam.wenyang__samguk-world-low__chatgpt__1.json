@@ -1,0 +1,97 @@
+{
+ "id": "jl1-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
+ "job": "j0036-r2-direction",
+ "slot": "jl1-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low",
+ "subject": "sam.wenyang",
+ "subject_commit": "89ab31a",
+ "world": "samguk",
+ "kind": "world",
+ "exposure": "low",
+ "model": "chatgpt",
+ "n": 1,
+ "recipe": {
+  "id": "jl1-ss2-sm2-mu1-xf1",
+  "name": null,
+  "display": "반실사 · 이상화 · 섬세 · 디지털 페인팅 · 매끄러움 — 차분 · 낮은 채도 · 깊은 그림자 · 이펙트 옅게(발광은 가늘고 적게) (일본 라이트노벨 표지)",
+  "parts": [
+   {
+    "axis": "direction",
+    "key": "jp_light_novel",
+    "v": "v1",
+    "code": "jl",
+    "ko": "일본 라이트노벨 표지",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "face",
+    "key": "semi_soft",
+    "v": "v2",
+    "code": "ss",
+    "ko": "반실사 · 이상화 · 섬세",
+    "pairs": {
+     "paint": [
+      "smooth",
+      "painted_refined",
+      "brush_layered",
+      "oil_glaze",
+      "oil_brush",
+      "impasto",
+      "matte_soft",
+      "photoreal_cgi"
+     ]
+    },
+    "requires": null
+   },
+   {
+    "axis": "paint",
+    "key": "smooth",
+    "v": "v2",
+    "code": "sm",
+    "ko": "디지털 페인팅 · 매끄러움",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "light",
+    "key": "muted",
+    "v": "v1",
+    "code": "mu",
+    "ko": "차분 · 낮은 채도 · 깊은 그림자",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "fx",
+    "key": "faint",
+    "v": "v1",
+    "code": "xf",
+    "ko": "옅게(발광은 가늘고 적게)",
+    "pairs": null,
+    "requires": null
+   }
+  ],
+  "untested": []
+ },
+ "prompt_file": "jobs/j0036-r2-direction/prompts/jl1-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1.txt",
+ "prompt_sha256": "3989f5bb07d9225c553f1a92443a201fd46ee0830ae1bd6aef1fe2b00ae64659",
+ "file": "img/sam.wenyang/samguk/jl1-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1.webp",
+ "thumb": "thumb/sam.wenyang/samguk/jl1-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1.webp",
+ "size": [
+  1024,
+  1536
+ ],
+ "resized_from": null,
+ "source": {
+  "name": "jl1-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1.webp",
+  "sha256": "1f0024c27fa91794f7504e8a66ac1d0df64b647238088c626d6042cff85bb0ca",
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "note": null,
+ "generation": null,
+ "added": "2026-11-10",
+ "rating": null
+}

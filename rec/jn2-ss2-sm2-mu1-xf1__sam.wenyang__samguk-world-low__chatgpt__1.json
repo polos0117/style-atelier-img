@@ -1,0 +1,104 @@
+{
+ "id": "jn2-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
+ "job": "j0036-r2-direction",
+ "slot": "jn2-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low",
+ "subject": "sam.wenyang",
+ "subject_commit": "89ab31a",
+ "world": "samguk",
+ "kind": "world",
+ "exposure": "low",
+ "model": "chatgpt",
+ "n": 1,
+ "recipe": {
+  "id": "jn2-ss2-sm2-mu1-xf1",
+  "name": null,
+  "display": "반실사 · 이상화 · 섬세 · 디지털 페인팅 · 매끄러움 — 차분 · 낮은 채도 · 깊은 그림자 · 이펙트 옅게(발광은 가늘고 적게) (일본 애니)",
+  "parts": [
+   {
+    "axis": "direction",
+    "key": "jp_anime",
+    "v": "v2",
+    "code": "jn",
+    "ko": "일본 애니",
+    "pairs": {
+     "face": [
+      "anime_adult",
+      "anime_gacha"
+     ]
+    },
+    "requires": null
+   },
+   {
+    "axis": "face",
+    "key": "semi_soft",
+    "v": "v2",
+    "code": "ss",
+    "ko": "반실사 · 이상화 · 섬세",
+    "pairs": {
+     "paint": [
+      "smooth",
+      "painted_refined",
+      "brush_layered",
+      "oil_glaze",
+      "oil_brush",
+      "impasto",
+      "matte_soft",
+      "photoreal_cgi"
+     ]
+    },
+    "requires": null
+   },
+   {
+    "axis": "paint",
+    "key": "smooth",
+    "v": "v2",
+    "code": "sm",
+    "ko": "디지털 페인팅 · 매끄러움",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "light",
+    "key": "muted",
+    "v": "v1",
+    "code": "mu",
+    "ko": "차분 · 낮은 채도 · 깊은 그림자",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "fx",
+    "key": "faint",
+    "v": "v1",
+    "code": "xf",
+    "ko": "옅게(발광은 가늘고 적게)",
+    "pairs": null,
+    "requires": null
+   }
+  ],
+  "untested": [
+   "direction/jp_anime 의 추천 짝 밖 — face anime_adult · anime_gacha"
+  ]
+ },
+ "prompt_file": "jobs/j0036-r2-direction/prompts/jn2-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1.txt",
+ "prompt_sha256": "1d56e7fda2080af5116b59b6f691f48b796e23fe089e5660ddaeaddf4f258cd2",
+ "file": "img/sam.wenyang/samguk/jn2-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1.webp",
+ "thumb": "thumb/sam.wenyang/samguk/jn2-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1.webp",
+ "size": [
+  1024,
+  1536
+ ],
+ "resized_from": null,
+ "source": {
+  "name": "jn2-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1.webp",
+  "sha256": "003ccaf9138578082756374ef0faaea4c9dbc18e955d4dbbcccd3df5c5a7b28d",
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "note": null,
+ "generation": null,
+ "added": "2026-11-10",
+ "rating": null
+}

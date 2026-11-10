@@ -173,6 +173,44 @@
    1
   ],
   [
+   "jg2-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
+   "sam.wenyang",
+   "samguk",
+   "world",
+   "low",
+   "chatgpt",
+   1,
+   "jg2-ss2-sm2-mu1-xf1",
+   "jp_game_paint@v2",
+   "semi_soft@v2",
+   "smooth@v2",
+   "muted@v1",
+   "faint@v1",
+   "j0036-r2-direction",
+   "2026-11-10",
+   null,
+   2
+  ],
+  [
+   "jl1-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
+   "sam.wenyang",
+   "samguk",
+   "world",
+   "low",
+   "chatgpt",
+   1,
+   "jl1-ss2-sm2-mu1-xf1",
+   "jp_light_novel@v1",
+   "semi_soft@v2",
+   "smooth@v2",
+   "muted@v1",
+   "faint@v1",
+   "j0036-r2-direction",
+   "2026-11-10",
+   null,
+   2
+  ],
+  [
    "jn1-aa1-ba1-dl1-x01__sam.wenyang__samguk-world__chatgpt__1",
    "sam.wenyang",
    "samguk",
@@ -211,6 +249,25 @@
    1
   ],
   [
+   "jn2-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
+   "sam.wenyang",
+   "samguk",
+   "world",
+   "low",
+   "chatgpt",
+   1,
+   "jn2-ss2-sm2-mu1-xf1",
+   "jp_anime@v2",
+   "semi_soft@v2",
+   "smooth@v2",
+   "muted@v1",
+   "faint@v1",
+   "j0036-r2-direction",
+   "2026-11-10",
+   null,
+   2
+  ],
+  [
    "kg1-ag1-cg1-hp1-xs1__sam.wenyang__samguk-world__chatgpt__1",
    "sam.wenyang",
    "samguk",
@@ -228,6 +285,25 @@
    "2026-11-10",
    null,
    1
+  ],
+  [
+   "kk1-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
+   "sam.wenyang",
+   "samguk",
+   "world",
+   "low",
+   "chatgpt",
+   1,
+   "kk1-ss2-sm2-mu1-xf1",
+   "kr_game_keyart@v1",
+   "semi_soft@v2",
+   "smooth@v2",
+   "muted@v1",
+   "faint@v1",
+   "j0036-r2-direction",
+   "2026-11-10",
+   null,
+   2
   ],
   [
    "km1-il1-pr1-cs1-xf1__sam.wenyang__samguk-world__chatgpt__1",
@@ -266,6 +342,25 @@
    "2026-11-10",
    null,
    1
+  ],
+  [
+   "km2-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
+   "sam.wenyang",
+   "samguk",
+   "world",
+   "low",
+   "chatgpt",
+   1,
+   "km2-ss2-sm2-mu1-xf1",
+   "kr_mmorpg@v2",
+   "semi_soft@v2",
+   "smooth@v2",
+   "muted@v1",
+   "faint@v1",
+   "j0036-r2-direction",
+   "2026-11-10",
+   null,
+   2
   ],
   [
    "kn1-aa1-ba1-dl1-x01__sam.wenyang__samguk-world__chatgpt__1",
@@ -323,6 +418,25 @@
    "2026-11-10",
    null,
    1
+  ],
+  [
+   "kp1-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
+   "sam.wenyang",
+   "samguk",
+   "world",
+   "low",
+   "chatgpt",
+   1,
+   "kp1-ss2-sm2-mu1-xf1",
+   "kr_mmorpg_promo@v1",
+   "semi_soft@v2",
+   "smooth@v2",
+   "muted@v1",
+   "faint@v1",
+   "j0036-r2-direction",
+   "2026-11-10",
+   null,
+   2
   ]
  ]
 }
