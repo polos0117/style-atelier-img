@@ -478,5 +478,7 @@
    "prompt_sha256": "1226a496796586d44357519668a5346019436c6a6aa2f15eb0b9c6c29e6799a4",
    "prompt_file": "jobs/j0021-r2-paint/prompts/km2-ss2-pp2-mu1-xf1__sam.wenyang__samguk-world__chatgpt__1.txt"
   }
- ]
+ ],
+ "retired": "2026-11-10",
+ "hold": "노출 bold 로 만든 2차 — 화풍 비교는 노출 줄 없이 다시 만든다(사용자 2026-11-10 「bold 를 화풍비교에선 빼자」)"
 }

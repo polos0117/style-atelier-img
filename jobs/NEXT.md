@@ -6,14 +6,13 @@ GPT 세션: **묻지 않고 끝까지** 한다(그림을 보여 주고 확인을
 
 | 일감 | 차수 | 이름 | 그린 칸 | 모델 | 예약 |
 |---|---|---|---|---|---|
-| [j0017-r2-direction](j0017-r2-direction/REQUEST.md) | 2차 | r2-direction | 0 / 6 | chatgpt | — |
-| [j0018-r2-direction](j0018-r2-direction/REQUEST.md) | 2차 | r2-direction | 0 / 6 | chatgpt | — |
-| [j0019-r2-face](j0019-r2-face/REQUEST.md) | 2차 | r2-face | 0 / 8 | chatgpt | — |
-| [j0020-r2-paint](j0020-r2-paint/REQUEST.md) | 2차 | r2-paint | 0 / 6 | chatgpt | — |
-| [j0021-r2-paint](j0021-r2-paint/REQUEST.md) | 2차 | r2-paint | 0 / 5 | chatgpt | — |
-| [j0022-r2-light](j0022-r2-light/REQUEST.md) | 2차 | r2-light | 0 / 6 | chatgpt | — |
-| [j0023-r2-light](j0023-r2-light/REQUEST.md) | 2차 | r2-light | 0 / 5 | chatgpt | — |
-| [j0024-r2-fx](j0024-r2-fx/REQUEST.md) | 2차 | r2-fx | 0 / 4 | chatgpt | — |
-| [j0027-r2-gloss](j0027-r2-gloss/REQUEST.md) | 2차 | r2-gloss | 0 / 3 | chatgpt | — |
+| [j0028-r2-direction](j0028-r2-direction/REQUEST.md) | 2차 | r2-direction | 0 / 6 | chatgpt | — |
+| [j0029-r2-direction](j0029-r2-direction/REQUEST.md) | 2차 | r2-direction | 0 / 6 | chatgpt | — |
+| [j0030-r2-face](j0030-r2-face/REQUEST.md) | 2차 | r2-face | 0 / 8 | chatgpt | — |
+| [j0031-r2-paint](j0031-r2-paint/REQUEST.md) | 2차 | r2-paint | 0 / 7 | chatgpt | — |
+| [j0032-r2-paint](j0032-r2-paint/REQUEST.md) | 2차 | r2-paint | 0 / 6 | chatgpt | — |
+| [j0033-r2-light](j0033-r2-light/REQUEST.md) | 2차 | r2-light | 0 / 6 | chatgpt | — |
+| [j0034-r2-light](j0034-r2-light/REQUEST.md) | 2차 | r2-light | 0 / 6 | chatgpt | — |
+| [j0035-r2-fx](j0035-r2-fx/REQUEST.md) | 2차 | r2-fx | 0 / 4 | chatgpt | — |
 
 닫힌 일감 3개.
