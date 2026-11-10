@@ -17,7 +17,8 @@
   "job",
   "added",
   "rating",
-  "round"
+  "round",
+  "bg"
  ],
  "rows": [
   [
@@ -37,7 +38,8 @@
    "j0001-base",
    "2026-11-10",
    null,
-   1
+   1,
+   ""
   ],
   [
    "an1-aa1-ms1-oc1-x01__sam.wenyang__samguk-world__chatgpt__1",
@@ -56,7 +58,8 @@
    "j0002-base",
    "2026-11-10",
    null,
-   1
+   1,
+   ""
   ],
   [
    "cc1-ci1-pc1-ch1-x01__sam.wenyang__samguk-world__chatgpt__1",
@@ -75,7 +78,8 @@
    "j0013-base-real-anime",
    "2026-11-10",
    null,
-   1
+   1,
+   ""
   ],
   [
    "cc2-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -94,7 +98,8 @@
    "j0037-r2-direction",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "cl1-ss1-og1-ws1-x01__sam.wenyang__samguk-world__chatgpt__1",
@@ -113,7 +118,8 @@
    "j0001-base",
    "2026-11-10",
    null,
-   1
+   1,
+   ""
   ],
   [
    "f31-s31-r31-gs1-x01__sam.wenyang__samguk-world__chatgpt__1",
@@ -132,7 +138,8 @@
    "j0001-base",
    "2026-11-10",
    null,
-   1
+   1,
+   ""
   ],
   [
    "fp1-si1-im1-dr1-x01__sam.wenyang__samguk-world__chatgpt__1",
@@ -151,7 +158,8 @@
    "j0002-base",
    "2026-11-10",
    null,
-   1
+   1,
+   ""
   ],
   [
    "j32-ag2-cg2-hp2-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -170,7 +178,8 @@
    "j0048-r3-direction",
    "2026-11-10",
    null,
-   3
+   3,
+   ""
   ],
   [
    "j32-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -189,7 +198,8 @@
    "j0037-r2-direction",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "ja1-ag1-cg1-hp1-xs1__sam.wenyang__samguk-world__chatgpt__1",
@@ -208,7 +218,8 @@
    "j0013-base-real-anime",
    "2026-11-10",
    null,
-   1
+   1,
+   ""
   ],
   [
    "ja2-aa2-cg2-hp2-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -227,7 +238,8 @@
    "j0049-r3-face",
    "2026-11-10",
    null,
-   3
+   3,
+   ""
   ],
   [
    "ja2-ag2-ba3-hp2-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -246,7 +258,8 @@
    "j0050-r3-paint",
    "2026-11-10",
    null,
-   3
+   3,
+   ""
   ],
   [
    "ja2-ag2-bl2-hp2-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -265,7 +278,8 @@
    "j0050-r3-paint",
    "2026-11-10",
    null,
-   3
+   3,
+   ""
   ],
   [
    "ja2-ag2-cg2-ch2-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -284,7 +298,8 @@
    "j0052-r3-light",
    "2026-11-10",
    null,
-   3
+   3,
+   ""
   ],
   [
    "ja2-ag2-cg2-cl1-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -303,7 +318,8 @@
    "j0052-r3-light",
    "2026-11-10",
    null,
-   3
+   3,
+   ""
   ],
   [
    "ja2-ag2-cg2-cs1-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -322,7 +338,8 @@
    "j0051-r3-light",
    "2026-11-10",
    null,
-   3
+   3,
+   ""
   ],
   [
    "ja2-ag2-cg2-dl2-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -341,7 +358,8 @@
    "j0051-r3-light",
    "2026-11-10",
    null,
-   3
+   3,
+   ""
   ],
   [
    "ja2-ag2-cg2-dr2-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -360,7 +378,8 @@
    "j0052-r3-light",
    "2026-11-10",
    null,
-   3
+   3,
+   ""
   ],
   [
    "ja2-ag2-cg2-gs1-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -379,7 +398,8 @@
    "j0052-r3-light",
    "2026-11-10",
    null,
-   3
+   3,
+   ""
   ],
   [
    "ja2-ag2-cg2-hn2-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -398,7 +418,8 @@
    "j0052-r3-light",
    "2026-11-10",
    null,
-   3
+   3,
+   ""
   ],
   [
    "ja2-ag2-cg2-hp2-x01__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -417,7 +438,8 @@
    "j0053-r3-fx",
    "2026-11-10",
    null,
-   3
+   3,
+   ""
   ],
   [
    "ja2-ag2-cg2-hp2-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -436,7 +458,8 @@
    "j0053-r3-fx",
    "2026-11-10",
    null,
-   3
+   3,
+   ""
   ],
   [
    "ja2-ag2-cg2-hp2-xn1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -455,7 +478,8 @@
    "j0053-r3-fx",
    "2026-11-10",
    null,
-   3
+   3,
+   ""
   ],
   [
    "ja2-ag2-cg2-hp2-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -474,7 +498,8 @@
    "j0048-r3-direction",
    "2026-11-10",
    null,
-   3
+   3,
+   ""
   ],
   [
    "ja2-ag2-cg2-hp2-xs1__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -493,7 +518,8 @@
    "j0077-r12-spread",
    "2026-11-11",
    null,
-   12
+   12,
+   ""
   ],
   [
    "ja2-ag2-cg2-hp2-xx1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -512,7 +538,8 @@
    "j0053-r3-fx",
    "2026-11-10",
    null,
-   3
+   3,
+   ""
   ],
   [
    "ja2-ag2-cg2-md2-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -531,7 +558,8 @@
    "j0051-r3-light",
    "2026-11-10",
    null,
-   3
+   3,
+   ""
   ],
   [
    "ja2-ag2-cg2-mu1-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -550,7 +578,8 @@
    "j0051-r3-light",
    "2026-11-10",
    null,
-   3
+   3,
+   ""
   ],
   [
    "ja2-ag2-cg2-oc1-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -569,7 +598,8 @@
    "j0051-r3-light",
    "2026-11-10",
    null,
-   3
+   3,
+   ""
   ],
   [
    "ja2-ag2-cg2-rg1-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -588,7 +618,8 @@
    "j0052-r3-light",
    "2026-11-10",
    null,
-   3
+   3,
+   ""
   ],
   [
    "ja2-ag2-cg2-ws2-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -607,7 +638,8 @@
    "j0051-r3-light",
    "2026-11-10",
    null,
-   3
+   3,
+   ""
   ],
   [
    "ja2-ag2-gd1-hp2-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -626,7 +658,8 @@
    "j0050-r3-paint",
    "2026-11-10",
    null,
-   3
+   3,
+   ""
   ],
   [
    "ja2-ag2-ms2-hp2-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -645,7 +678,8 @@
    "j0050-r3-paint",
    "2026-11-10",
    null,
-   3
+   3,
+   ""
   ],
   [
    "ja2-ag2-ob2-hp2-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -664,7 +698,8 @@
    "j0050-r3-paint",
    "2026-11-10",
    null,
-   3
+   3,
+   ""
   ],
   [
    "ja2-ag2-og3-hp2-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -683,7 +718,8 @@
    "j0050-r3-paint",
    "2026-11-10",
    null,
-   3
+   3,
+   ""
   ],
   [
    "ja2-ag2-p31-hp2-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -702,7 +738,8 @@
    "j0050-r3-paint",
    "2026-11-10",
    null,
-   3
+   3,
+   ""
   ],
   [
    "ja2-ag2-pr2-hp2-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -721,7 +758,8 @@
    "j0050-r3-paint",
    "2026-11-10",
    null,
-   3
+   3,
+   ""
   ],
   [
    "ja2-ag2-sm2-hp2-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -740,7 +778,8 @@
    "j0050-r3-paint",
    "2026-11-10",
    null,
-   3
+   3,
+   ""
   ],
   [
    "ja2-ci2-cg2-hp2-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -759,7 +798,8 @@
    "j0049-r3-face",
    "2026-11-10",
    null,
-   3
+   3,
+   ""
   ],
   [
    "ja2-il2-cg2-hp2-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -778,7 +818,8 @@
    "j0049-r3-face",
    "2026-11-10",
    null,
-   3
+   3,
+   ""
   ],
   [
    "ja2-rn3-cg2-hp2-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -797,7 +838,8 @@
    "j0049-r3-face",
    "2026-11-10",
    null,
-   3
+   3,
+   ""
   ],
   [
    "ja2-s32-cg2-hp2-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -816,7 +858,8 @@
    "j0049-r3-face",
    "2026-11-10",
    null,
-   3
+   3,
+   ""
   ],
   [
    "ja2-si1-cg2-hp2-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -835,7 +878,8 @@
    "j0049-r3-face",
    "2026-11-10",
    null,
-   3
+   3,
+   ""
   ],
   [
    "ja2-sp2-cg2-hp2-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -854,7 +898,8 @@
    "j0049-r3-face",
    "2026-11-10",
    null,
-   3
+   3,
+   ""
   ],
   [
    "ja2-ss2-cg2-hp2-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -873,7 +918,8 @@
    "j0049-r3-face",
    "2026-11-10",
    null,
-   3
+   3,
+   ""
   ],
   [
    "ja2-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -892,7 +938,8 @@
    "j0037-r2-direction",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "jg1-sp1-bl1-md1-x01__sam.wenyang__samguk-world__chatgpt__1",
@@ -911,7 +958,8 @@
    "j0002-base",
    "2026-11-10",
    null,
-   1
+   1,
+   ""
   ],
   [
    "jg2-ag2-cg2-hp2-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -930,7 +978,8 @@
    "j0047-r3-direction",
    "2026-11-10",
    null,
-   3
+   3,
+   ""
   ],
   [
    "jg2-sp3-bl2-md2-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -949,7 +998,8 @@
    "j0077-r12-spread",
    "2026-11-11",
    null,
-   12
+   12,
+   ""
   ],
   [
    "jg2-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -968,7 +1018,8 @@
    "j0036-r2-direction",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "jl1-aa2-ba3-mu1-x01__sam.wenyang__samguk-world-moderate__chatgpt__1",
@@ -987,7 +1038,8 @@
    "j0055-r4-cross",
    "2026-11-10",
    null,
-   4
+   4,
+   ""
   ],
   [
    "jl1-aa2-ob2-mu1-x01__sam.wenyang__samguk-world-moderate__chatgpt__1",
@@ -1006,7 +1058,8 @@
    "j0055-r4-cross",
    "2026-11-10",
    null,
-   4
+   4,
+   ""
   ],
   [
    "jl1-aa2-og3-mu1-x01__sam.wenyang__samguk-world-moderate__chatgpt__1",
@@ -1025,7 +1078,8 @@
    "j0055-r4-cross",
    "2026-11-10",
    null,
-   4
+   4,
+   ""
   ],
   [
    "jl1-ag2-cg2-hp2-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -1044,7 +1098,8 @@
    "j0047-r3-direction",
    "2026-11-10",
    null,
-   3
+   3,
+   ""
   ],
   [
    "jl1-il2-ba3-mu1-x01__sam.wenyang__samguk-world-moderate__chatgpt__1",
@@ -1063,7 +1118,8 @@
    "j0055-r4-cross",
    "2026-11-10",
    null,
-   4
+   4,
+   ""
   ],
   [
    "jl1-il2-ob2-mu1-x01__sam.wenyang__samguk-world-moderate__chatgpt__1",
@@ -1082,7 +1138,8 @@
    "j0055-r4-cross",
    "2026-11-10",
    null,
-   4
+   4,
+   ""
   ],
   [
    "jl1-il2-og3-cl1-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -1101,7 +1158,8 @@
    "j0056-r5-light",
    "2026-11-10",
    null,
-   5
+   5,
+   ""
   ],
   [
    "jl1-il2-og3-cs1-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -1120,7 +1178,8 @@
    "j0056-r5-light",
    "2026-11-10",
    null,
-   5
+   5,
+   ""
   ],
   [
    "jl1-il2-og3-gs1-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -1139,7 +1198,8 @@
    "j0056-r5-light",
    "2026-11-10",
    null,
-   5
+   5,
+   ""
   ],
   [
    "jl1-il2-og3-gs1-x01__sam.wenyang__samguk-world-slit__chatgpt__2",
@@ -1158,7 +1218,8 @@
    "j0063-r6-repeat",
    "2026-11-10",
    null,
-   6
+   6,
+   ""
   ],
   [
    "jl1-il2-og3-gs1-x01__sam.wenyang__samguk-world-slit__chatgpt__3",
@@ -1177,7 +1238,8 @@
    "j0063-r6-repeat",
    "2026-11-10",
    null,
-   6
+   6,
+   ""
   ],
   [
    "jl1-il2-og3-gs1-x01__sam.wenyang__samguk-world-slit__chatgpt__4",
@@ -1196,7 +1258,8 @@
    "j0064-r7-headband",
    "2026-11-10",
    null,
-   7
+   7,
+   ""
   ],
   [
    "jl1-il2-og3-gs1-x01__sam.wenyang__samguk-world-slit__chatgpt__5",
@@ -1215,7 +1278,8 @@
    "j0064-r7-headband",
    "2026-11-10",
    null,
-   7
+   7,
+   ""
   ],
   [
    "jl1-il2-og3-gs1-x01__sam.wenyang__samguk-world-slit__chatgpt__6",
@@ -1234,7 +1298,8 @@
    "j0065-r7-daytime",
    "2026-11-10",
    null,
-   7
+   7,
+   ""
   ],
   [
    "jl1-il2-og3-gs1-x01__sam.wenyang__samguk-world-slit__chatgpt__7",
@@ -1253,7 +1318,8 @@
    "j0065-r7-daytime",
    "2026-11-10",
    null,
-   7
+   7,
+   ""
   ],
   [
    "jl1-il2-og3-hp2-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -1272,7 +1338,8 @@
    "j0056-r5-light",
    "2026-11-10",
    null,
-   5
+   5,
+   ""
   ],
   [
    "jl1-il2-og3-mu1-x01__sam.wenyang__samguk-world-moderate__chatgpt__1",
@@ -1291,7 +1358,8 @@
    "j0055-r4-cross",
    "2026-11-10",
    null,
-   4
+   4,
+   ""
   ],
   [
    "jl1-il2-og3-mu1-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -1310,7 +1378,8 @@
    "j0056-r5-light",
    "2026-11-10",
    null,
-   5
+   5,
+   ""
   ],
   [
    "jl1-il2-og3-mu2-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -1329,7 +1398,8 @@
    "j0060-r5-light",
    "2026-11-10",
    null,
-   5
+   5,
+   ""
   ],
   [
    "jl1-il2-og3-rg1-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -1348,7 +1418,8 @@
    "j0056-r5-light",
    "2026-11-10",
    null,
-   5
+   5,
+   ""
   ],
   [
    "jl1-il2-og3-rg2-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -1367,7 +1438,8 @@
    "j0060-r5-light",
    "2026-11-10",
    null,
-   5
+   5,
+   ""
   ],
   [
    "jl1-il2-og3-ws2-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -1386,7 +1458,8 @@
    "j0056-r5-light",
    "2026-11-10",
    null,
-   5
+   5,
+   ""
   ],
   [
    "jl1-il2-og4-gs1-x01__sam.wenyang__fantasy-world-slit__chatgpt__1",
@@ -1405,7 +1478,8 @@
    "j0076-r11-worlds",
    "2026-11-11",
    null,
-   11
+   11,
+   ""
   ],
   [
    "jl1-il2-og4-gs1-x01__sam.wenyang__mecha-world-slit__chatgpt__1",
@@ -1424,7 +1498,8 @@
    "j0076-r11-worlds",
    "2026-11-11",
    null,
-   11
+   11,
+   ""
   ],
   [
    "jl1-il2-og4-gs1-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -1443,7 +1518,8 @@
    "j0072-r9-oil",
    "2026-11-11",
    null,
-   9
+   9,
+   ""
   ],
   [
    "jl1-il2-og4-gs1-x01__sam.wenyang__samguk-world-slit__chatgpt__2",
@@ -1462,7 +1538,8 @@
    "j0072-r9-oil",
    "2026-11-11",
    null,
-   9
+   9,
+   ""
   ],
   [
    "jl1-il3-og4-gs1-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -1481,7 +1558,8 @@
    "j0069-r8-face",
    "2026-11-10",
    null,
-   8
+   8,
+   ""
   ],
   [
    "jl1-il3-og4-gs1-x01__sam.wenyang__samguk-world-slit__chatgpt__2",
@@ -1500,7 +1578,8 @@
    "j0069-r8-face",
    "2026-11-10",
    null,
-   8
+   8,
+   ""
   ],
   [
    "jl1-sp2-ba3-mu1-x01__sam.wenyang__samguk-world-moderate__chatgpt__1",
@@ -1519,7 +1598,8 @@
    "j0055-r4-cross",
    "2026-11-10",
    null,
-   4
+   4,
+   ""
   ],
   [
    "jl1-sp2-ob2-mu1-x01__sam.wenyang__samguk-world-moderate__chatgpt__1",
@@ -1538,7 +1618,8 @@
    "j0055-r4-cross",
    "2026-11-10",
    null,
-   4
+   4,
+   ""
   ],
   [
    "jl1-sp2-og3-mu1-x01__sam.wenyang__samguk-world-moderate__chatgpt__1",
@@ -1557,7 +1638,8 @@
    "j0055-r4-cross",
    "2026-11-10",
    null,
-   4
+   4,
+   ""
   ],
   [
    "jl1-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -1576,7 +1658,8 @@
    "j0036-r2-direction",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "jn1-aa1-ba1-dl1-x01__sam.wenyang__samguk-world__chatgpt__1",
@@ -1595,7 +1678,8 @@
    "j0013-base-real-anime",
    "2026-11-10",
    null,
-   1
+   1,
+   ""
   ],
   [
    "jn1-aa1-ms1-oc1-x01__sam.wenyang__samguk-world__chatgpt__1",
@@ -1614,7 +1698,8 @@
    "j0013-base-real-anime",
    "2026-11-10",
    null,
-   1
+   1,
+   ""
   ],
   [
    "jn2-aa2-ms2-oc1-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -1633,7 +1718,8 @@
    "j0077-r12-spread",
    "2026-11-11",
    null,
-   12
+   12,
+   ""
   ],
   [
    "jn2-ag2-cg2-hp2-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -1652,7 +1738,8 @@
    "j0047-r3-direction",
    "2026-11-10",
    null,
-   3
+   3,
+   ""
   ],
   [
    "jn2-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -1671,7 +1758,8 @@
    "j0036-r2-direction",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "k32-ag2-cg2-hp2-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -1690,7 +1778,8 @@
    "j0048-r3-direction",
    "2026-11-10",
    null,
-   3
+   3,
+   ""
   ],
   [
    "k32-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -1709,7 +1798,8 @@
    "j0037-r2-direction",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "kg1-ag1-cg1-hp1-xs1__sam.wenyang__samguk-world__chatgpt__1",
@@ -1728,7 +1818,8 @@
    "j0013-base-real-anime",
    "2026-11-10",
    null,
-   1
+   1,
+   ""
   ],
   [
    "kg2-ag2-cg2-hp2-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -1747,7 +1838,8 @@
    "j0048-r3-direction",
    "2026-11-10",
    null,
-   3
+   3,
+   ""
   ],
   [
    "kg2-ag2-gd1-rg2-xs1__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -1766,7 +1858,8 @@
    "j0077-r12-spread",
    "2026-11-11",
    null,
-   12
+   12,
+   ""
   ],
   [
    "kg2-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -1785,7 +1878,8 @@
    "j0037-r2-direction",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "kk1-ag2-cg2-hp2-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -1804,7 +1898,8 @@
    "j0047-r3-direction",
    "2026-11-10",
    null,
-   3
+   3,
+   ""
   ],
   [
    "kk1-si1-p31-cl1-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -1823,7 +1918,8 @@
    "j0077-r12-spread",
    "2026-11-11",
    null,
-   12
+   12,
+   ""
   ],
   [
    "kk1-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -1842,7 +1938,8 @@
    "j0036-r2-direction",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "km1-il1-pr1-cs1-xf1__sam.wenyang__samguk-world__chatgpt__1",
@@ -1861,7 +1958,8 @@
    "j0002-base",
    "2026-11-10",
    null,
-   1
+   1,
+   ""
   ],
   [
    "km1-ss1-sm1-mu1-xf1__sam.wenyang__samguk-world__chatgpt__1",
@@ -1880,7 +1978,8 @@
    "j0001-base",
    "2026-11-10",
    null,
-   1
+   1,
+   ""
   ],
   [
    "km2-aa2-ba3-cl1-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -1899,7 +1998,8 @@
    "j0056-r5-light",
    "2026-11-10",
    null,
-   5
+   5,
+   ""
   ],
   [
    "km2-aa2-ba3-cs1-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -1918,7 +2018,8 @@
    "j0056-r5-light",
    "2026-11-10",
    null,
-   5
+   5,
+   ""
   ],
   [
    "km2-aa2-ba3-gs1-x01__sam.wenyang__fantasy-world-slit__chatgpt__1",
@@ -1937,7 +2038,8 @@
    "j0076-r11-worlds",
    "2026-11-11",
    null,
-   11
+   11,
+   ""
   ],
   [
    "km2-aa2-ba3-gs1-x01__sam.wenyang__mecha-world-slit__chatgpt__1",
@@ -1956,7 +2058,8 @@
    "j0076-r11-worlds",
    "2026-11-11",
    null,
-   11
+   11,
+   ""
   ],
   [
    "km2-aa2-ba3-gs1-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -1975,7 +2078,8 @@
    "j0057-r5-light",
    "2026-11-10",
    null,
-   5
+   5,
+   ""
   ],
   [
    "km2-aa2-ba3-gs1-x01__sam.wenyang__samguk-world-slit__chatgpt__2",
@@ -1994,7 +2098,8 @@
    "j0063-r6-repeat",
    "2026-11-10",
    null,
-   6
+   6,
+   ""
   ],
   [
    "km2-aa2-ba3-gs1-x01__sam.wenyang__samguk-world-slit__chatgpt__3",
@@ -2013,7 +2118,8 @@
    "j0063-r6-repeat",
    "2026-11-10",
    null,
-   6
+   6,
+   ""
   ],
   [
    "km2-aa2-ba3-gs1-x01__sam.wenyang__samguk-world-slit__chatgpt__4",
@@ -2032,7 +2138,8 @@
    "j0069-r8-face",
    "2026-11-10",
    null,
-   8
+   8,
+   ""
   ],
   [
    "km2-aa2-ba3-gs1-x01__sam.wenyang__samguk-world-slit__chatgpt__5",
@@ -2051,7 +2158,8 @@
    "j0072-r9-oil",
    "2026-11-11",
    null,
-   9
+   9,
+   ""
   ],
   [
    "km2-aa2-ba3-gs1-x01__sam.wenyang__samguk-world-slit__chatgpt__6",
@@ -2070,7 +2178,8 @@
    "j0075-r10-semi",
    "2026-11-11",
    null,
-   10
+   10,
+   ""
   ],
   [
    "km2-aa2-ba3-hp2-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -2089,7 +2198,8 @@
    "j0057-r5-light",
    "2026-11-10",
    null,
-   5
+   5,
+   ""
   ],
   [
    "km2-aa2-ba3-mu1-x01__sam.wenyang__samguk-world-moderate__chatgpt__1",
@@ -2108,7 +2218,8 @@
    "j0054-r4-cross",
    "2026-11-10",
    null,
-   4
+   4,
+   ""
   ],
   [
    "km2-aa2-ba3-mu1-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -2127,7 +2238,8 @@
    "j0056-r5-light",
    "2026-11-10",
    null,
-   5
+   5,
+   ""
   ],
   [
    "km2-aa2-ba3-mu2-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -2146,7 +2258,8 @@
    "j0060-r5-light",
    "2026-11-10",
    null,
-   5
+   5,
+   ""
   ],
   [
    "km2-aa2-ba3-rg1-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -2165,7 +2278,8 @@
    "j0057-r5-light",
    "2026-11-10",
    null,
-   5
+   5,
+   ""
   ],
   [
    "km2-aa2-ba3-rg2-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -2184,7 +2298,8 @@
    "j0060-r5-light",
    "2026-11-10",
    null,
-   5
+   5,
+   ""
   ],
   [
    "km2-aa2-ba3-ws2-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -2203,7 +2318,8 @@
    "j0057-r5-light",
    "2026-11-10",
    null,
-   5
+   5,
+   ""
   ],
   [
    "km2-aa2-ob2-mu1-x01__sam.wenyang__samguk-world-moderate__chatgpt__1",
@@ -2222,7 +2338,8 @@
    "j0054-r4-cross",
    "2026-11-10",
    null,
-   4
+   4,
+   ""
   ],
   [
    "km2-aa2-og3-mu1-x01__sam.wenyang__samguk-world-moderate__chatgpt__1",
@@ -2241,7 +2358,8 @@
    "j0054-r4-cross",
    "2026-11-10",
    null,
-   4
+   4,
+   ""
   ],
   [
    "km2-aa2-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -2260,7 +2378,8 @@
    "j0044-r2-face",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "km2-ag2-cg2-hp2-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -2279,7 +2398,8 @@
    "j0047-r3-direction",
    "2026-11-10",
    null,
-   3
+   3,
+   ""
   ],
   [
    "km2-ag2-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -2298,7 +2418,8 @@
    "j0044-r2-face",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "km2-ci2-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -2317,7 +2438,8 @@
    "j0044-r2-face",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "km2-il2-ba3-cl1-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -2336,7 +2458,8 @@
    "j0057-r5-light",
    "2026-11-10",
    null,
-   5
+   5,
+   ""
   ],
   [
    "km2-il2-ba3-cl1-x01__sam.wenyang__samguk-world-slit__chatgpt__2",
@@ -2355,7 +2478,8 @@
    "j0077-r12-spread",
    "2026-11-11",
    null,
-   12
+   12,
+   ""
   ],
   [
    "km2-il2-ba3-cs1-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -2374,7 +2498,8 @@
    "j0057-r5-light",
    "2026-11-10",
    null,
-   5
+   5,
+   ""
   ],
   [
    "km2-il2-ba3-gs1-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -2393,7 +2518,8 @@
    "j0057-r5-light",
    "2026-11-10",
    null,
-   5
+   5,
+   ""
   ],
   [
    "km2-il2-ba3-hp2-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -2412,7 +2538,8 @@
    "j0057-r5-light",
    "2026-11-10",
    null,
-   5
+   5,
+   ""
   ],
   [
    "km2-il2-ba3-mu1-x01__sam.wenyang__samguk-world-moderate__chatgpt__1",
@@ -2431,7 +2558,8 @@
    "j0054-r4-cross",
    "2026-11-10",
    null,
-   4
+   4,
+   ""
   ],
   [
    "km2-il2-ba3-mu1-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -2450,7 +2578,8 @@
    "j0057-r5-light",
    "2026-11-10",
    null,
-   5
+   5,
+   ""
   ],
   [
    "km2-il2-ba3-mu2-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -2469,7 +2598,8 @@
    "j0060-r5-light",
    "2026-11-10",
    null,
-   5
+   5,
+   ""
   ],
   [
    "km2-il2-ba3-rg1-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -2488,7 +2618,8 @@
    "j0057-r5-light",
    "2026-11-10",
    null,
-   5
+   5,
+   ""
   ],
   [
    "km2-il2-ba3-rg2-x01__sam.wenyang__fantasy-world-slit__chatgpt__1",
@@ -2507,7 +2638,28 @@
    "j0076-r11-worlds",
    "2026-11-11",
    null,
-   11
+   11,
+   ""
+  ],
+  [
+   "km2-il2-ba3-rg2-x01__sam.wenyang__fantasy-world-slit~cr1__api26__1",
+   "sam.wenyang",
+   "fantasy",
+   "world",
+   "slit",
+   "api26",
+   1,
+   "km2-il2-ba3-rg2-x01",
+   "kr_mmorpg@v2",
+   "illustrated@v2",
+   "brush_anime@v3",
+   "rim_gloss@v2",
+   "none@v1",
+   "j0078-r13-canvas",
+   "2026-11-11",
+   null,
+   13,
+   "canvas_rough@v1"
   ],
   [
    "km2-il2-ba3-rg2-x01__sam.wenyang__mecha-world-slit__chatgpt__1",
@@ -2526,7 +2678,28 @@
    "j0076-r11-worlds",
    "2026-11-11",
    null,
-   11
+   11,
+   ""
+  ],
+  [
+   "km2-il2-ba3-rg2-x01__sam.wenyang__mecha-world-slit~cr1__api26__1",
+   "sam.wenyang",
+   "mecha",
+   "world",
+   "slit",
+   "api26",
+   1,
+   "km2-il2-ba3-rg2-x01",
+   "kr_mmorpg@v2",
+   "illustrated@v2",
+   "brush_anime@v3",
+   "rim_gloss@v2",
+   "none@v1",
+   "j0078-r13-canvas",
+   "2026-11-11",
+   null,
+   13,
+   "canvas_rough@v1"
   ],
   [
    "km2-il2-ba3-rg2-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -2545,7 +2718,8 @@
    "j0060-r5-light",
    "2026-11-10",
    null,
-   5
+   5,
+   ""
   ],
   [
    "km2-il2-ba3-rg2-x01__sam.wenyang__samguk-world-slit__chatgpt__2",
@@ -2564,7 +2738,8 @@
    "j0063-r6-repeat",
    "2026-11-10",
    null,
-   6
+   6,
+   ""
   ],
   [
    "km2-il2-ba3-rg2-x01__sam.wenyang__samguk-world-slit__chatgpt__3",
@@ -2583,7 +2758,28 @@
    "j0063-r6-repeat",
    "2026-11-10",
    null,
-   6
+   6,
+   ""
+  ],
+  [
+   "km2-il2-ba3-rg2-x01__sam.wenyang__samguk-world-slit~cr1__api26__1",
+   "sam.wenyang",
+   "samguk",
+   "world",
+   "slit",
+   "api26",
+   1,
+   "km2-il2-ba3-rg2-x01",
+   "kr_mmorpg@v2",
+   "illustrated@v2",
+   "brush_anime@v3",
+   "rim_gloss@v2",
+   "none@v1",
+   "j0078-r13-canvas",
+   "2026-11-11",
+   null,
+   13,
+   "canvas_rough@v1"
   ],
   [
    "km2-il2-ba3-ws2-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -2602,7 +2798,8 @@
    "j0060-r5-light",
    "2026-11-10",
    null,
-   5
+   5,
+   ""
   ],
   [
    "km2-il2-ob2-mu1-x01__sam.wenyang__samguk-world-moderate__chatgpt__1",
@@ -2621,7 +2818,8 @@
    "j0054-r4-cross",
    "2026-11-10",
    null,
-   4
+   4,
+   ""
   ],
   [
    "km2-il2-og3-mu1-x01__sam.wenyang__samguk-world-moderate__chatgpt__1",
@@ -2640,7 +2838,8 @@
    "j0054-r4-cross",
    "2026-11-10",
    null,
-   4
+   4,
+   ""
   ],
   [
    "km2-il2-pr2-cs1-xf1__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -2659,7 +2858,8 @@
    "j0077-r12-spread",
    "2026-11-11",
    null,
-   12
+   12,
+   ""
   ],
   [
    "km2-il2-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -2678,7 +2878,8 @@
    "j0044-r2-face",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "km2-il3-ba3-rg2-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -2697,7 +2898,8 @@
    "j0069-r8-face",
    "2026-11-10",
    null,
-   8
+   8,
+   ""
   ],
   [
    "km2-rn3-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -2716,7 +2918,8 @@
    "j0044-r2-face",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "km2-s32-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -2735,7 +2938,8 @@
    "j0044-r2-face",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "km2-si1-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -2754,7 +2958,8 @@
    "j0044-r2-face",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "km2-sp2-ba3-mu1-x01__sam.wenyang__samguk-world-moderate__chatgpt__1",
@@ -2773,7 +2978,8 @@
    "j0054-r4-cross",
    "2026-11-10",
    null,
-   4
+   4,
+   ""
   ],
   [
    "km2-sp2-ob2-mu1-x01__sam.wenyang__samguk-world-moderate__chatgpt__1",
@@ -2792,7 +2998,8 @@
    "j0054-r4-cross",
    "2026-11-10",
    null,
-   4
+   4,
+   ""
   ],
   [
    "km2-sp2-og3-cl1-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -2811,7 +3018,8 @@
    "j0059-r5-light",
    "2026-11-10",
    null,
-   5
+   5,
+   ""
   ],
   [
    "km2-sp2-og3-cs1-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -2830,7 +3038,8 @@
    "j0059-r5-light",
    "2026-11-10",
    null,
-   5
+   5,
+   ""
   ],
   [
    "km2-sp2-og3-gs1-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -2849,7 +3058,8 @@
    "j0059-r5-light",
    "2026-11-10",
    null,
-   5
+   5,
+   ""
   ],
   [
    "km2-sp2-og3-hp2-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -2868,7 +3078,8 @@
    "j0059-r5-light",
    "2026-11-10",
    null,
-   5
+   5,
+   ""
   ],
   [
    "km2-sp2-og3-mu1-x01__sam.wenyang__samguk-world-moderate__chatgpt__1",
@@ -2887,7 +3098,8 @@
    "j0054-r4-cross",
    "2026-11-10",
    null,
-   4
+   4,
+   ""
   ],
   [
    "km2-sp2-og3-mu2-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -2906,7 +3118,8 @@
    "j0059-r5-light",
    "2026-11-10",
    null,
-   5
+   5,
+   ""
   ],
   [
    "km2-sp2-og3-rg2-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -2925,7 +3138,8 @@
    "j0059-r5-light",
    "2026-11-10",
    null,
-   5
+   5,
+   ""
   ],
   [
    "km2-sp2-og3-rg2-x01__sam.wenyang__samguk-world-slit__chatgpt__2",
@@ -2944,7 +3158,8 @@
    "j0063-r6-repeat",
    "2026-11-10",
    null,
-   6
+   6,
+   ""
   ],
   [
    "km2-sp2-og3-rg2-x01__sam.wenyang__samguk-world-slit__chatgpt__3",
@@ -2963,7 +3178,8 @@
    "j0063-r6-repeat",
    "2026-11-10",
    null,
-   6
+   6,
+   ""
   ],
   [
    "km2-sp2-og3-rg2-x01__sam.wenyang__samguk-world-slit__chatgpt__4",
@@ -2982,7 +3198,8 @@
    "j0064-r7-headband",
    "2026-11-10",
    null,
-   7
+   7,
+   ""
   ],
   [
    "km2-sp2-og3-rg2-x01__sam.wenyang__samguk-world-slit__chatgpt__5",
@@ -3001,7 +3218,8 @@
    "j0064-r7-headband",
    "2026-11-10",
    null,
-   7
+   7,
+   ""
   ],
   [
    "km2-sp2-og3-rg2-x01__sam.wenyang__samguk-world-slit__chatgpt__6",
@@ -3020,7 +3238,8 @@
    "j0065-r7-daytime",
    "2026-11-10",
    null,
-   7
+   7,
+   ""
   ],
   [
    "km2-sp2-og3-rg2-x01__sam.wenyang__samguk-world-slit__chatgpt__7",
@@ -3039,7 +3258,8 @@
    "j0065-r7-daytime",
    "2026-11-10",
    null,
-   7
+   7,
+   ""
   ],
   [
    "km2-sp2-og3-ws2-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -3058,7 +3278,8 @@
    "j0059-r5-light",
    "2026-11-10",
    null,
-   5
+   5,
+   ""
   ],
   [
    "km2-sp2-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -3077,7 +3298,8 @@
    "j0044-r2-face",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "km2-sp3-og4-rg2-x01__sam.wenyang__fantasy-world-slit__chatgpt__1",
@@ -3096,7 +3318,8 @@
    "j0076-r11-worlds",
    "2026-11-11",
    null,
-   11
+   11,
+   ""
   ],
   [
    "km2-sp3-og4-rg2-x01__sam.wenyang__mecha-world-slit__chatgpt__1",
@@ -3115,7 +3338,8 @@
    "j0076-r11-worlds",
    "2026-11-11",
    null,
-   11
+   11,
+   ""
   ],
   [
    "km2-sp3-og4-rg2-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -3134,7 +3358,8 @@
    "j0069-r8-face",
    "2026-11-10",
    null,
-   8
+   8,
+   ""
   ],
   [
    "km2-sp3-og4-rg2-x01__sam.wenyang__samguk-world-slit__chatgpt__2",
@@ -3153,7 +3378,8 @@
    "j0069-r8-face",
    "2026-11-10",
    null,
-   8
+   8,
+   ""
   ],
   [
    "km2-sp3-og4-rg2-x01__sam.wenyang__samguk-world-slit__chatgpt__3",
@@ -3172,7 +3398,8 @@
    "j0075-r10-semi",
    "2026-11-11",
    null,
-   10
+   10,
+   ""
   ],
   [
    "km2-sp3-og4-rg2-x01__sam.wenyang__samguk-world-slit__chatgpt__4",
@@ -3191,7 +3418,8 @@
    "j0075-r10-semi",
    "2026-11-11",
    null,
-   10
+   10,
+   ""
   ],
   [
    "km2-ss2-ba3-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -3210,7 +3438,8 @@
    "j0045-r2-paint",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "km2-ss2-bl2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -3229,7 +3458,8 @@
    "j0045-r2-paint",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "km2-ss2-cg2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -3248,7 +3478,8 @@
    "j0040-r2-paint",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "km2-ss2-gd1-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -3267,7 +3498,8 @@
    "j0045-r2-paint",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "km2-ss2-im2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -3286,7 +3518,8 @@
    "j0045-r2-paint",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "km2-ss2-ms2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -3305,7 +3538,8 @@
    "j0040-r2-paint",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "km2-ss2-ob2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -3324,7 +3558,8 @@
    "j0045-r2-paint",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "km2-ss2-og3-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -3343,7 +3578,8 @@
    "j0045-r2-paint",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "km2-ss2-p31-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -3362,7 +3598,8 @@
    "j0040-r2-paint",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "km2-ss2-pc2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -3381,7 +3618,8 @@
    "j0040-r2-paint",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "km2-ss2-pp2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -3400,7 +3638,8 @@
    "j0040-r2-paint",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "km2-ss2-pr2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -3419,7 +3658,8 @@
    "j0045-r2-paint",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "km2-ss2-r32-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -3438,7 +3678,8 @@
    "j0040-r2-paint",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "km2-ss2-sm2-ch2-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -3457,7 +3698,8 @@
    "j0046-r2-light",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "km2-ss2-sm2-cl1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -3476,7 +3718,8 @@
    "j0046-r2-light",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "km2-ss2-sm2-cs1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -3495,7 +3738,8 @@
    "j0041-r2-light",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "km2-ss2-sm2-dl2-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -3514,7 +3758,8 @@
    "j0041-r2-light",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "km2-ss2-sm2-dr2-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -3533,7 +3778,8 @@
    "j0041-r2-light",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "km2-ss2-sm2-gs1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -3552,7 +3798,8 @@
    "j0046-r2-light",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "km2-ss2-sm2-hn2-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -3571,7 +3818,8 @@
    "j0046-r2-light",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "km2-ss2-sm2-hp2-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -3590,7 +3838,8 @@
    "j0046-r2-light",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "km2-ss2-sm2-md2-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -3609,7 +3858,8 @@
    "j0041-r2-light",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "km2-ss2-sm2-mu1-x01__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -3628,7 +3878,8 @@
    "j0043-r2-fx",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "km2-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -3647,7 +3898,8 @@
    "j0036-r2-direction",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "km2-ss2-sm2-mu1-xn1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -3666,7 +3918,8 @@
    "j0043-r2-fx",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "km2-ss2-sm2-mu1-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -3685,7 +3938,8 @@
    "j0043-r2-fx",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "km2-ss2-sm2-mu1-xx1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -3704,7 +3958,8 @@
    "j0043-r2-fx",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "km2-ss2-sm2-mu2-xf1__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -3723,7 +3978,8 @@
    "j0077-r12-spread",
    "2026-11-11",
    null,
-   12
+   12,
+   ""
   ],
   [
    "km2-ss2-sm2-oc1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -3742,7 +3998,8 @@
    "j0041-r2-light",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "km2-ss2-sm2-rg1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -3761,7 +4018,8 @@
    "j0046-r2-light",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "km2-ss2-sm2-ws2-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -3780,7 +4038,8 @@
    "j0041-r2-light",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "kn1-aa1-ba1-dl1-x01__sam.wenyang__samguk-world__chatgpt__1",
@@ -3799,7 +4058,8 @@
    "j0013-base-real-anime",
    "2026-11-10",
    null,
-   1
+   1,
+   ""
   ],
   [
    "kn1-aa1-ms1-oc1-x01__sam.wenyang__samguk-world__chatgpt__1",
@@ -3818,7 +4078,8 @@
    "j0013-base-real-anime",
    "2026-11-10",
    null,
-   1
+   1,
+   ""
   ],
   [
    "kn2-aa2-ba3-dl2-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -3837,7 +4098,8 @@
    "j0077-r12-spread",
    "2026-11-11",
    null,
-   12
+   12,
+   ""
   ],
   [
    "kn2-ag2-cg2-hp2-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -3856,7 +4118,8 @@
    "j0048-r3-direction",
    "2026-11-10",
    null,
-   3
+   3,
+   ""
   ],
   [
    "kn2-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -3875,7 +4138,8 @@
    "j0037-r2-direction",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ],
   [
    "kp1-ag2-cg2-hp2-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -3894,7 +4158,8 @@
    "j0047-r3-direction",
    "2026-11-10",
    null,
-   3
+   3,
+   ""
   ],
   [
    "kp1-ss1-ob1-hn1-x01__sam.wenyang__samguk-world__chatgpt__1",
@@ -3913,7 +4178,8 @@
    "j0013-base-real-anime",
    "2026-11-10",
    null,
-   1
+   1,
+   ""
   ],
   [
    "kp1-ss2-ob2-hn2-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
@@ -3932,7 +4198,8 @@
    "j0077-r12-spread",
    "2026-11-11",
    null,
-   12
+   12,
+   ""
   ],
   [
    "kp1-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
@@ -3951,7 +4218,8 @@
    "j0036-r2-direction",
    "2026-11-10",
    null,
-   2
+   2,
+   ""
   ]
  ]
 }
