@@ -1,0 +1,102 @@
+{
+ "id": "km2-aa2-ba3-gs1-x01__sam.wenyang__fantasy-world-slit__chatgpt__1",
+ "job": "j0076-r11-worlds",
+ "slot": "km2-aa2-ba3-gs1-x01__sam.wenyang__fantasy-world-slit",
+ "subject": "sam.wenyang",
+ "subject_commit": "89ab31a",
+ "world": "fantasy",
+ "kind": "world",
+ "exposure": "slit",
+ "model": "chatgpt",
+ "n": 1,
+ "recipe": {
+  "id": "km2-aa2-ba3-gs1-x01",
+  "name": "kr_anime_brush",
+  "display": "애니 · 단순화 · 2D 붓질 · 색 선 — 전역광 · 림 라이트 · 맑은 채도 (한국 MMORPG)",
+  "parts": [
+   {
+    "axis": "direction",
+    "key": "kr_mmorpg",
+    "v": "v2",
+    "code": "km",
+    "ko": "한국 MMORPG",
+    "pairs": {
+     "face": [
+      "semi_soft",
+      "semi_paint",
+      "semi_ideal",
+      "illustrated",
+      "anime_adult"
+     ]
+    },
+    "requires": null
+   },
+   {
+    "axis": "face",
+    "key": "anime_adult",
+    "v": "v2",
+    "code": "aa",
+    "ko": "애니 · 단순화",
+    "pairs": {
+     "paint": [
+      "brush_anime",
+      "cel_gradient",
+      "matte_soft",
+      "smooth",
+      "painted_refined"
+     ]
+    },
+    "requires": null
+   },
+   {
+    "axis": "paint",
+    "key": "brush_anime",
+    "v": "v3",
+    "code": "ba",
+    "ko": "2D 붓질 · 색 선",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "light",
+    "key": "global_soft",
+    "v": "v1",
+    "code": "gs",
+    "ko": "전역광 · 림 라이트 · 맑은 채도",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "fx",
+    "key": "none",
+    "v": "v1",
+    "code": "x0",
+    "ko": "미지정",
+    "pairs": null,
+    "requires": null
+   }
+  ],
+  "untested": []
+ },
+ "prompt_file": "jobs/j0076-r11-worlds/prompts/km2-aa2-ba3-gs1-x01__sam.wenyang__fantasy-world-slit__chatgpt__1.txt",
+ "prompt_sha256": "dccb80a8e7d8e832b894045a452170c432ad9b0a12c7f95662d820d3a802aff0",
+ "file": "img/sam.wenyang/fantasy/km2-aa2-ba3-gs1-x01__sam.wenyang__fantasy-world-slit__chatgpt__1.webp",
+ "thumb": "thumb/sam.wenyang/fantasy/km2-aa2-ba3-gs1-x01__sam.wenyang__fantasy-world-slit__chatgpt__1.webp",
+ "size": [
+  1024,
+  1536
+ ],
+ "resized_from": null,
+ "source": {
+  "name": "km2-aa2-ba3-gs1-x01__sam.wenyang__fantasy-world-slit__chatgpt__1.webp",
+  "sha256": "c0b131c3530d8943aa84ed9154fc584c53f5d40cea9cb307d35b5c886778fd22",
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "note": null,
+ "generation": null,
+ "added": "2026-11-11",
+ "rating": null
+}

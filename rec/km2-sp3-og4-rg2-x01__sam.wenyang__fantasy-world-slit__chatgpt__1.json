@@ -1,0 +1,104 @@
+{
+ "id": "km2-sp3-og4-rg2-x01__sam.wenyang__fantasy-world-slit__chatgpt__1",
+ "job": "j0076-r11-worlds",
+ "slot": "km2-sp3-og4-rg2-x01__sam.wenyang__fantasy-world-slit",
+ "subject": "sam.wenyang",
+ "subject_commit": "89ab31a",
+ "world": "fantasy",
+ "kind": "world",
+ "exposure": "slit",
+ "model": "chatgpt",
+ "n": 1,
+ "recipe": {
+  "id": "km2-sp3-og4-rg2-x01",
+  "name": "kr_semi_oil_rim",
+  "display": "반실사 · 그린 살결 · 유화 글레이즈 · 얼굴 말 뺌 — 림 라이트 · 강한 하이라이트 (한국 MMORPG)",
+  "parts": [
+   {
+    "axis": "direction",
+    "key": "kr_mmorpg",
+    "v": "v2",
+    "code": "km",
+    "ko": "한국 MMORPG",
+    "pairs": {
+     "face": [
+      "semi_soft",
+      "semi_paint",
+      "semi_ideal",
+      "illustrated",
+      "anime_adult"
+     ]
+    },
+    "requires": null
+   },
+   {
+    "axis": "face",
+    "key": "semi_paint",
+    "v": "v3",
+    "code": "sp",
+    "ko": "반실사 · 그린 살결",
+    "pairs": {
+     "paint": [
+      "smooth",
+      "painted_refined",
+      "brush_layered",
+      "oil_glaze",
+      "oil_brush",
+      "impasto",
+      "matte_soft"
+     ]
+    },
+    "requires": null
+   },
+   {
+    "axis": "paint",
+    "key": "oil_glaze",
+    "v": "v4",
+    "code": "og",
+    "ko": "유화 글레이즈 · 얼굴 말 뺌",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "light",
+    "key": "rim_gloss",
+    "v": "v2",
+    "code": "rg",
+    "ko": "림 라이트 · 강한 하이라이트",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "fx",
+    "key": "none",
+    "v": "v1",
+    "code": "x0",
+    "ko": "미지정",
+    "pairs": null,
+    "requires": null
+   }
+  ],
+  "untested": []
+ },
+ "prompt_file": "jobs/j0076-r11-worlds/prompts/km2-sp3-og4-rg2-x01__sam.wenyang__fantasy-world-slit__chatgpt__1.txt",
+ "prompt_sha256": "38622375a491aa2b5f88a14025d020669e5cc0c4ff1e6d88ecd07ad7465cdaa6",
+ "file": "img/sam.wenyang/fantasy/km2-sp3-og4-rg2-x01__sam.wenyang__fantasy-world-slit__chatgpt__1.webp",
+ "thumb": "thumb/sam.wenyang/fantasy/km2-sp3-og4-rg2-x01__sam.wenyang__fantasy-world-slit__chatgpt__1.webp",
+ "size": [
+  1024,
+  1536
+ ],
+ "resized_from": null,
+ "source": {
+  "name": "km2-sp3-og4-rg2-x01__sam.wenyang__fantasy-world-slit__chatgpt__1.webp",
+  "sha256": "b72694b23166c1013f48ca950c5b6b68b05186794e57b4cbe3ca5ddeae5c545f",
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "note": null,
+ "generation": null,
+ "added": "2026-11-11",
+ "rating": null
+}
