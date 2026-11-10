@@ -3,12 +3,14 @@ name: 수거
 # inbox/ 에 그림(또는 .blocked.txt · .note.txt)이 오면 받아서 img/ · thumb/ · rec/ 로 옮기고
 # index/ 와 jobs/NEXT.md 를 다시 짓는다. 도구는 코드 저장소(style-atelier)의 tools/ingest.py — 그때그때 받아 온다.
 # 되커밋에는 [skip actions] 를 붙여 다시 돌지 않게 한다. 비밀은 쓰지 않는다(이 저장소 GITHUB_TOKEN 으로 되커밋).
+# inbox/ 에 그림이 올 때만 돈다 — 예약(jobs/<일감>/CLAIM.md)이나 일감 문서가 바뀔 때는 돌지 않는다.
+# 예약을 올린 세션이 곧바로 그림을 올리는데, 그 사이 이 워크플로가 main 을 한 칸 밀면 세션(ChatGPT 의 GitHub 앱)의
+# 브랜치 갱신이 계속 거절돼 Too many requests 로 멈췄다(2026-11-10). 예약 칸(NEXT.md)은 다음 수거 때 다시 쓴다.
 on:
   push:
     branches: [main]
     paths:
       - 'inbox/**'
-      - 'jobs/**'
   workflow_dispatch:
 
 concurrency:
