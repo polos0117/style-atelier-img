@@ -1,0 +1,647 @@
+{
+ "job": "j0059-r5-light",
+ "round": 5,
+ "created": "2026-11-10",
+ "model": "chatgpt",
+ "label": "r5-light",
+ "size": 7,
+ "slots": [
+  {
+   "slot": "km2-sp2-og3-mu2-x01__sam.wenyang__samguk-world-slit",
+   "file": "km2-sp2-og3-mu2-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "slit",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "km2-sp2-og3-mu2-x01",
+    "name": null,
+    "display": "반실사 · 가볍게 이상화 · 유화 글레이즈 — 차분 · 낮은 채도 · 깊은 그림자 (한국 MMORPG)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_mmorpg",
+      "v": "v2",
+      "code": "km",
+      "ko": "한국 MMORPG",
+      "pairs": {
+       "face": [
+        "semi_soft",
+        "semi_paint",
+        "semi_ideal",
+        "illustrated",
+        "anime_adult"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "semi_paint",
+      "v": "v2",
+      "code": "sp",
+      "ko": "반실사 · 가볍게 이상화",
+      "pairs": {
+       "paint": [
+        "smooth",
+        "painted_refined",
+        "brush_layered",
+        "oil_glaze",
+        "oil_brush",
+        "impasto",
+        "matte_soft"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "oil_glaze",
+      "v": "v3",
+      "code": "og",
+      "ko": "유화 글레이즈",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "muted",
+      "v": "v2",
+      "code": "mu",
+      "ko": "차분 · 낮은 채도 · 깊은 그림자",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0",
+      "ko": "미지정",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": []
+   },
+   "subject_overrides": [
+    "head: character card illustration → character image",
+    "faceFrame:  in this style → ",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined"
+   ],
+   "prompt_sha256": "80007bf7ff4b1b81839f7e0742e04454ef130612ec06fa37c5686b7e35c56e40",
+   "prompt_file": "jobs/j0059-r5-light/prompts/km2-sp2-og3-mu2-x01__sam.wenyang__samguk-world-slit__chatgpt__1.txt"
+  },
+  {
+   "slot": "km2-sp2-og3-cl1-x01__sam.wenyang__samguk-world-slit",
+   "file": "km2-sp2-og3-cl1-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "slit",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "km2-sp2-og3-cl1-x01",
+    "name": null,
+    "display": "반실사 · 가볍게 이상화 · 유화 글레이즈 — 시네마틱 로키 · 한 줄기 빛 (한국 MMORPG)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_mmorpg",
+      "v": "v2",
+      "code": "km",
+      "ko": "한국 MMORPG",
+      "pairs": {
+       "face": [
+        "semi_soft",
+        "semi_paint",
+        "semi_ideal",
+        "illustrated",
+        "anime_adult"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "semi_paint",
+      "v": "v2",
+      "code": "sp",
+      "ko": "반실사 · 가볍게 이상화",
+      "pairs": {
+       "paint": [
+        "smooth",
+        "painted_refined",
+        "brush_layered",
+        "oil_glaze",
+        "oil_brush",
+        "impasto",
+        "matte_soft"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "oil_glaze",
+      "v": "v3",
+      "code": "og",
+      "ko": "유화 글레이즈",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "cine_lowkey",
+      "v": "v1",
+      "code": "cl",
+      "ko": "시네마틱 로키 · 한 줄기 빛",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0",
+      "ko": "미지정",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": []
+   },
+   "subject_overrides": [
+    "head: character card illustration → character image",
+    "faceFrame:  in this style → ",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined"
+   ],
+   "prompt_sha256": "88197057ce9843ca0a6ea0846d3947fde26635ec1c14e431bde02ca1d9e3a30c",
+   "prompt_file": "jobs/j0059-r5-light/prompts/km2-sp2-og3-cl1-x01__sam.wenyang__samguk-world-slit__chatgpt__1.txt"
+  },
+  {
+   "slot": "km2-sp2-og3-cs1-x01__sam.wenyang__samguk-world-slit",
+   "file": "km2-sp2-og3-cs1-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "slit",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "km2-sp2-og3-cs1-x01",
+    "name": null,
+    "display": "반실사 · 가볍게 이상화 · 유화 글레이즈 — 깨끗한 부드러운 빛 · 절제된 하이라이트 (한국 MMORPG)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_mmorpg",
+      "v": "v2",
+      "code": "km",
+      "ko": "한국 MMORPG",
+      "pairs": {
+       "face": [
+        "semi_soft",
+        "semi_paint",
+        "semi_ideal",
+        "illustrated",
+        "anime_adult"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "semi_paint",
+      "v": "v2",
+      "code": "sp",
+      "ko": "반실사 · 가볍게 이상화",
+      "pairs": {
+       "paint": [
+        "smooth",
+        "painted_refined",
+        "brush_layered",
+        "oil_glaze",
+        "oil_brush",
+        "impasto",
+        "matte_soft"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "oil_glaze",
+      "v": "v3",
+      "code": "og",
+      "ko": "유화 글레이즈",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "clean_soft",
+      "v": "v1",
+      "code": "cs",
+      "ko": "깨끗한 부드러운 빛 · 절제된 하이라이트",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0",
+      "ko": "미지정",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": []
+   },
+   "subject_overrides": [
+    "head: character card illustration → character image",
+    "faceFrame:  in this style → ",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined"
+   ],
+   "prompt_sha256": "15e30db44e0308c2e2fd5380d7d5faa20085077df1688f70ccb39511e45b7f86",
+   "prompt_file": "jobs/j0059-r5-light/prompts/km2-sp2-og3-cs1-x01__sam.wenyang__samguk-world-slit__chatgpt__1.txt"
+  },
+  {
+   "slot": "km2-sp2-og3-gs1-x01__sam.wenyang__samguk-world-slit",
+   "file": "km2-sp2-og3-gs1-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "slit",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "km2-sp2-og3-gs1-x01",
+    "name": null,
+    "display": "반실사 · 가볍게 이상화 · 유화 글레이즈 — 전역광 · 림 라이트 · 맑은 채도 (한국 MMORPG)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_mmorpg",
+      "v": "v2",
+      "code": "km",
+      "ko": "한국 MMORPG",
+      "pairs": {
+       "face": [
+        "semi_soft",
+        "semi_paint",
+        "semi_ideal",
+        "illustrated",
+        "anime_adult"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "semi_paint",
+      "v": "v2",
+      "code": "sp",
+      "ko": "반실사 · 가볍게 이상화",
+      "pairs": {
+       "paint": [
+        "smooth",
+        "painted_refined",
+        "brush_layered",
+        "oil_glaze",
+        "oil_brush",
+        "impasto",
+        "matte_soft"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "oil_glaze",
+      "v": "v3",
+      "code": "og",
+      "ko": "유화 글레이즈",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "global_soft",
+      "v": "v1",
+      "code": "gs",
+      "ko": "전역광 · 림 라이트 · 맑은 채도",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0",
+      "ko": "미지정",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": []
+   },
+   "subject_overrides": [
+    "head: character card illustration → character image",
+    "faceFrame:  in this style → ",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined"
+   ],
+   "prompt_sha256": "7f36048d59999c4927834a201f19d895838d9d7fdbdac666a88ff121041ca209",
+   "prompt_file": "jobs/j0059-r5-light/prompts/km2-sp2-og3-gs1-x01__sam.wenyang__samguk-world-slit__chatgpt__1.txt"
+  },
+  {
+   "slot": "km2-sp2-og3-hp2-x01__sam.wenyang__samguk-world-slit",
+   "file": "km2-sp2-og3-hp2-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "slit",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "km2-sp2-og3-hp2-x01",
+    "name": null,
+    "display": "반실사 · 가볍게 이상화 · 유화 글레이즈 — 하이키 파스텔 · 햇빛 광택 (한국 MMORPG)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_mmorpg",
+      "v": "v2",
+      "code": "km",
+      "ko": "한국 MMORPG",
+      "pairs": {
+       "face": [
+        "semi_soft",
+        "semi_paint",
+        "semi_ideal",
+        "illustrated",
+        "anime_adult"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "semi_paint",
+      "v": "v2",
+      "code": "sp",
+      "ko": "반실사 · 가볍게 이상화",
+      "pairs": {
+       "paint": [
+        "smooth",
+        "painted_refined",
+        "brush_layered",
+        "oil_glaze",
+        "oil_brush",
+        "impasto",
+        "matte_soft"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "oil_glaze",
+      "v": "v3",
+      "code": "og",
+      "ko": "유화 글레이즈",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "hikey_pastel",
+      "v": "v2",
+      "code": "hp",
+      "ko": "하이키 파스텔 · 햇빛 광택",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0",
+      "ko": "미지정",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": []
+   },
+   "subject_overrides": [
+    "head: character card illustration → character image",
+    "faceFrame:  in this style → ",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined"
+   ],
+   "prompt_sha256": "323b5996cdc3d00ab32d69f7bf3a3424564060f387e85c5b155591923eb8b41b",
+   "prompt_file": "jobs/j0059-r5-light/prompts/km2-sp2-og3-hp2-x01__sam.wenyang__samguk-world-slit__chatgpt__1.txt"
+  },
+  {
+   "slot": "km2-sp2-og3-rg2-x01__sam.wenyang__samguk-world-slit",
+   "file": "km2-sp2-og3-rg2-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "slit",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "km2-sp2-og3-rg2-x01",
+    "name": null,
+    "display": "반실사 · 가볍게 이상화 · 유화 글레이즈 — 림 라이트 · 강한 하이라이트 (한국 MMORPG)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_mmorpg",
+      "v": "v2",
+      "code": "km",
+      "ko": "한국 MMORPG",
+      "pairs": {
+       "face": [
+        "semi_soft",
+        "semi_paint",
+        "semi_ideal",
+        "illustrated",
+        "anime_adult"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "semi_paint",
+      "v": "v2",
+      "code": "sp",
+      "ko": "반실사 · 가볍게 이상화",
+      "pairs": {
+       "paint": [
+        "smooth",
+        "painted_refined",
+        "brush_layered",
+        "oil_glaze",
+        "oil_brush",
+        "impasto",
+        "matte_soft"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "oil_glaze",
+      "v": "v3",
+      "code": "og",
+      "ko": "유화 글레이즈",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "rim_gloss",
+      "v": "v2",
+      "code": "rg",
+      "ko": "림 라이트 · 강한 하이라이트",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0",
+      "ko": "미지정",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": []
+   },
+   "subject_overrides": [
+    "head: character card illustration → character image",
+    "faceFrame:  in this style → ",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined"
+   ],
+   "prompt_sha256": "caaa0c35c71f9a23bd2911b89879cf16b077071a6d3e0367116f0a130abf8381",
+   "prompt_file": "jobs/j0059-r5-light/prompts/km2-sp2-og3-rg2-x01__sam.wenyang__samguk-world-slit__chatgpt__1.txt"
+  },
+  {
+   "slot": "km2-sp2-og3-ws2-x01__sam.wenyang__samguk-world-slit",
+   "file": "km2-sp2-og3-ws2-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "slit",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "km2-sp2-og3-ws2-x01",
+    "name": null,
+    "display": "반실사 · 가볍게 이상화 · 유화 글레이즈 — 한쪽 따뜻한 빛 · 어두운 배경 (한국 MMORPG)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_mmorpg",
+      "v": "v2",
+      "code": "km",
+      "ko": "한국 MMORPG",
+      "pairs": {
+       "face": [
+        "semi_soft",
+        "semi_paint",
+        "semi_ideal",
+        "illustrated",
+        "anime_adult"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "semi_paint",
+      "v": "v2",
+      "code": "sp",
+      "ko": "반실사 · 가볍게 이상화",
+      "pairs": {
+       "paint": [
+        "smooth",
+        "painted_refined",
+        "brush_layered",
+        "oil_glaze",
+        "oil_brush",
+        "impasto",
+        "matte_soft"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "oil_glaze",
+      "v": "v3",
+      "code": "og",
+      "ko": "유화 글레이즈",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "warm_side",
+      "v": "v2",
+      "code": "ws",
+      "ko": "한쪽 따뜻한 빛 · 어두운 배경",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0",
+      "ko": "미지정",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": []
+   },
+   "subject_overrides": [
+    "head: character card illustration → character image",
+    "faceFrame:  in this style → ",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined"
+   ],
+   "prompt_sha256": "7567ea4987a2695410b2f08df36a3eb2de2241b80a6de97cda0039fedbc3b573",
+   "prompt_file": "jobs/j0059-r5-light/prompts/km2-sp2-og3-ws2-x01__sam.wenyang__samguk-world-slit__chatgpt__1.txt"
+  }
+ ]
+}
