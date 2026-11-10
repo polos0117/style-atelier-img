@@ -1,0 +1,106 @@
+{
+ "id": "ja2-ag2-ba3-hp2-xs1__sam.wenyang__samguk-world-slit__chatgpt__1",
+ "job": "j0083-r14-boost",
+ "slot": "ja2-ag2-ba3-hp2-xs1__sam.wenyang__samguk-world-slit",
+ "subject": "sam.wenyang",
+ "subject_commit": "89ab31a",
+ "world": "samguk",
+ "kind": "world",
+ "exposure": "slit",
+ "model": "chatgpt",
+ "n": 1,
+ "recipe": {
+  "id": "ja2-ag2-ba3-hp2-xs1",
+  "name": null,
+  "display": "가챠 애니 · 강하게 단순화 · 2D 붓질 · 색 선 — 하이키 파스텔 · 햇빛 광택 · 이펙트 부드럽게(블룸 · 작은 반짝임) (일본 가챠)",
+  "parts": [
+   {
+    "axis": "direction",
+    "key": "jp_gacha",
+    "v": "v2",
+    "code": "ja",
+    "ko": "일본 가챠",
+    "pairs": {
+     "face": [
+      "anime_gacha",
+      "anime_adult"
+     ],
+     "paint": [
+      "cel_gradient",
+      "matte_soft",
+      "brush_anime"
+     ]
+    },
+    "requires": null
+   },
+   {
+    "axis": "face",
+    "key": "anime_gacha",
+    "v": "v2",
+    "code": "ag",
+    "ko": "가챠 애니 · 강하게 단순화",
+    "pairs": {
+     "paint": [
+      "brush_anime",
+      "cel_gradient",
+      "matte_soft",
+      "smooth",
+      "painted_refined"
+     ]
+    },
+    "requires": null
+   },
+   {
+    "axis": "paint",
+    "key": "brush_anime",
+    "v": "v3",
+    "code": "ba",
+    "ko": "2D 붓질 · 색 선",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "light",
+    "key": "hikey_pastel",
+    "v": "v2",
+    "code": "hp",
+    "ko": "하이키 파스텔 · 햇빛 광택",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "fx",
+    "key": "soft",
+    "v": "v1",
+    "code": "xs",
+    "ko": "부드럽게(블룸 · 작은 반짝임)",
+    "pairs": null,
+    "requires": null
+   }
+  ],
+  "untested": []
+ },
+ "background": null,
+ "boost": null,
+ "prompt_file": "jobs/j0083-r14-boost/prompts/ja2-ag2-ba3-hp2-xs1__sam.wenyang__samguk-world-slit__chatgpt__1.txt",
+ "prompt_sha256": "2a79dc371cfc8f62335a52ff5851dae5640ef81e2144a98f72b1ed74c3a53f61",
+ "file": "img/sam.wenyang/samguk/ja2-ag2-ba3-hp2-xs1__sam.wenyang__samguk-world-slit__chatgpt__1.webp",
+ "thumb": "thumb/sam.wenyang/samguk/ja2-ag2-ba3-hp2-xs1__sam.wenyang__samguk-world-slit__chatgpt__1.webp",
+ "size": [
+  1024,
+  1536
+ ],
+ "resized_from": null,
+ "source": {
+  "name": "ja2-ag2-ba3-hp2-xs1__sam.wenyang__samguk-world-slit__chatgpt__1.webp",
+  "sha256": "4a64d4363458b2ead6ca17bb88779c50e0953a5cffdc1b2fb7a2929690f063c9",
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "note": null,
+ "generation": null,
+ "added": "2026-11-11",
+ "rating": null
+}
