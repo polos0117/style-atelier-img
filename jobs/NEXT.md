@@ -2,13 +2,13 @@
 
 GPT 세션: 모델이 **chatgpt** 이고 「예약」 칸이 **—** 인 일감 하나를 위에서부터 골라, 먼저 `jobs/<일감>/CLAIM.md` 를 **새 파일로** 만들어 예약한 뒤 그 `REQUEST.md` 대로 해줘. `CLAIM.md` 가 이미 있으면 다른 세션이 하는 중이니 다른 일감으로. 「예약 만료」 는 가져가도 된다. api26 · api25 일감은 Claude 가 API 로 그린다. 이 파일은 워크플로가 다시 쓴다 — 고치지 않는다.
 
-| 일감 | 이름 | 그린 칸 | 모델 | 예약 |
-|---|---|---|---|---|
-| [j0001-base](j0001-base/REQUEST.md) | base | 0 / 4 | chatgpt | — |
-| [j0003-base](j0003-base/REQUEST.md) | base | 0 / 2 | chatgpt | — |
-| [j0004-base](j0004-base/REQUEST.md) | base | 0 / 4 | chatgpt | — |
-| [j0005-base](j0005-base/REQUEST.md) | base | 0 / 4 | chatgpt | — |
-| [j0006-base](j0006-base/REQUEST.md) | base | 0 / 2 | chatgpt | — |
-| [j0002-base](j0002-base/REQUEST.md) | base | 0 / 4 | chatgpt | 예약 중 · Codex ChatGPT / 31a05c1910f1 · 0분 전 |
+| 일감 | 차수 | 이름 | 그린 칸 | 모델 | 예약 |
+|---|---|---|---|---|---|
+| [j0001-base](j0001-base/REQUEST.md) | 1차 | base | 0 / 4 | chatgpt | — |
+| [j0003-base](j0003-base/REQUEST.md) | 1차 | base | 0 / 2 | chatgpt | — |
+| [j0004-base](j0004-base/REQUEST.md) | 1차 | base | 0 / 4 | chatgpt | — |
+| [j0005-base](j0005-base/REQUEST.md) | 1차 | base | 0 / 4 | chatgpt | — |
+| [j0006-base](j0006-base/REQUEST.md) | 1차 | base | 0 / 2 | chatgpt | — |
+| [j0002-base](j0002-base/REQUEST.md) | 1차 | base | 0 / 4 | chatgpt | 예약 중 · Codex ChatGPT / 31a05c1910f1 · 11분 전 |
 
 닫힌 일감 0개.
