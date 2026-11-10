@@ -1,0 +1,1 @@
+Your request was rejected by the safety system. safety_violations=[sexual]. code=moderation_blocked; moderation_stage=output; request_id=e143e00c-e161-42a7-9c6b-8bca8eb1e4ce (same prompt rejected twice).
