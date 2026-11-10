@@ -1,0 +1,104 @@
+{
+ "id": "ja2-ag2-cg2-cs1-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
+ "job": "j0051-r3-light",
+ "slot": "ja2-ag2-cg2-cs1-xs1__sam.wenyang__samguk-world-low",
+ "subject": "sam.wenyang",
+ "subject_commit": "89ab31a",
+ "world": "samguk",
+ "kind": "world",
+ "exposure": "low",
+ "model": "chatgpt",
+ "n": 1,
+ "recipe": {
+  "id": "ja2-ag2-cg2-cs1-xs1",
+  "name": null,
+  "display": "가챠 애니 · 강하게 단순화 · 2D 셀~그라데이션 · 선화 — 깨끗한 부드러운 빛 · 절제된 하이라이트 · 이펙트 부드럽게(블룸 · 작은 반짝임) (일본 가챠)",
+  "parts": [
+   {
+    "axis": "direction",
+    "key": "jp_gacha",
+    "v": "v2",
+    "code": "ja",
+    "ko": "일본 가챠",
+    "pairs": {
+     "face": [
+      "anime_gacha",
+      "anime_adult"
+     ],
+     "paint": [
+      "cel_gradient",
+      "matte_soft",
+      "brush_anime"
+     ]
+    },
+    "requires": null
+   },
+   {
+    "axis": "face",
+    "key": "anime_gacha",
+    "v": "v2",
+    "code": "ag",
+    "ko": "가챠 애니 · 강하게 단순화",
+    "pairs": {
+     "paint": [
+      "brush_anime",
+      "cel_gradient",
+      "matte_soft",
+      "smooth",
+      "painted_refined"
+     ]
+    },
+    "requires": null
+   },
+   {
+    "axis": "paint",
+    "key": "cel_gradient",
+    "v": "v2",
+    "code": "cg",
+    "ko": "2D 셀~그라데이션 · 선화",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "light",
+    "key": "clean_soft",
+    "v": "v1",
+    "code": "cs",
+    "ko": "깨끗한 부드러운 빛 · 절제된 하이라이트",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "fx",
+    "key": "soft",
+    "v": "v1",
+    "code": "xs",
+    "ko": "부드럽게(블룸 · 작은 반짝임)",
+    "pairs": null,
+    "requires": null
+   }
+  ],
+  "untested": []
+ },
+ "prompt_file": "jobs/j0051-r3-light/prompts/ja2-ag2-cg2-cs1-xs1__sam.wenyang__samguk-world-low__chatgpt__1.txt",
+ "prompt_sha256": "22e16f95787e86bdf2ccaeb1b8858a869dc94728e45d3b040f8688e7273c78a8",
+ "file": "img/sam.wenyang/samguk/ja2-ag2-cg2-cs1-xs1__sam.wenyang__samguk-world-low__chatgpt__1.webp",
+ "thumb": "thumb/sam.wenyang/samguk/ja2-ag2-cg2-cs1-xs1__sam.wenyang__samguk-world-low__chatgpt__1.webp",
+ "size": [
+  1024,
+  1536
+ ],
+ "resized_from": null,
+ "source": {
+  "name": "ja2-ag2-cg2-cs1-xs1__sam.wenyang__samguk-world-low__chatgpt__1.webp",
+  "sha256": "c31edc7862c3853bf3608ccc3866267819120d6d70f2c3f9995cce880f89ca1d",
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "note": null,
+ "generation": null,
+ "added": "2026-11-10",
+ "rating": null
+}
