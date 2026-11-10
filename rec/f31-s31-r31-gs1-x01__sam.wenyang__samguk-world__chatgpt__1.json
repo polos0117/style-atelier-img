@@ -1,0 +1,70 @@
+{
+ "id": "f31-s31-r31-gs1-x01__sam.wenyang__samguk-world__chatgpt__1",
+ "job": "j0001-base",
+ "slot": "f31-s31-r31-gs1-x01__sam.wenyang__samguk-world",
+ "subject": "sam.wenyang",
+ "subject_commit": "4bc7624",
+ "world": "samguk",
+ "kind": "world",
+ "exposure": "bold",
+ "model": "chatgpt",
+ "n": 1,
+ "recipe": {
+  "id": "f31-s31-r31-gs1-x01",
+  "name": "styl3d",
+  "display": "스타일라이즈드 3D · 3D 렌더(단순한 재질) — 전역광 · 림 라이트 · 맑은 채도 (3D 애니메이션 영화)",
+  "parts": [
+   {
+    "axis": "direction",
+    "key": "film3d",
+    "v": "v1",
+    "code": "f3"
+   },
+   {
+    "axis": "face",
+    "key": "stylised3d",
+    "v": "v1",
+    "code": "s3"
+   },
+   {
+    "axis": "paint",
+    "key": "render3d",
+    "v": "v1",
+    "code": "r3"
+   },
+   {
+    "axis": "light",
+    "key": "global_soft",
+    "v": "v1",
+    "code": "gs"
+   },
+   {
+    "axis": "fx",
+    "key": "none",
+    "v": "v1",
+    "code": "x0"
+   }
+  ]
+ },
+ "prompt_file": "jobs/j0001-base/prompts/f31-s31-r31-gs1-x01__sam.wenyang__samguk-world__chatgpt__1.txt",
+ "prompt_sha256": "1ce4e186143b848de91730eb6a2c95c426e9debd18cdb3f36c5e69b04da08a5d",
+ "file": "img/sam.wenyang/samguk/f31-s31-r31-gs1-x01__sam.wenyang__samguk-world__chatgpt__1.webp",
+ "thumb": "thumb/sam.wenyang/samguk/f31-s31-r31-gs1-x01__sam.wenyang__samguk-world__chatgpt__1.webp",
+ "size": [
+  1024,
+  1536
+ ],
+ "resized_from": null,
+ "source": {
+  "name": "f31-s31-r31-gs1-x01__sam.wenyang__samguk-world__chatgpt__1.webp",
+  "sha256": "2bafb547543039baa0e3387ac381c59b44b87fa1d32429e201ec65d4184d6343",
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "note": null,
+ "generation": null,
+ "added": "2026-11-10",
+ "rating": null
+}

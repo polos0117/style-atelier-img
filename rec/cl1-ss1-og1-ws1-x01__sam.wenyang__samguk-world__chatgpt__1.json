@@ -1,0 +1,70 @@
+{
+ "id": "cl1-ss1-og1-ws1-x01__sam.wenyang__samguk-world__chatgpt__1",
+ "job": "j0001-base",
+ "slot": "cl1-ss1-og1-ws1-x01__sam.wenyang__samguk-world",
+ "subject": "sam.wenyang",
+ "subject_commit": "4bc7624",
+ "world": "samguk",
+ "kind": "world",
+ "exposure": "bold",
+ "model": "chatgpt",
+ "n": 1,
+ "recipe": {
+  "id": "cl1-ss1-og1-ws1-x01",
+  "name": "semi_oil_classic",
+  "display": "반실사 · 작고 부드러운 얼굴 · 유화 글레이즈(고전) — 한쪽 따뜻한 빛 · 어두운 배경 (고전 초상)",
+  "parts": [
+   {
+    "axis": "direction",
+    "key": "classical",
+    "v": "v1",
+    "code": "cl"
+   },
+   {
+    "axis": "face",
+    "key": "semi_soft",
+    "v": "v1",
+    "code": "ss"
+   },
+   {
+    "axis": "paint",
+    "key": "oil_glaze",
+    "v": "v1",
+    "code": "og"
+   },
+   {
+    "axis": "light",
+    "key": "warm_side",
+    "v": "v1",
+    "code": "ws"
+   },
+   {
+    "axis": "fx",
+    "key": "none",
+    "v": "v1",
+    "code": "x0"
+   }
+  ]
+ },
+ "prompt_file": "jobs/j0001-base/prompts/cl1-ss1-og1-ws1-x01__sam.wenyang__samguk-world__chatgpt__1.txt",
+ "prompt_sha256": "f648341ccd22bd6f5211c50155db0e7cf293124dd21c4d5a00032255d0a20123",
+ "file": "img/sam.wenyang/samguk/cl1-ss1-og1-ws1-x01__sam.wenyang__samguk-world__chatgpt__1.webp",
+ "thumb": "thumb/sam.wenyang/samguk/cl1-ss1-og1-ws1-x01__sam.wenyang__samguk-world__chatgpt__1.webp",
+ "size": [
+  1024,
+  1536
+ ],
+ "resized_from": null,
+ "source": {
+  "name": "cl1-ss1-og1-ws1-x01__sam.wenyang__samguk-world__chatgpt__1.webp",
+  "sha256": "b3825816076d93a7937d5aa36d9969022db53bc3f97087df6f4b65e00d989cd4",
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "note": null,
+ "generation": null,
+ "added": "2026-11-10",
+ "rating": null
+}

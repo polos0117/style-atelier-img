@@ -1,0 +1,70 @@
+{
+ "id": "an1-aa1-ba1-dl1-x01__sam.wenyang__samguk-world__chatgpt__1",
+ "job": "j0001-base",
+ "slot": "an1-aa1-ba1-dl1-x01__sam.wenyang__samguk-world",
+ "subject": "sam.wenyang",
+ "subject_commit": "4bc7624",
+ "world": "samguk",
+ "kind": "world",
+ "exposure": "bold",
+ "model": "chatgpt",
+ "n": 1,
+ "recipe": {
+  "id": "an1-aa1-ba1-dl1-x01",
+  "name": "anime_brush",
+  "display": "성인 애니 · 애니 붓질 · 색 선 — 밝은 자연광 · 무광 (애니(나라 말 없음))",
+  "parts": [
+   {
+    "axis": "direction",
+    "key": "anime",
+    "v": "v1",
+    "code": "an"
+   },
+   {
+    "axis": "face",
+    "key": "anime_adult",
+    "v": "v1",
+    "code": "aa"
+   },
+   {
+    "axis": "paint",
+    "key": "brush_anime",
+    "v": "v1",
+    "code": "ba"
+   },
+   {
+    "axis": "light",
+    "key": "daylight",
+    "v": "v1",
+    "code": "dl"
+   },
+   {
+    "axis": "fx",
+    "key": "none",
+    "v": "v1",
+    "code": "x0"
+   }
+  ]
+ },
+ "prompt_file": "jobs/j0001-base/prompts/an1-aa1-ba1-dl1-x01__sam.wenyang__samguk-world__chatgpt__1.txt",
+ "prompt_sha256": "2bc24f8fd5b3c88aa5f6f78316e038efabbe05715800715f30941c0467d319a7",
+ "file": "img/sam.wenyang/samguk/an1-aa1-ba1-dl1-x01__sam.wenyang__samguk-world__chatgpt__1.webp",
+ "thumb": "thumb/sam.wenyang/samguk/an1-aa1-ba1-dl1-x01__sam.wenyang__samguk-world__chatgpt__1.webp",
+ "size": [
+  1024,
+  1536
+ ],
+ "resized_from": null,
+ "source": {
+  "name": "an1-aa1-ba1-dl1-x01__sam.wenyang__samguk-world__chatgpt__1.webp",
+  "sha256": "d53b6bed76136ecad73bd78d23d7067c0574c8867ea7ec0eb05e1fdd3f420195",
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "note": null,
+ "generation": null,
+ "added": "2026-11-10",
+ "rating": null
+}
