@@ -6,8 +6,7 @@ GPT 세션: **묻지 않고 끝까지** 한다(그림을 보여 주고 확인을
 
 | 일감 | 차수 | 이름 | 그린 칸 | 모델 | 예약 |
 |---|---|---|---|---|---|
-| [j0044-r2-face](j0044-r2-face/REQUEST.md) | 2차 | r2-face | 0 / 8 | chatgpt | 예약 중 · ChatGPT j0044-r2-face · 5c1f8dee78a1 · 4분 전 |
-| [j0045-r2-paint](j0045-r2-paint/REQUEST.md) | 2차 | r2-paint | 0 / 7 | chatgpt | 예약 중 · - Status: in progress · 3분 전 |
-| [j0046-r2-light](j0046-r2-light/REQUEST.md) | 2차 | r2-light | 0 / 6 | chatgpt | 예약 중 · This session is completing this job and  · 0분 전 |
+| [j0045-r2-paint](j0045-r2-paint/REQUEST.md) | 2차 | r2-paint | 0 / 7 | chatgpt | 예약 중 · - Status: in progress · 11분 전 |
+| [j0046-r2-light](j0046-r2-light/REQUEST.md) | 2차 | r2-light | 0 / 6 | chatgpt | 예약 중 · This session is completing this job and  · 8분 전 |
 
-닫힌 일감 8개.
+닫힌 일감 9개.
