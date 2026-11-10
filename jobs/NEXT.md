@@ -6,7 +6,6 @@ GPT 세션: **묻지 않고 끝까지** 한다(그림을 보여 주고 확인을
 
 | 일감 | 차수 | 이름 | 그린 칸 | 모델 | 예약 |
 |---|---|---|---|---|---|
-| [j0054-r4-cross](j0054-r4-cross/REQUEST.md) | 4차 | r4-cross | 0 / 9 | chatgpt | — |
-| [j0055-r4-cross](j0055-r4-cross/REQUEST.md) | 4차 | r4-cross | 0 / 9 | chatgpt | — |
+| [j0055-r4-cross](j0055-r4-cross/REQUEST.md) | 4차 | r4-cross | 0 / 9 | chatgpt | 예약 중 · chatgpt / 90c77a674879 / j0055-r4-cross · 11분 전 |
 
-닫힌 일감 18개.
+닫힌 일감 19개.

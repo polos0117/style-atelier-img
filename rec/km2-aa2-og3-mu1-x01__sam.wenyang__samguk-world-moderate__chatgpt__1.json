@@ -1,0 +1,104 @@
+{
+ "id": "km2-aa2-og3-mu1-x01__sam.wenyang__samguk-world-moderate__chatgpt__1",
+ "job": "j0054-r4-cross",
+ "slot": "km2-aa2-og3-mu1-x01__sam.wenyang__samguk-world-moderate",
+ "subject": "sam.wenyang",
+ "subject_commit": "89ab31a",
+ "world": "samguk",
+ "kind": "world",
+ "exposure": "moderate",
+ "model": "chatgpt",
+ "n": 1,
+ "recipe": {
+  "id": "km2-aa2-og3-mu1-x01",
+  "name": null,
+  "display": "애니 · 단순화 · 유화 글레이즈 — 차분 · 낮은 채도 · 깊은 그림자 (한국 MMORPG)",
+  "parts": [
+   {
+    "axis": "direction",
+    "key": "kr_mmorpg",
+    "v": "v2",
+    "code": "km",
+    "ko": "한국 MMORPG",
+    "pairs": {
+     "face": [
+      "semi_soft",
+      "semi_paint",
+      "semi_ideal",
+      "illustrated",
+      "anime_adult"
+     ]
+    },
+    "requires": null
+   },
+   {
+    "axis": "face",
+    "key": "anime_adult",
+    "v": "v2",
+    "code": "aa",
+    "ko": "애니 · 단순화",
+    "pairs": {
+     "paint": [
+      "brush_anime",
+      "cel_gradient",
+      "matte_soft",
+      "smooth",
+      "painted_refined"
+     ]
+    },
+    "requires": null
+   },
+   {
+    "axis": "paint",
+    "key": "oil_glaze",
+    "v": "v3",
+    "code": "og",
+    "ko": "유화 글레이즈",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "light",
+    "key": "muted",
+    "v": "v1",
+    "code": "mu",
+    "ko": "차분 · 낮은 채도 · 깊은 그림자",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "fx",
+    "key": "none",
+    "v": "v1",
+    "code": "x0",
+    "ko": "미지정",
+    "pairs": null,
+    "requires": null
+   }
+  ],
+  "untested": [
+   "face/anime_adult 의 추천 짝 밖 — paint brush_anime · cel_gradient · matte_soft · smooth · painted_refined"
+  ]
+ },
+ "prompt_file": "jobs/j0054-r4-cross/prompts/km2-aa2-og3-mu1-x01__sam.wenyang__samguk-world-moderate__chatgpt__1.txt",
+ "prompt_sha256": "a8a2751f4fdc4908c91131c5584736f5047612cf4c29d44edfa099b31d969298",
+ "file": "img/sam.wenyang/samguk/km2-aa2-og3-mu1-x01__sam.wenyang__samguk-world-moderate__chatgpt__1.webp",
+ "thumb": "thumb/sam.wenyang/samguk/km2-aa2-og3-mu1-x01__sam.wenyang__samguk-world-moderate__chatgpt__1.webp",
+ "size": [
+  1024,
+  1536
+ ],
+ "resized_from": null,
+ "source": {
+  "name": "km2-aa2-og3-mu1-x01__sam.wenyang__samguk-world-moderate__chatgpt__1.webp",
+  "sha256": "3d7c4a67fa4f7ccbce04822849e7480c5093eb560371893cf56563350ae9a6c1",
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "note": null,
+ "generation": null,
+ "added": "2026-11-10",
+ "rating": null
+}
