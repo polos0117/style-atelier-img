@@ -1,0 +1,70 @@
+{
+ "id": "kn1-aa1-ms1-oc1-x01__sam.wenyang__samguk-world__chatgpt__1",
+ "job": "j0013-base-real-anime",
+ "slot": "kn1-aa1-ms1-oc1-x01__sam.wenyang__samguk-world",
+ "subject": "sam.wenyang",
+ "subject_commit": "4bc7624",
+ "world": "samguk",
+ "kind": "world",
+ "exposure": "bold",
+ "model": "chatgpt",
+ "n": 1,
+ "recipe": {
+  "id": "kn1-aa1-ms1-oc1-x01",
+  "name": "anime_matte_kr",
+  "display": "성인 애니 · 무광 소프트 — 흐린 빛 · 차분한 색 (한국 애니)",
+  "parts": [
+   {
+    "axis": "direction",
+    "key": "kr_anime",
+    "v": "v1",
+    "code": "kn"
+   },
+   {
+    "axis": "face",
+    "key": "anime_adult",
+    "v": "v1",
+    "code": "aa"
+   },
+   {
+    "axis": "paint",
+    "key": "matte_soft",
+    "v": "v1",
+    "code": "ms"
+   },
+   {
+    "axis": "light",
+    "key": "overcast",
+    "v": "v1",
+    "code": "oc"
+   },
+   {
+    "axis": "fx",
+    "key": "none",
+    "v": "v1",
+    "code": "x0"
+   }
+  ]
+ },
+ "prompt_file": "jobs/j0013-base-real-anime/prompts/kn1-aa1-ms1-oc1-x01__sam.wenyang__samguk-world__chatgpt__1.txt",
+ "prompt_sha256": "3fe4c1dbc88c105d9eb2e0ed7cc517f87119c5a4a2942d90a0d24df4544b375d",
+ "file": "img/sam.wenyang/samguk/kn1-aa1-ms1-oc1-x01__sam.wenyang__samguk-world__chatgpt__1.webp",
+ "thumb": "thumb/sam.wenyang/samguk/kn1-aa1-ms1-oc1-x01__sam.wenyang__samguk-world__chatgpt__1.webp",
+ "size": [
+  1024,
+  1536
+ ],
+ "resized_from": null,
+ "source": {
+  "name": "kn1-aa1-ms1-oc1-x01__sam.wenyang__samguk-world__chatgpt__1.webp",
+  "sha256": "47a39a4e71e012310162e1a93a42c8d284e461fb76eb1b64fcd461b2d16e15e7",
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "note": null,
+ "generation": null,
+ "added": "2026-11-10",
+ "rating": null
+}

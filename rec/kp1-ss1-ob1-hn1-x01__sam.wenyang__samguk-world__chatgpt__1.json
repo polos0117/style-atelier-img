@@ -1,0 +1,70 @@
+{
+ "id": "kp1-ss1-ob1-hn1-x01__sam.wenyang__samguk-world__chatgpt__1",
+ "job": "j0013-base-real-anime",
+ "slot": "kp1-ss1-ob1-hn1-x01__sam.wenyang__samguk-world",
+ "subject": "sam.wenyang",
+ "subject_commit": "4bc7624",
+ "world": "samguk",
+ "kind": "world",
+ "exposure": "bold",
+ "model": "chatgpt",
+ "n": 1,
+ "recipe": {
+  "id": "kp1-ss1-ob1-hn1-x01",
+  "name": "oil_hikey",
+  "display": "반실사 · 작고 부드러운 얼굴 · 유화 붓질 · 글레이즈 — 하이키 자연광 (한국 MMORPG 프로모)",
+  "parts": [
+   {
+    "axis": "direction",
+    "key": "kr_mmorpg_promo",
+    "v": "v1",
+    "code": "kp"
+   },
+   {
+    "axis": "face",
+    "key": "semi_soft",
+    "v": "v1",
+    "code": "ss"
+   },
+   {
+    "axis": "paint",
+    "key": "oil_brush",
+    "v": "v1",
+    "code": "ob"
+   },
+   {
+    "axis": "light",
+    "key": "hikey_natural",
+    "v": "v1",
+    "code": "hn"
+   },
+   {
+    "axis": "fx",
+    "key": "none",
+    "v": "v1",
+    "code": "x0"
+   }
+  ]
+ },
+ "prompt_file": "jobs/j0013-base-real-anime/prompts/kp1-ss1-ob1-hn1-x01__sam.wenyang__samguk-world__chatgpt__1.txt",
+ "prompt_sha256": "d80d829e1ce0ec9f15b4e8200f4c64ac7fd173243125005920f7968a21a10885",
+ "file": "img/sam.wenyang/samguk/kp1-ss1-ob1-hn1-x01__sam.wenyang__samguk-world__chatgpt__1.webp",
+ "thumb": "thumb/sam.wenyang/samguk/kp1-ss1-ob1-hn1-x01__sam.wenyang__samguk-world__chatgpt__1.webp",
+ "size": [
+  1024,
+  1536
+ ],
+ "resized_from": null,
+ "source": {
+  "name": "kp1-ss1-ob1-hn1-x01__sam.wenyang__samguk-world__chatgpt__1.webp",
+  "sha256": "a2c6fcd8761286ecc250b7568873d5ff2aa6f5ff572a490e2540007cb057d022",
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "note": null,
+ "generation": null,
+ "added": "2026-11-10",
+ "rating": null
+}
