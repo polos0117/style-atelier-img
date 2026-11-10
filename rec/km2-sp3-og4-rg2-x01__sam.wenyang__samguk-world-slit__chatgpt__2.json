@@ -1,0 +1,104 @@
+{
+ "id": "km2-sp3-og4-rg2-x01__sam.wenyang__samguk-world-slit__chatgpt__2",
+ "job": "j0069-r8-face",
+ "slot": "km2-sp3-og4-rg2-x01__sam.wenyang__samguk-world-slit",
+ "subject": "sam.wenyang",
+ "subject_commit": "89ab31a",
+ "world": "samguk",
+ "kind": "world",
+ "exposure": "slit",
+ "model": "chatgpt",
+ "n": 2,
+ "recipe": {
+  "id": "km2-sp3-og4-rg2-x01",
+  "name": "kr_semi_oil_rim",
+  "display": "반실사 · 그린 살결 · 유화 글레이즈 · 얼굴 말 뺌 — 림 라이트 · 강한 하이라이트 (한국 MMORPG)",
+  "parts": [
+   {
+    "axis": "direction",
+    "key": "kr_mmorpg",
+    "v": "v2",
+    "code": "km",
+    "ko": "한국 MMORPG",
+    "pairs": {
+     "face": [
+      "semi_soft",
+      "semi_paint",
+      "semi_ideal",
+      "illustrated",
+      "anime_adult"
+     ]
+    },
+    "requires": null
+   },
+   {
+    "axis": "face",
+    "key": "semi_paint",
+    "v": "v3",
+    "code": "sp",
+    "ko": "반실사 · 그린 살결",
+    "pairs": {
+     "paint": [
+      "smooth",
+      "painted_refined",
+      "brush_layered",
+      "oil_glaze",
+      "oil_brush",
+      "impasto",
+      "matte_soft"
+     ]
+    },
+    "requires": null
+   },
+   {
+    "axis": "paint",
+    "key": "oil_glaze",
+    "v": "v4",
+    "code": "og",
+    "ko": "유화 글레이즈 · 얼굴 말 뺌",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "light",
+    "key": "rim_gloss",
+    "v": "v2",
+    "code": "rg",
+    "ko": "림 라이트 · 강한 하이라이트",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "fx",
+    "key": "none",
+    "v": "v1",
+    "code": "x0",
+    "ko": "미지정",
+    "pairs": null,
+    "requires": null
+   }
+  ],
+  "untested": []
+ },
+ "prompt_file": "jobs/j0069-r8-face/prompts/km2-sp3-og4-rg2-x01__sam.wenyang__samguk-world-slit__chatgpt__2.txt",
+ "prompt_sha256": "dde0ec73a3d1efccc2bd1a4db6a8d62029e2722ecfdc28fc1623ee29db91697f",
+ "file": "img/sam.wenyang/samguk/km2-sp3-og4-rg2-x01__sam.wenyang__samguk-world-slit__chatgpt__2.webp",
+ "thumb": "thumb/sam.wenyang/samguk/km2-sp3-og4-rg2-x01__sam.wenyang__samguk-world-slit__chatgpt__2.webp",
+ "size": [
+  1024,
+  1536
+ ],
+ "resized_from": null,
+ "source": {
+  "name": "km2-sp3-og4-rg2-x01__sam.wenyang__samguk-world-slit__chatgpt__2.webp",
+  "sha256": "a6c77b368d74fbef7c60182fb872650b8f7c9279d6b9fda0dc72ca31fbc67f66",
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "note": null,
+ "generation": null,
+ "added": "2026-11-10",
+ "rating": null
+}
