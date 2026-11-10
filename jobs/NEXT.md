@@ -11,6 +11,5 @@ GPT 세션: **묻지 않고 끝까지** 한다(그림을 보여 주고 확인을
 | [j0051-r3-light](j0051-r3-light/REQUEST.md) | 3차 | r3-light | 0 / 6 | chatgpt | — |
 | [j0052-r3-light](j0052-r3-light/REQUEST.md) | 3차 | r3-light | 0 / 6 | chatgpt | — |
 | [j0053-r3-fx](j0053-r3-fx/REQUEST.md) | 3차 | r3-fx | 0 / 4 | chatgpt | — |
-| [j0048-r3-direction](j0048-r3-direction/REQUEST.md) | 3차 | r3-direction | 0 / 5 | chatgpt | 예약 중 · chatgpt-j0048-64f7d4686a1b · 3분 전 |
 
-닫힌 일감 12개.
+닫힌 일감 13개.

@@ -1,0 +1,104 @@
+{
+ "id": "j32-ag2-cg2-hp2-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
+ "job": "j0048-r3-direction",
+ "slot": "j32-ag2-cg2-hp2-xs1__sam.wenyang__samguk-world-low",
+ "subject": "sam.wenyang",
+ "subject_commit": "89ab31a",
+ "world": "samguk",
+ "kind": "world",
+ "exposure": "low",
+ "model": "chatgpt",
+ "n": 1,
+ "recipe": {
+  "id": "j32-ag2-cg2-hp2-xs1",
+  "name": null,
+  "display": "가챠 애니 · 강하게 단순화 · 2D 셀~그라데이션 · 선화 — 하이키 파스텔 · 햇빛 광택 · 이펙트 부드럽게(블룸 · 작은 반짝임) (일본 애니메이션 영화)",
+  "parts": [
+   {
+    "axis": "direction",
+    "key": "jp_film3d",
+    "v": "v2",
+    "code": "j3",
+    "ko": "일본 애니메이션 영화",
+    "pairs": {
+     "face": [
+      "stylised3d"
+     ],
+     "paint": [
+      "render3d"
+     ]
+    },
+    "requires": null
+   },
+   {
+    "axis": "face",
+    "key": "anime_gacha",
+    "v": "v2",
+    "code": "ag",
+    "ko": "가챠 애니 · 강하게 단순화",
+    "pairs": {
+     "paint": [
+      "brush_anime",
+      "cel_gradient",
+      "matte_soft",
+      "smooth",
+      "painted_refined"
+     ]
+    },
+    "requires": null
+   },
+   {
+    "axis": "paint",
+    "key": "cel_gradient",
+    "v": "v2",
+    "code": "cg",
+    "ko": "2D 셀~그라데이션 · 선화",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "light",
+    "key": "hikey_pastel",
+    "v": "v2",
+    "code": "hp",
+    "ko": "하이키 파스텔 · 햇빛 광택",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "fx",
+    "key": "soft",
+    "v": "v1",
+    "code": "xs",
+    "ko": "부드럽게(블룸 · 작은 반짝임)",
+    "pairs": null,
+    "requires": null
+   }
+  ],
+  "untested": [
+   "direction/jp_film3d 의 추천 짝 밖 — face stylised3d",
+   "direction/jp_film3d 의 추천 짝 밖 — paint render3d"
+  ]
+ },
+ "prompt_file": "jobs/j0048-r3-direction/prompts/j32-ag2-cg2-hp2-xs1__sam.wenyang__samguk-world-low__chatgpt__1.txt",
+ "prompt_sha256": "f4bdfb9b2d3ce958549b65c09bc13e2042549dcea8ddff3fe23b5794ebdb670f",
+ "file": "img/sam.wenyang/samguk/j32-ag2-cg2-hp2-xs1__sam.wenyang__samguk-world-low__chatgpt__1.webp",
+ "thumb": "thumb/sam.wenyang/samguk/j32-ag2-cg2-hp2-xs1__sam.wenyang__samguk-world-low__chatgpt__1.webp",
+ "size": [
+  1024,
+  1536
+ ],
+ "resized_from": null,
+ "source": {
+  "name": "j32-ag2-cg2-hp2-xs1__sam.wenyang__samguk-world-low__chatgpt__1.webp",
+  "sha256": "89c22cbaa592fcecaa369d2ec2887b78dec9bbc566d965e46b545b41bc0c27de",
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "note": null,
+ "generation": null,
+ "added": "2026-11-10",
+ "rating": null
+}
