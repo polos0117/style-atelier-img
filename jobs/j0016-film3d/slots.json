@@ -1,0 +1,110 @@
+{
+ "job": "j0016-film3d",
+ "round": 1,
+ "created": "2026-11-10",
+ "model": "chatgpt",
+ "label": "film3d",
+ "size": 2,
+ "slots": [
+  {
+   "slot": "j31-s31-r31-gs1-x01__sam.wenyang__samguk-world",
+   "file": "j31-s31-r31-gs1-x01__sam.wenyang__samguk-world__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "4bc7624",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "bold",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "j31-s31-r31-gs1-x01",
+    "name": "styl3d_jp",
+    "display": "스타일라이즈드 3D · 3D 렌더(단순한 재질) — 전역광 · 림 라이트 · 맑은 채도 (일본 3D 애니메이션)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "jp_film3d",
+      "v": "v1",
+      "code": "j3"
+     },
+     {
+      "axis": "face",
+      "key": "stylised3d",
+      "v": "v1",
+      "code": "s3"
+     },
+     {
+      "axis": "paint",
+      "key": "render3d",
+      "v": "v1",
+      "code": "r3"
+     },
+     {
+      "axis": "light",
+      "key": "global_soft",
+      "v": "v1",
+      "code": "gs"
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0"
+     }
+    ]
+   },
+   "prompt_sha256": "9221117c9e6313df105db25eae3181f772c3a586f602a37b29f8b69ffe61fa6e",
+   "prompt_file": "jobs/j0016-film3d/prompts/j31-s31-r31-gs1-x01__sam.wenyang__samguk-world__chatgpt__1.txt"
+  },
+  {
+   "slot": "k31-s31-r31-gs1-x01__sam.wenyang__samguk-world",
+   "file": "k31-s31-r31-gs1-x01__sam.wenyang__samguk-world__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "4bc7624",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "bold",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "k31-s31-r31-gs1-x01",
+    "name": "styl3d_kr",
+    "display": "스타일라이즈드 3D · 3D 렌더(단순한 재질) — 전역광 · 림 라이트 · 맑은 채도 (한국 3D 애니메이션)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_film3d",
+      "v": "v1",
+      "code": "k3"
+     },
+     {
+      "axis": "face",
+      "key": "stylised3d",
+      "v": "v1",
+      "code": "s3"
+     },
+     {
+      "axis": "paint",
+      "key": "render3d",
+      "v": "v1",
+      "code": "r3"
+     },
+     {
+      "axis": "light",
+      "key": "global_soft",
+      "v": "v1",
+      "code": "gs"
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0"
+     }
+    ]
+   },
+   "prompt_sha256": "d4e25315dc2dfdb2a9e4fba973fefe9cf0512a816122c8907b73669c7b4579c3",
+   "prompt_file": "jobs/j0016-film3d/prompts/k31-s31-r31-gs1-x01__sam.wenyang__samguk-world__chatgpt__1.txt"
+  }
+ ]
+}

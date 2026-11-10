@@ -6,6 +6,7 @@ GPT 세션: **묻지 않고 끝까지** 한다(그림을 보여 주고 확인을
 
 | 일감 | 차수 | 이름 | 그린 칸 | 모델 | 예약 |
 |---|---|---|---|---|---|
-| [j0013-base-real-anime](j0013-base-real-anime/REQUEST.md) | 1차 | base-real-anime | 0 / 9 | chatgpt | 예약 중 · Codex ChatGPT / 3357dfa27e4f · 3분 전 |
+| [j0016-film3d](j0016-film3d/REQUEST.md) | 1차 | film3d | 0 / 2 | chatgpt | — |
+| [j0013-base-real-anime](j0013-base-real-anime/REQUEST.md) | 1차 | base-real-anime | 0 / 9 | chatgpt | 예약 중 · Codex ChatGPT / 3357dfa27e4f · 6분 전 |
 
 닫힌 일감 2개.
