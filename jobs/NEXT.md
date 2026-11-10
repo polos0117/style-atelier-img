@@ -7,6 +7,5 @@ GPT 세션: **묻지 않고 끝까지** 한다(그림을 보여 주고 확인을
 | 일감 | 차수 | 이름 | 그린 칸 | 모델 | 예약 |
 |---|---|---|---|---|---|
 | [j0058-r5-light](j0058-r5-light/REQUEST.md) | 5차 | r5-light | 0 / 8 | chatgpt | — |
-| [j0057-r5-light](j0057-r5-light/REQUEST.md) | 5차 | r5-light | 0 / 10 | chatgpt | 예약 중 · ChatGPT j0057-r5-light ab4d8cf131ea · 9분 전 |
 
-닫힌 일감 21개.
+닫힌 일감 22개.
