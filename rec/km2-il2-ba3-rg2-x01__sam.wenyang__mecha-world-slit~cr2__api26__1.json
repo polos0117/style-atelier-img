@@ -1,0 +1,132 @@
+{
+ "id": "km2-il2-ba3-rg2-x01__sam.wenyang__mecha-world-slit~cr2__api26__1",
+ "job": "j0079-r13-canvas2",
+ "slot": "km2-il2-ba3-rg2-x01__sam.wenyang__mecha-world-slit~cr2",
+ "subject": "sam.wenyang",
+ "subject_commit": "89ab31a",
+ "world": "mecha",
+ "kind": "world",
+ "exposure": "slit",
+ "model": "api26",
+ "n": 1,
+ "recipe": {
+  "id": "km2-il2-ba3-rg2-x01",
+  "name": "kr_drawn_brush_rim",
+  "display": "그린 얼굴 · 가볍게 단순화 · 2D 붓질 · 색 선 — 림 라이트 · 강한 하이라이트 (한국 MMORPG)",
+  "parts": [
+   {
+    "axis": "direction",
+    "key": "kr_mmorpg",
+    "v": "v2",
+    "code": "km",
+    "ko": "한국 MMORPG",
+    "pairs": {
+     "face": [
+      "semi_soft",
+      "semi_paint",
+      "semi_ideal",
+      "illustrated",
+      "anime_adult"
+     ]
+    },
+    "requires": null
+   },
+   {
+    "axis": "face",
+    "key": "illustrated",
+    "v": "v2",
+    "code": "il",
+    "ko": "그린 얼굴 · 가볍게 단순화",
+    "pairs": {
+     "paint": [
+      "smooth",
+      "painted_refined",
+      "brush_layered",
+      "matte_soft",
+      "cel_gradient"
+     ]
+    },
+    "requires": null
+   },
+   {
+    "axis": "paint",
+    "key": "brush_anime",
+    "v": "v3",
+    "code": "ba",
+    "ko": "2D 붓질 · 색 선",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "light",
+    "key": "rim_gloss",
+    "v": "v2",
+    "code": "rg",
+    "ko": "림 라이트 · 강한 하이라이트",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "fx",
+    "key": "none",
+    "v": "v1",
+    "code": "x0",
+    "ko": "미지정",
+    "pairs": null,
+    "requires": null
+   }
+  ],
+  "untested": [
+   "face/illustrated 의 추천 짝 밖 — paint smooth · painted_refined · brush_layered · matte_soft · cel_gradient"
+  ]
+ },
+ "background": {
+  "key": "canvas_rough",
+  "v": "v2",
+  "code": "cr2",
+  "ko": "거친 유화 붓질 캔버스 · 배경은 덜 그림"
+ },
+ "prompt_file": "jobs/j0079-r13-canvas2/prompts/km2-il2-ba3-rg2-x01__sam.wenyang__mecha-world-slit~cr2__api26__1.txt",
+ "prompt_sha256": "c1be194170f3d41cba4c6d527dc3c3830121ccfb5c10567c9df4e45b7e9095dd",
+ "file": "img/sam.wenyang/mecha/km2-il2-ba3-rg2-x01__sam.wenyang__mecha-world-slit~cr2__api26__1.webp",
+ "thumb": "thumb/sam.wenyang/mecha/km2-il2-ba3-rg2-x01__sam.wenyang__mecha-world-slit~cr2__api26__1.webp",
+ "size": [
+  1024,
+  1536
+ ],
+ "resized_from": null,
+ "source": {
+  "name": "km2-il2-ba3-rg2-x01__sam.wenyang__mecha-world-slit~cr2__api26__1.png",
+  "sha256": "28c213bc5a25fc9f2c9e0156bfd4884162da7b425689b0e5f2057c7ff7cf7e14",
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "note": null,
+ "generation": {
+  "tool": "tools/draw-api.cjs",
+  "model": "gpt-image-2.6-sunburst",
+  "endpoint": "images/generations",
+  "quality": "medium",
+  "usage": {
+   "input_tokens": 980,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 980
+   },
+   "output_tokens": 1132,
+   "output_tokens_details": {
+    "image_tokens": 1132,
+    "text_tokens": 0
+   },
+   "total_tokens": 2112
+  },
+  "seconds": 29.67,
+  "retries": 0,
+  "png_sha256": "28c213bc5a25fc9f2c9e0156bfd4884162da7b425689b0e5f2057c7ff7cf7e14",
+  "date": "2026-11-10"
+ },
+ "added": "2026-11-11",
+ "rating": null
+}
