@@ -1,0 +1,98 @@
+{
+ "id": "jl1-sp2-ba3-mu1-x01__sam.wenyang__samguk-world-moderate__chatgpt__1",
+ "job": "j0055-r4-cross",
+ "slot": "jl1-sp2-ba3-mu1-x01__sam.wenyang__samguk-world-moderate",
+ "subject": "sam.wenyang",
+ "subject_commit": "89ab31a",
+ "world": "samguk",
+ "kind": "world",
+ "exposure": "moderate",
+ "model": "chatgpt",
+ "n": 1,
+ "recipe": {
+  "id": "jl1-sp2-ba3-mu1-x01",
+  "name": null,
+  "display": "반실사 · 가볍게 이상화 · 2D 붓질 · 색 선 — 차분 · 낮은 채도 · 깊은 그림자 (일본 라이트노벨 표지)",
+  "parts": [
+   {
+    "axis": "direction",
+    "key": "jp_light_novel",
+    "v": "v1",
+    "code": "jl",
+    "ko": "일본 라이트노벨 표지",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "face",
+    "key": "semi_paint",
+    "v": "v2",
+    "code": "sp",
+    "ko": "반실사 · 가볍게 이상화",
+    "pairs": {
+     "paint": [
+      "smooth",
+      "painted_refined",
+      "brush_layered",
+      "oil_glaze",
+      "oil_brush",
+      "impasto",
+      "matte_soft"
+     ]
+    },
+    "requires": null
+   },
+   {
+    "axis": "paint",
+    "key": "brush_anime",
+    "v": "v3",
+    "code": "ba",
+    "ko": "2D 붓질 · 색 선",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "light",
+    "key": "muted",
+    "v": "v1",
+    "code": "mu",
+    "ko": "차분 · 낮은 채도 · 깊은 그림자",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "fx",
+    "key": "none",
+    "v": "v1",
+    "code": "x0",
+    "ko": "미지정",
+    "pairs": null,
+    "requires": null
+   }
+  ],
+  "untested": [
+   "face/semi_paint 의 추천 짝 밖 — paint smooth · painted_refined · brush_layered · oil_glaze · oil_brush · impasto · matte_soft"
+  ]
+ },
+ "prompt_file": "jobs/j0055-r4-cross/prompts/jl1-sp2-ba3-mu1-x01__sam.wenyang__samguk-world-moderate__chatgpt__1.txt",
+ "prompt_sha256": "ab7c3de8321770c1c8f1cf0666f46c6e4127994bcab2b5573a17f6d152c722de",
+ "file": "img/sam.wenyang/samguk/jl1-sp2-ba3-mu1-x01__sam.wenyang__samguk-world-moderate__chatgpt__1.webp",
+ "thumb": "thumb/sam.wenyang/samguk/jl1-sp2-ba3-mu1-x01__sam.wenyang__samguk-world-moderate__chatgpt__1.webp",
+ "size": [
+  1024,
+  1536
+ ],
+ "resized_from": null,
+ "source": {
+  "name": "jl1-sp2-ba3-mu1-x01__sam.wenyang__samguk-world-moderate__chatgpt__1.webp",
+  "sha256": "fd77da421608c3e38439002183f8b85ee50bdfb380c2f38c0028acb8374d8020",
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "note": null,
+ "generation": null,
+ "added": "2026-11-10",
+ "rating": null
+}
