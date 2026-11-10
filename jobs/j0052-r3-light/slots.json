@@ -1,0 +1,538 @@
+{
+ "job": "j0052-r3-light",
+ "round": 3,
+ "created": "2026-11-10",
+ "model": "chatgpt",
+ "label": "r3-light",
+ "size": 6,
+ "slots": [
+  {
+   "slot": "ja2-ag2-cg2-dr2-xs1__sam.wenyang__samguk-world-low",
+   "file": "ja2-ag2-cg2-dr2-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "low",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "ja2-ag2-cg2-dr2-xs1",
+    "name": null,
+    "display": "가챠 애니 · 강하게 단순화 · 2D 셀~그라데이션 · 선화 — 강한 방향광 · 이펙트 부드럽게(블룸 · 작은 반짝임) (일본 가챠)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "jp_gacha",
+      "v": "v2",
+      "code": "ja",
+      "ko": "일본 가챠",
+      "pairs": {
+       "face": [
+        "anime_gacha",
+        "anime_adult"
+       ],
+       "paint": [
+        "cel_gradient",
+        "matte_soft",
+        "brush_anime"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "anime_gacha",
+      "v": "v2",
+      "code": "ag",
+      "ko": "가챠 애니 · 강하게 단순화",
+      "pairs": {
+       "paint": [
+        "brush_anime",
+        "cel_gradient",
+        "matte_soft",
+        "smooth",
+        "painted_refined"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "cel_gradient",
+      "v": "v2",
+      "code": "cg",
+      "ko": "2D 셀~그라데이션 · 선화",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "directional",
+      "v": "v2",
+      "code": "dr",
+      "ko": "강한 방향광",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "soft",
+      "v": "v1",
+      "code": "xs",
+      "ko": "부드럽게(블룸 · 작은 반짝임)",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": []
+   },
+   "subject_overrides": [
+    "head: character card illustration → character image",
+    "faceFrame:  in this style → "
+   ],
+   "prompt_sha256": "6762354bbc5fff0e2884a283b7cddc29075aabd87390ae6c4564028ebcb10046",
+   "prompt_file": "jobs/j0052-r3-light/prompts/ja2-ag2-cg2-dr2-xs1__sam.wenyang__samguk-world-low__chatgpt__1.txt"
+  },
+  {
+   "slot": "ja2-ag2-cg2-gs1-xs1__sam.wenyang__samguk-world-low",
+   "file": "ja2-ag2-cg2-gs1-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "low",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "ja2-ag2-cg2-gs1-xs1",
+    "name": null,
+    "display": "가챠 애니 · 강하게 단순화 · 2D 셀~그라데이션 · 선화 — 전역광 · 림 라이트 · 맑은 채도 · 이펙트 부드럽게(블룸 · 작은 반짝임) (일본 가챠)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "jp_gacha",
+      "v": "v2",
+      "code": "ja",
+      "ko": "일본 가챠",
+      "pairs": {
+       "face": [
+        "anime_gacha",
+        "anime_adult"
+       ],
+       "paint": [
+        "cel_gradient",
+        "matte_soft",
+        "brush_anime"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "anime_gacha",
+      "v": "v2",
+      "code": "ag",
+      "ko": "가챠 애니 · 강하게 단순화",
+      "pairs": {
+       "paint": [
+        "brush_anime",
+        "cel_gradient",
+        "matte_soft",
+        "smooth",
+        "painted_refined"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "cel_gradient",
+      "v": "v2",
+      "code": "cg",
+      "ko": "2D 셀~그라데이션 · 선화",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "global_soft",
+      "v": "v1",
+      "code": "gs",
+      "ko": "전역광 · 림 라이트 · 맑은 채도",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "soft",
+      "v": "v1",
+      "code": "xs",
+      "ko": "부드럽게(블룸 · 작은 반짝임)",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": []
+   },
+   "subject_overrides": [
+    "head: character card illustration → character image",
+    "faceFrame:  in this style → "
+   ],
+   "prompt_sha256": "c38dbc392fd989ddf9c4c9a9faf480081647bb03761cde8d8a901ff7fcbf7529",
+   "prompt_file": "jobs/j0052-r3-light/prompts/ja2-ag2-cg2-gs1-xs1__sam.wenyang__samguk-world-low__chatgpt__1.txt"
+  },
+  {
+   "slot": "ja2-ag2-cg2-rg1-xs1__sam.wenyang__samguk-world-low",
+   "file": "ja2-ag2-cg2-rg1-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "low",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "ja2-ag2-cg2-rg1-xs1",
+    "name": null,
+    "display": "가챠 애니 · 강하게 단순화 · 2D 셀~그라데이션 · 선화 — 림 라이트 · 강한 하이라이트 · 이펙트 부드럽게(블룸 · 작은 반짝임) (일본 가챠)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "jp_gacha",
+      "v": "v2",
+      "code": "ja",
+      "ko": "일본 가챠",
+      "pairs": {
+       "face": [
+        "anime_gacha",
+        "anime_adult"
+       ],
+       "paint": [
+        "cel_gradient",
+        "matte_soft",
+        "brush_anime"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "anime_gacha",
+      "v": "v2",
+      "code": "ag",
+      "ko": "가챠 애니 · 강하게 단순화",
+      "pairs": {
+       "paint": [
+        "brush_anime",
+        "cel_gradient",
+        "matte_soft",
+        "smooth",
+        "painted_refined"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "cel_gradient",
+      "v": "v2",
+      "code": "cg",
+      "ko": "2D 셀~그라데이션 · 선화",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "rim_gloss",
+      "v": "v1",
+      "code": "rg",
+      "ko": "림 라이트 · 강한 하이라이트",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "soft",
+      "v": "v1",
+      "code": "xs",
+      "ko": "부드럽게(블룸 · 작은 반짝임)",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": []
+   },
+   "subject_overrides": [
+    "head: character card illustration → character image",
+    "faceFrame:  in this style → "
+   ],
+   "prompt_sha256": "2f7705b101937e0b1b49abc868fad91838a443e38cb22709591be68d5478ab48",
+   "prompt_file": "jobs/j0052-r3-light/prompts/ja2-ag2-cg2-rg1-xs1__sam.wenyang__samguk-world-low__chatgpt__1.txt"
+  },
+  {
+   "slot": "ja2-ag2-cg2-hn2-xs1__sam.wenyang__samguk-world-low",
+   "file": "ja2-ag2-cg2-hn2-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "low",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "ja2-ag2-cg2-hn2-xs1",
+    "name": null,
+    "display": "가챠 애니 · 강하게 단순화 · 2D 셀~그라데이션 · 선화 — 하이키 자연광 · 이펙트 부드럽게(블룸 · 작은 반짝임) (일본 가챠)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "jp_gacha",
+      "v": "v2",
+      "code": "ja",
+      "ko": "일본 가챠",
+      "pairs": {
+       "face": [
+        "anime_gacha",
+        "anime_adult"
+       ],
+       "paint": [
+        "cel_gradient",
+        "matte_soft",
+        "brush_anime"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "anime_gacha",
+      "v": "v2",
+      "code": "ag",
+      "ko": "가챠 애니 · 강하게 단순화",
+      "pairs": {
+       "paint": [
+        "brush_anime",
+        "cel_gradient",
+        "matte_soft",
+        "smooth",
+        "painted_refined"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "cel_gradient",
+      "v": "v2",
+      "code": "cg",
+      "ko": "2D 셀~그라데이션 · 선화",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "hikey_natural",
+      "v": "v2",
+      "code": "hn",
+      "ko": "하이키 자연광",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "soft",
+      "v": "v1",
+      "code": "xs",
+      "ko": "부드럽게(블룸 · 작은 반짝임)",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": []
+   },
+   "subject_overrides": [
+    "head: character card illustration → character image",
+    "faceFrame:  in this style → "
+   ],
+   "prompt_sha256": "524ad871ab52a2bbe0b1d0fb68b3eaa5dfe5eeda14002e558ecc32ee83365bca",
+   "prompt_file": "jobs/j0052-r3-light/prompts/ja2-ag2-cg2-hn2-xs1__sam.wenyang__samguk-world-low__chatgpt__1.txt"
+  },
+  {
+   "slot": "ja2-ag2-cg2-ch2-xs1__sam.wenyang__samguk-world-low",
+   "file": "ja2-ag2-cg2-ch2-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "low",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "ja2-ag2-cg2-ch2-xs1",
+    "name": null,
+    "display": "가챠 애니 · 강하게 단순화 · 2D 셀~그라데이션 · 선화 — 시네마틱 하이키 · 앞쪽 보조광 · 이펙트 부드럽게(블룸 · 작은 반짝임) (일본 가챠)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "jp_gacha",
+      "v": "v2",
+      "code": "ja",
+      "ko": "일본 가챠",
+      "pairs": {
+       "face": [
+        "anime_gacha",
+        "anime_adult"
+       ],
+       "paint": [
+        "cel_gradient",
+        "matte_soft",
+        "brush_anime"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "anime_gacha",
+      "v": "v2",
+      "code": "ag",
+      "ko": "가챠 애니 · 강하게 단순화",
+      "pairs": {
+       "paint": [
+        "brush_anime",
+        "cel_gradient",
+        "matte_soft",
+        "smooth",
+        "painted_refined"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "cel_gradient",
+      "v": "v2",
+      "code": "cg",
+      "ko": "2D 셀~그라데이션 · 선화",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "cine_hikey",
+      "v": "v2",
+      "code": "ch",
+      "ko": "시네마틱 하이키 · 앞쪽 보조광",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "soft",
+      "v": "v1",
+      "code": "xs",
+      "ko": "부드럽게(블룸 · 작은 반짝임)",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": []
+   },
+   "subject_overrides": [
+    "head: character card illustration → character image",
+    "faceFrame:  in this style → "
+   ],
+   "prompt_sha256": "46036d6437b95bd6360a13422c916bc7c154d2fe2372247646814d9369fe9bd2",
+   "prompt_file": "jobs/j0052-r3-light/prompts/ja2-ag2-cg2-ch2-xs1__sam.wenyang__samguk-world-low__chatgpt__1.txt"
+  },
+  {
+   "slot": "ja2-ag2-cg2-cl1-xs1__sam.wenyang__samguk-world-low",
+   "file": "ja2-ag2-cg2-cl1-xs1__sam.wenyang__samguk-world-low__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "low",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "ja2-ag2-cg2-cl1-xs1",
+    "name": null,
+    "display": "가챠 애니 · 강하게 단순화 · 2D 셀~그라데이션 · 선화 — 시네마틱 로키 · 한 줄기 빛 · 이펙트 부드럽게(블룸 · 작은 반짝임) (일본 가챠)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "jp_gacha",
+      "v": "v2",
+      "code": "ja",
+      "ko": "일본 가챠",
+      "pairs": {
+       "face": [
+        "anime_gacha",
+        "anime_adult"
+       ],
+       "paint": [
+        "cel_gradient",
+        "matte_soft",
+        "brush_anime"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "anime_gacha",
+      "v": "v2",
+      "code": "ag",
+      "ko": "가챠 애니 · 강하게 단순화",
+      "pairs": {
+       "paint": [
+        "brush_anime",
+        "cel_gradient",
+        "matte_soft",
+        "smooth",
+        "painted_refined"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "cel_gradient",
+      "v": "v2",
+      "code": "cg",
+      "ko": "2D 셀~그라데이션 · 선화",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "cine_lowkey",
+      "v": "v1",
+      "code": "cl",
+      "ko": "시네마틱 로키 · 한 줄기 빛",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "soft",
+      "v": "v1",
+      "code": "xs",
+      "ko": "부드럽게(블룸 · 작은 반짝임)",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": []
+   },
+   "subject_overrides": [
+    "head: character card illustration → character image",
+    "faceFrame:  in this style → "
+   ],
+   "prompt_sha256": "612f2b8a4959a82b670e2534fa3b5d28a348ce3a1253c7068618c77ea096bd62",
+   "prompt_file": "jobs/j0052-r3-light/prompts/ja2-ag2-cg2-cl1-xs1__sam.wenyang__samguk-world-low__chatgpt__1.txt"
+  }
+ ]
+}
