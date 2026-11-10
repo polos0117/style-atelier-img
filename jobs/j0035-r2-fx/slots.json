@@ -362,5 +362,7 @@
    "prompt_sha256": "944aed5a896bdf18874ffac43904c3cf77e671c66e97a19157579e530d139d87",
    "prompt_file": "jobs/j0035-r2-fx/prompts/km2-ss2-sm2-mu1-xn1__sam.wenyang__samguk-world-none__chatgpt__1.txt"
   }
- ]
+ ],
+ "retired": "2026-11-10",
+ "hold": "노출 none 으로 만든 2차 — 화풍 비교 노출은 low 로 다시 만든다(사용자 2026-11-10 「skin shown low 로 낮춰줘」 → 「그냥 exposure 로 쓰자」)"
 }

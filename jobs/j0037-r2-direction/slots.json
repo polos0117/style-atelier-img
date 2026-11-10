@@ -1,0 +1,559 @@
+{
+ "job": "j0037-r2-direction",
+ "round": 2,
+ "created": "2026-11-10",
+ "model": "chatgpt",
+ "label": "r2-direction",
+ "size": 6,
+ "slots": [
+  {
+   "slot": "kn2-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low",
+   "file": "kn2-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "low",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "kn2-ss2-sm2-mu1-xf1",
+    "name": null,
+    "display": "반실사 · 이상화 · 섬세 · 디지털 페인팅 · 매끄러움 — 차분 · 낮은 채도 · 깊은 그림자 · 이펙트 옅게(발광은 가늘고 적게) (한국 애니)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_anime",
+      "v": "v2",
+      "code": "kn",
+      "ko": "한국 애니",
+      "pairs": {
+       "face": [
+        "anime_adult",
+        "anime_gacha"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "semi_soft",
+      "v": "v2",
+      "code": "ss",
+      "ko": "반실사 · 이상화 · 섬세",
+      "pairs": {
+       "paint": [
+        "smooth",
+        "painted_refined",
+        "brush_layered",
+        "oil_glaze",
+        "oil_brush",
+        "impasto",
+        "matte_soft",
+        "photoreal_cgi"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "smooth",
+      "v": "v2",
+      "code": "sm",
+      "ko": "디지털 페인팅 · 매끄러움",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "muted",
+      "v": "v1",
+      "code": "mu",
+      "ko": "차분 · 낮은 채도 · 깊은 그림자",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "faint",
+      "v": "v1",
+      "code": "xf",
+      "ko": "옅게(발광은 가늘고 적게)",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": [
+     "direction/kr_anime 의 추천 짝 밖 — face anime_adult · anime_gacha"
+    ]
+   },
+   "subject_overrides": [
+    "head: character card illustration → character image",
+    "faceFrame:  in this style → "
+   ],
+   "prompt_sha256": "8fd0282045c25ac831c386f289d06124ae7a57dbf9d19dd60d1a0d1b608e2f46",
+   "prompt_file": "jobs/j0037-r2-direction/prompts/kn2-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1.txt"
+  },
+  {
+   "slot": "ja2-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low",
+   "file": "ja2-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "low",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "ja2-ss2-sm2-mu1-xf1",
+    "name": null,
+    "display": "반실사 · 이상화 · 섬세 · 디지털 페인팅 · 매끄러움 — 차분 · 낮은 채도 · 깊은 그림자 · 이펙트 옅게(발광은 가늘고 적게) (일본 가챠)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "jp_gacha",
+      "v": "v2",
+      "code": "ja",
+      "ko": "일본 가챠",
+      "pairs": {
+       "face": [
+        "anime_gacha",
+        "anime_adult"
+       ],
+       "paint": [
+        "cel_gradient",
+        "matte_soft",
+        "brush_anime"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "semi_soft",
+      "v": "v2",
+      "code": "ss",
+      "ko": "반실사 · 이상화 · 섬세",
+      "pairs": {
+       "paint": [
+        "smooth",
+        "painted_refined",
+        "brush_layered",
+        "oil_glaze",
+        "oil_brush",
+        "impasto",
+        "matte_soft",
+        "photoreal_cgi"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "smooth",
+      "v": "v2",
+      "code": "sm",
+      "ko": "디지털 페인팅 · 매끄러움",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "muted",
+      "v": "v1",
+      "code": "mu",
+      "ko": "차분 · 낮은 채도 · 깊은 그림자",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "faint",
+      "v": "v1",
+      "code": "xf",
+      "ko": "옅게(발광은 가늘고 적게)",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": [
+     "direction/jp_gacha 의 추천 짝 밖 — face anime_gacha · anime_adult",
+     "direction/jp_gacha 의 추천 짝 밖 — paint cel_gradient · matte_soft · brush_anime"
+    ]
+   },
+   "subject_overrides": [
+    "head: character card illustration → character image",
+    "faceFrame:  in this style → "
+   ],
+   "prompt_sha256": "2f00e61495d10f541320c87da3181583142792d7ded446e3888b45179bd2cb08",
+   "prompt_file": "jobs/j0037-r2-direction/prompts/ja2-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1.txt"
+  },
+  {
+   "slot": "kg2-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low",
+   "file": "kg2-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "low",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "kg2-ss2-sm2-mu1-xf1",
+    "name": null,
+    "display": "반실사 · 이상화 · 섬세 · 디지털 페인팅 · 매끄러움 — 차분 · 낮은 채도 · 깊은 그림자 · 이펙트 옅게(발광은 가늘고 적게) (한국 가챠)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_gacha",
+      "v": "v2",
+      "code": "kg",
+      "ko": "한국 가챠",
+      "pairs": {
+       "face": [
+        "anime_gacha",
+        "anime_adult"
+       ],
+       "paint": [
+        "cel_gradient",
+        "matte_soft",
+        "brush_anime"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "semi_soft",
+      "v": "v2",
+      "code": "ss",
+      "ko": "반실사 · 이상화 · 섬세",
+      "pairs": {
+       "paint": [
+        "smooth",
+        "painted_refined",
+        "brush_layered",
+        "oil_glaze",
+        "oil_brush",
+        "impasto",
+        "matte_soft",
+        "photoreal_cgi"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "smooth",
+      "v": "v2",
+      "code": "sm",
+      "ko": "디지털 페인팅 · 매끄러움",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "muted",
+      "v": "v1",
+      "code": "mu",
+      "ko": "차분 · 낮은 채도 · 깊은 그림자",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "faint",
+      "v": "v1",
+      "code": "xf",
+      "ko": "옅게(발광은 가늘고 적게)",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": [
+     "direction/kr_gacha 의 추천 짝 밖 — face anime_gacha · anime_adult",
+     "direction/kr_gacha 의 추천 짝 밖 — paint cel_gradient · matte_soft · brush_anime"
+    ]
+   },
+   "subject_overrides": [
+    "head: character card illustration → character image",
+    "faceFrame:  in this style → "
+   ],
+   "prompt_sha256": "037984d634a2d521e3358168907fc952217424d318cf5135e72f25f1b47cdd6a",
+   "prompt_file": "jobs/j0037-r2-direction/prompts/kg2-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1.txt"
+  },
+  {
+   "slot": "j32-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low",
+   "file": "j32-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "low",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "j32-ss2-sm2-mu1-xf1",
+    "name": null,
+    "display": "반실사 · 이상화 · 섬세 · 디지털 페인팅 · 매끄러움 — 차분 · 낮은 채도 · 깊은 그림자 · 이펙트 옅게(발광은 가늘고 적게) (일본 애니메이션 영화)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "jp_film3d",
+      "v": "v2",
+      "code": "j3",
+      "ko": "일본 애니메이션 영화",
+      "pairs": {
+       "face": [
+        "stylised3d"
+       ],
+       "paint": [
+        "render3d"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "semi_soft",
+      "v": "v2",
+      "code": "ss",
+      "ko": "반실사 · 이상화 · 섬세",
+      "pairs": {
+       "paint": [
+        "smooth",
+        "painted_refined",
+        "brush_layered",
+        "oil_glaze",
+        "oil_brush",
+        "impasto",
+        "matte_soft",
+        "photoreal_cgi"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "smooth",
+      "v": "v2",
+      "code": "sm",
+      "ko": "디지털 페인팅 · 매끄러움",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "muted",
+      "v": "v1",
+      "code": "mu",
+      "ko": "차분 · 낮은 채도 · 깊은 그림자",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "faint",
+      "v": "v1",
+      "code": "xf",
+      "ko": "옅게(발광은 가늘고 적게)",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": [
+     "direction/jp_film3d 의 추천 짝 밖 — face stylised3d",
+     "direction/jp_film3d 의 추천 짝 밖 — paint render3d"
+    ]
+   },
+   "subject_overrides": [
+    "head: character card illustration → character image",
+    "faceFrame:  in this style → "
+   ],
+   "prompt_sha256": "6a9cb63fd5779a8d54e03a21b52ca4738c8cff3533fee32f5a0cb5dbc9a2e26c",
+   "prompt_file": "jobs/j0037-r2-direction/prompts/j32-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1.txt"
+  },
+  {
+   "slot": "k32-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low",
+   "file": "k32-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "low",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "k32-ss2-sm2-mu1-xf1",
+    "name": null,
+    "display": "반실사 · 이상화 · 섬세 · 디지털 페인팅 · 매끄러움 — 차분 · 낮은 채도 · 깊은 그림자 · 이펙트 옅게(발광은 가늘고 적게) (한국 애니메이션 영화)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_film3d",
+      "v": "v2",
+      "code": "k3",
+      "ko": "한국 애니메이션 영화",
+      "pairs": {
+       "face": [
+        "stylised3d"
+       ],
+       "paint": [
+        "render3d"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "semi_soft",
+      "v": "v2",
+      "code": "ss",
+      "ko": "반실사 · 이상화 · 섬세",
+      "pairs": {
+       "paint": [
+        "smooth",
+        "painted_refined",
+        "brush_layered",
+        "oil_glaze",
+        "oil_brush",
+        "impasto",
+        "matte_soft",
+        "photoreal_cgi"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "smooth",
+      "v": "v2",
+      "code": "sm",
+      "ko": "디지털 페인팅 · 매끄러움",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "muted",
+      "v": "v1",
+      "code": "mu",
+      "ko": "차분 · 낮은 채도 · 깊은 그림자",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "faint",
+      "v": "v1",
+      "code": "xf",
+      "ko": "옅게(발광은 가늘고 적게)",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": [
+     "direction/kr_film3d 의 추천 짝 밖 — face stylised3d",
+     "direction/kr_film3d 의 추천 짝 밖 — paint render3d"
+    ]
+   },
+   "subject_overrides": [
+    "head: character card illustration → character image",
+    "faceFrame:  in this style → "
+   ],
+   "prompt_sha256": "91a6c78c1ccb1e68f98707a3b97272267a06f7ee16aced8925d7d71dbc4668e6",
+   "prompt_file": "jobs/j0037-r2-direction/prompts/k32-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1.txt"
+  },
+  {
+   "slot": "cc2-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low",
+   "file": "cc2-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "low",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "cc2-ss2-sm2-mu1-xf1",
+    "name": null,
+    "display": "반실사 · 이상화 · 섬세 · 디지털 페인팅 · 매끄러움 — 차분 · 낮은 채도 · 깊은 그림자 · 이펙트 옅게(발광은 가늘고 적게) (시네마틱 게임 트레일러)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "cinematic_cgi",
+      "v": "v2",
+      "code": "cc",
+      "ko": "시네마틱 게임 트레일러",
+      "pairs": {
+       "face": [
+        "cgi_ideal",
+        "real_natural",
+        "semi_soft"
+       ],
+       "paint": [
+        "photoreal_cgi",
+        "smooth"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "semi_soft",
+      "v": "v2",
+      "code": "ss",
+      "ko": "반실사 · 이상화 · 섬세",
+      "pairs": {
+       "paint": [
+        "smooth",
+        "painted_refined",
+        "brush_layered",
+        "oil_glaze",
+        "oil_brush",
+        "impasto",
+        "matte_soft",
+        "photoreal_cgi"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "smooth",
+      "v": "v2",
+      "code": "sm",
+      "ko": "디지털 페인팅 · 매끄러움",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "muted",
+      "v": "v1",
+      "code": "mu",
+      "ko": "차분 · 낮은 채도 · 깊은 그림자",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "faint",
+      "v": "v1",
+      "code": "xf",
+      "ko": "옅게(발광은 가늘고 적게)",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": []
+   },
+   "subject_overrides": [
+    "head: character card illustration → character image",
+    "faceFrame:  in this style → "
+   ],
+   "prompt_sha256": "0fe544c3f18cd76f157c3575fc0c572180b0b0a64d2872bcc8750031541b78db",
+   "prompt_file": "jobs/j0037-r2-direction/prompts/cc2-ss2-sm2-mu1-xf1__sam.wenyang__samguk-world-low__chatgpt__1.txt"
+  }
+ ]
+}

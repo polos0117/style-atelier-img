@@ -1,0 +1,544 @@
+{
+ "job": "j0042-r2-light",
+ "round": 2,
+ "created": "2026-11-10",
+ "model": "chatgpt",
+ "label": "r2-light",
+ "size": 6,
+ "slots": [
+  {
+   "slot": "km2-ss2-sm2-gs1-xf1__sam.wenyang__samguk-world-low",
+   "file": "km2-ss2-sm2-gs1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "low",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "km2-ss2-sm2-gs1-xf1",
+    "name": null,
+    "display": "반실사 · 이상화 · 섬세 · 디지털 페인팅 · 매끄러움 — 전역광 · 림 라이트 · 맑은 채도 · 이펙트 옅게(발광은 가늘고 적게) (한국 MMORPG)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_mmorpg",
+      "v": "v2",
+      "code": "km",
+      "ko": "한국 MMORPG",
+      "pairs": {
+       "face": [
+        "semi_soft",
+        "semi_paint",
+        "semi_ideal",
+        "illustrated",
+        "anime_adult"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "semi_soft",
+      "v": "v2",
+      "code": "ss",
+      "ko": "반실사 · 이상화 · 섬세",
+      "pairs": {
+       "paint": [
+        "smooth",
+        "painted_refined",
+        "brush_layered",
+        "oil_glaze",
+        "oil_brush",
+        "impasto",
+        "matte_soft",
+        "photoreal_cgi"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "smooth",
+      "v": "v2",
+      "code": "sm",
+      "ko": "디지털 페인팅 · 매끄러움",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "global_soft",
+      "v": "v1",
+      "code": "gs",
+      "ko": "전역광 · 림 라이트 · 맑은 채도",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "faint",
+      "v": "v1",
+      "code": "xf",
+      "ko": "옅게(발광은 가늘고 적게)",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": []
+   },
+   "subject_overrides": [
+    "head: character card illustration → character image",
+    "faceFrame:  in this style → "
+   ],
+   "prompt_sha256": "ecb1839ee5d721a0ec3635797b5552a873fc0c43b25f146b7d98cfb06aae9004",
+   "prompt_file": "jobs/j0042-r2-light/prompts/km2-ss2-sm2-gs1-xf1__sam.wenyang__samguk-world-low__chatgpt__1.txt"
+  },
+  {
+   "slot": "km2-ss2-sm2-rg1-xf1__sam.wenyang__samguk-world-low",
+   "file": "km2-ss2-sm2-rg1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "low",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "km2-ss2-sm2-rg1-xf1",
+    "name": null,
+    "display": "반실사 · 이상화 · 섬세 · 디지털 페인팅 · 매끄러움 — 림 라이트 · 강한 하이라이트 · 이펙트 옅게(발광은 가늘고 적게) (한국 MMORPG)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_mmorpg",
+      "v": "v2",
+      "code": "km",
+      "ko": "한국 MMORPG",
+      "pairs": {
+       "face": [
+        "semi_soft",
+        "semi_paint",
+        "semi_ideal",
+        "illustrated",
+        "anime_adult"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "semi_soft",
+      "v": "v2",
+      "code": "ss",
+      "ko": "반실사 · 이상화 · 섬세",
+      "pairs": {
+       "paint": [
+        "smooth",
+        "painted_refined",
+        "brush_layered",
+        "oil_glaze",
+        "oil_brush",
+        "impasto",
+        "matte_soft",
+        "photoreal_cgi"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "smooth",
+      "v": "v2",
+      "code": "sm",
+      "ko": "디지털 페인팅 · 매끄러움",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "rim_gloss",
+      "v": "v1",
+      "code": "rg",
+      "ko": "림 라이트 · 강한 하이라이트",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "faint",
+      "v": "v1",
+      "code": "xf",
+      "ko": "옅게(발광은 가늘고 적게)",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": []
+   },
+   "subject_overrides": [
+    "head: character card illustration → character image",
+    "faceFrame:  in this style → "
+   ],
+   "prompt_sha256": "936fe1f00a8de2e2d2eed1579883fff25da26ec937ca9c9390efc550568c2f9f",
+   "prompt_file": "jobs/j0042-r2-light/prompts/km2-ss2-sm2-rg1-xf1__sam.wenyang__samguk-world-low__chatgpt__1.txt"
+  },
+  {
+   "slot": "km2-ss2-sm2-hn1-xf1__sam.wenyang__samguk-world-low",
+   "file": "km2-ss2-sm2-hn1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "low",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "km2-ss2-sm2-hn1-xf1",
+    "name": null,
+    "display": "반실사 · 이상화 · 섬세 · 디지털 페인팅 · 매끄러움 — 하이키 자연광 · 이펙트 옅게(발광은 가늘고 적게) (한국 MMORPG)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_mmorpg",
+      "v": "v2",
+      "code": "km",
+      "ko": "한국 MMORPG",
+      "pairs": {
+       "face": [
+        "semi_soft",
+        "semi_paint",
+        "semi_ideal",
+        "illustrated",
+        "anime_adult"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "semi_soft",
+      "v": "v2",
+      "code": "ss",
+      "ko": "반실사 · 이상화 · 섬세",
+      "pairs": {
+       "paint": [
+        "smooth",
+        "painted_refined",
+        "brush_layered",
+        "oil_glaze",
+        "oil_brush",
+        "impasto",
+        "matte_soft",
+        "photoreal_cgi"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "smooth",
+      "v": "v2",
+      "code": "sm",
+      "ko": "디지털 페인팅 · 매끄러움",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "hikey_natural",
+      "v": "v1",
+      "code": "hn",
+      "ko": "하이키 자연광",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "faint",
+      "v": "v1",
+      "code": "xf",
+      "ko": "옅게(발광은 가늘고 적게)",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": []
+   },
+   "subject_overrides": [
+    "head: character card illustration → character image",
+    "faceFrame:  in this style → "
+   ],
+   "prompt_sha256": "f0f5b3535976117b6fef6948d2f4ca76b0f9af12b749e6a2e1a06da970134fce",
+   "prompt_file": "jobs/j0042-r2-light/prompts/km2-ss2-sm2-hn1-xf1__sam.wenyang__samguk-world-low__chatgpt__1.txt"
+  },
+  {
+   "slot": "km2-ss2-sm2-hp2-xf1__sam.wenyang__samguk-world-low",
+   "file": "km2-ss2-sm2-hp2-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "low",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "km2-ss2-sm2-hp2-xf1",
+    "name": null,
+    "display": "반실사 · 이상화 · 섬세 · 디지털 페인팅 · 매끄러움 — 하이키 파스텔 · 햇빛 광택 · 이펙트 옅게(발광은 가늘고 적게) (한국 MMORPG)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_mmorpg",
+      "v": "v2",
+      "code": "km",
+      "ko": "한국 MMORPG",
+      "pairs": {
+       "face": [
+        "semi_soft",
+        "semi_paint",
+        "semi_ideal",
+        "illustrated",
+        "anime_adult"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "semi_soft",
+      "v": "v2",
+      "code": "ss",
+      "ko": "반실사 · 이상화 · 섬세",
+      "pairs": {
+       "paint": [
+        "smooth",
+        "painted_refined",
+        "brush_layered",
+        "oil_glaze",
+        "oil_brush",
+        "impasto",
+        "matte_soft",
+        "photoreal_cgi"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "smooth",
+      "v": "v2",
+      "code": "sm",
+      "ko": "디지털 페인팅 · 매끄러움",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "hikey_pastel",
+      "v": "v2",
+      "code": "hp",
+      "ko": "하이키 파스텔 · 햇빛 광택",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "faint",
+      "v": "v1",
+      "code": "xf",
+      "ko": "옅게(발광은 가늘고 적게)",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": []
+   },
+   "subject_overrides": [
+    "head: character card illustration → character image",
+    "faceFrame:  in this style → "
+   ],
+   "prompt_sha256": "cb9953cf8b87ace7cf9bf4cb731cb0f9bc395910b021266a50dbfba44b870a51",
+   "prompt_file": "jobs/j0042-r2-light/prompts/km2-ss2-sm2-hp2-xf1__sam.wenyang__samguk-world-low__chatgpt__1.txt"
+  },
+  {
+   "slot": "km2-ss2-sm2-ch2-xf1__sam.wenyang__samguk-world-low",
+   "file": "km2-ss2-sm2-ch2-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "low",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "km2-ss2-sm2-ch2-xf1",
+    "name": null,
+    "display": "반실사 · 이상화 · 섬세 · 디지털 페인팅 · 매끄러움 — 시네마틱 하이키 · 앞쪽 보조광 · 이펙트 옅게(발광은 가늘고 적게) (한국 MMORPG)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_mmorpg",
+      "v": "v2",
+      "code": "km",
+      "ko": "한국 MMORPG",
+      "pairs": {
+       "face": [
+        "semi_soft",
+        "semi_paint",
+        "semi_ideal",
+        "illustrated",
+        "anime_adult"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "semi_soft",
+      "v": "v2",
+      "code": "ss",
+      "ko": "반실사 · 이상화 · 섬세",
+      "pairs": {
+       "paint": [
+        "smooth",
+        "painted_refined",
+        "brush_layered",
+        "oil_glaze",
+        "oil_brush",
+        "impasto",
+        "matte_soft",
+        "photoreal_cgi"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "smooth",
+      "v": "v2",
+      "code": "sm",
+      "ko": "디지털 페인팅 · 매끄러움",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "cine_hikey",
+      "v": "v2",
+      "code": "ch",
+      "ko": "시네마틱 하이키 · 앞쪽 보조광",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "faint",
+      "v": "v1",
+      "code": "xf",
+      "ko": "옅게(발광은 가늘고 적게)",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": []
+   },
+   "subject_overrides": [
+    "head: character card illustration → character image",
+    "faceFrame:  in this style → "
+   ],
+   "prompt_sha256": "6cb321010418d499fb7a58265a8ab0bd628a1c20b9f1b3ee0fbb82ca7724911c",
+   "prompt_file": "jobs/j0042-r2-light/prompts/km2-ss2-sm2-ch2-xf1__sam.wenyang__samguk-world-low__chatgpt__1.txt"
+  },
+  {
+   "slot": "km2-ss2-sm2-cl1-xf1__sam.wenyang__samguk-world-low",
+   "file": "km2-ss2-sm2-cl1-xf1__sam.wenyang__samguk-world-low__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "low",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "km2-ss2-sm2-cl1-xf1",
+    "name": null,
+    "display": "반실사 · 이상화 · 섬세 · 디지털 페인팅 · 매끄러움 — 시네마틱 로키 · 한 줄기 빛 · 이펙트 옅게(발광은 가늘고 적게) (한국 MMORPG)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_mmorpg",
+      "v": "v2",
+      "code": "km",
+      "ko": "한국 MMORPG",
+      "pairs": {
+       "face": [
+        "semi_soft",
+        "semi_paint",
+        "semi_ideal",
+        "illustrated",
+        "anime_adult"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "semi_soft",
+      "v": "v2",
+      "code": "ss",
+      "ko": "반실사 · 이상화 · 섬세",
+      "pairs": {
+       "paint": [
+        "smooth",
+        "painted_refined",
+        "brush_layered",
+        "oil_glaze",
+        "oil_brush",
+        "impasto",
+        "matte_soft",
+        "photoreal_cgi"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "smooth",
+      "v": "v2",
+      "code": "sm",
+      "ko": "디지털 페인팅 · 매끄러움",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "cine_lowkey",
+      "v": "v1",
+      "code": "cl",
+      "ko": "시네마틱 로키 · 한 줄기 빛",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "faint",
+      "v": "v1",
+      "code": "xf",
+      "ko": "옅게(발광은 가늘고 적게)",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": []
+   },
+   "subject_overrides": [
+    "head: character card illustration → character image",
+    "faceFrame:  in this style → "
+   ],
+   "prompt_sha256": "5d6625aab1420f355c69edd264ba42e7a0bc48f4bb9fd2d7180b87a14da5cbc6",
+   "prompt_file": "jobs/j0042-r2-light/prompts/km2-ss2-sm2-cl1-xf1__sam.wenyang__samguk-world-low__chatgpt__1.txt"
+  }
+ ]
+}
