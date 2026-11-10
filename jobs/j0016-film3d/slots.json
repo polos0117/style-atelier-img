@@ -106,5 +106,7 @@
    "prompt_sha256": "d4e25315dc2dfdb2a9e4fba973fefe9cf0512a816122c8907b73669c7b4579c3",
    "prompt_file": "jobs/j0016-film3d/prompts/k31-s31-r31-gs1-x01__sam.wenyang__samguk-world__chatgpt__1.txt"
   }
- ]
+ ],
+ "retired": "2026-11-10",
+ "hold": "검토안 반영 전 v1 부품 · 옛 문앙 문구 — 2차(v2 · 새 공통 문구)로 다시 만든다(사용자 2026-11-10 「그 순서로 진행해줘」)"
 }
