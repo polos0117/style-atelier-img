@@ -206,5 +206,9 @@
    "prompt_sha256": "3fe4c1dbc88c105d9eb2e0ed7cc517f87119c5a4a2942d90a0d24df4544b375d",
    "prompt_file": "jobs/j0009-anime/prompts/kn1-aa1-ms1-oc1-x01__sam.wenyang__samguk-world__chatgpt__1.txt"
   }
+ ],
+ "retired": "2026-11-10",
+ "merged_into": [
+  "j0013-base-real-anime"
  ]
 }

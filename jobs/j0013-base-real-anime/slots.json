@@ -1,0 +1,466 @@
+{
+ "job": "j0013-base-real-anime",
+ "round": 1,
+ "created": "2026-11-10",
+ "model": "chatgpt",
+ "label": "base-real-anime",
+ "size": 9,
+ "merged_from": [
+  "j0003-base",
+  "j0007-real",
+  "j0009-anime",
+  "j0010-anime"
+ ],
+ "slots": [
+  {
+   "slot": "ja1-ag1-cg1-hp1-xs1__sam.wenyang__samguk-world",
+   "file": "ja1-ag1-cg1-hp1-xs1__sam.wenyang__samguk-world__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "4bc7624",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "bold",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "ja1-ag1-cg1-hp1-xs1",
+    "name": "anime_gloss_jp",
+    "display": "가챠 애니 · 큰 눈 · 홍조 · 선화 + 셀~그라데이션 — 하이키 파스텔 · 햇빛 광택 · 이펙트 부드럽게(블룸 · 작은 반짝임) (일본 가챠 애니)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "jp_gacha",
+      "v": "v1",
+      "code": "ja"
+     },
+     {
+      "axis": "face",
+      "key": "anime_gacha",
+      "v": "v1",
+      "code": "ag"
+     },
+     {
+      "axis": "paint",
+      "key": "cel_gradient",
+      "v": "v1",
+      "code": "cg"
+     },
+     {
+      "axis": "light",
+      "key": "hikey_pastel",
+      "v": "v1",
+      "code": "hp"
+     },
+     {
+      "axis": "fx",
+      "key": "soft",
+      "v": "v1",
+      "code": "xs"
+     }
+    ]
+   },
+   "prompt_sha256": "4b3d0c8baa4521001fa9c7089ee7aa7fba2c1d264a9dd1a8948a38d045d7436e",
+   "prompt_file": "jobs/j0013-base-real-anime/prompts/ja1-ag1-cg1-hp1-xs1__sam.wenyang__samguk-world__chatgpt__1.txt"
+  },
+  {
+   "slot": "kp1-ss1-ob1-hn1-x01__sam.wenyang__samguk-world",
+   "file": "kp1-ss1-ob1-hn1-x01__sam.wenyang__samguk-world__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "4bc7624",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "bold",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "kp1-ss1-ob1-hn1-x01",
+    "name": "oil_hikey",
+    "display": "반실사 · 작고 부드러운 얼굴 · 유화 붓질 · 글레이즈 — 하이키 자연광 (한국 MMORPG 프로모)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_mmorpg_promo",
+      "v": "v1",
+      "code": "kp"
+     },
+     {
+      "axis": "face",
+      "key": "semi_soft",
+      "v": "v1",
+      "code": "ss"
+     },
+     {
+      "axis": "paint",
+      "key": "oil_brush",
+      "v": "v1",
+      "code": "ob"
+     },
+     {
+      "axis": "light",
+      "key": "hikey_natural",
+      "v": "v1",
+      "code": "hn"
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0"
+     }
+    ]
+   },
+   "prompt_sha256": "d80d829e1ce0ec9f15b4e8200f4c64ac7fd173243125005920f7968a21a10885",
+   "prompt_file": "jobs/j0013-base-real-anime/prompts/kp1-ss1-ob1-hn1-x01__sam.wenyang__samguk-world__chatgpt__1.txt"
+  },
+  {
+   "slot": "cc1-ci1-pc1-ch1-x01__sam.wenyang__samguk-world",
+   "file": "cc1-ci1-pc1-ch1-x01__sam.wenyang__samguk-world__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "4bc7624",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "bold",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "cc1-ci1-pc1-ch1-x01",
+    "name": "cgi_hikey",
+    "display": "CGI 이상화 얼굴 · 포토리얼 CGI 표면 — 시네마틱 하이키 · 앞쪽 보조광 (시네마틱 CGI)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "cinematic_cgi",
+      "v": "v1",
+      "code": "cc"
+     },
+     {
+      "axis": "face",
+      "key": "cgi_ideal",
+      "v": "v1",
+      "code": "ci"
+     },
+     {
+      "axis": "paint",
+      "key": "photoreal_cgi",
+      "v": "v1",
+      "code": "pc"
+     },
+     {
+      "axis": "light",
+      "key": "cine_hikey",
+      "v": "v1",
+      "code": "ch"
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0"
+     }
+    ]
+   },
+   "prompt_sha256": "e147bdb9d484848ce8a880d7281809c1aad3a0d8c099e7e2d240c9d068d57778",
+   "prompt_file": "jobs/j0013-base-real-anime/prompts/cc1-ci1-pc1-ch1-x01__sam.wenyang__samguk-world__chatgpt__1.txt"
+  },
+  {
+   "slot": "ps1-rn1-pp1-ch1-x01__sam.wenyang__samguk-world",
+   "file": "ps1-rn1-pp1-ch1-x01__sam.wenyang__samguk-world__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "4bc7624",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "bold",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "ps1-rn1-pp1-ch1-x01",
+    "name": "photo_real",
+    "display": "실제 사람 얼굴 · 사진 — 시네마틱 하이키 · 앞쪽 보조광 (실사 사진(영화 스틸))",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "photo_still",
+      "v": "v1",
+      "code": "ps"
+     },
+     {
+      "axis": "face",
+      "key": "real_natural",
+      "v": "v1",
+      "code": "rn"
+     },
+     {
+      "axis": "paint",
+      "key": "photo",
+      "v": "v1",
+      "code": "pp"
+     },
+     {
+      "axis": "light",
+      "key": "cine_hikey",
+      "v": "v1",
+      "code": "ch"
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0"
+     }
+    ]
+   },
+   "prompt_sha256": "9ce173dd63908d56d96f1454705a382efe7fc7f2a374080887775b2330c03b84",
+   "prompt_file": "jobs/j0013-base-real-anime/prompts/ps1-rn1-pp1-ch1-x01__sam.wenyang__samguk-world__chatgpt__1.txt"
+  },
+  {
+   "slot": "jn1-aa1-ba1-dl1-x01__sam.wenyang__samguk-world",
+   "file": "jn1-aa1-ba1-dl1-x01__sam.wenyang__samguk-world__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "4bc7624",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "bold",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "jn1-aa1-ba1-dl1-x01",
+    "name": "anime_brush_jp",
+    "display": "성인 애니 · 애니 붓질 · 색 선 — 밝은 자연광 · 무광 (일본 애니)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "jp_anime",
+      "v": "v1",
+      "code": "jn"
+     },
+     {
+      "axis": "face",
+      "key": "anime_adult",
+      "v": "v1",
+      "code": "aa"
+     },
+     {
+      "axis": "paint",
+      "key": "brush_anime",
+      "v": "v1",
+      "code": "ba"
+     },
+     {
+      "axis": "light",
+      "key": "daylight",
+      "v": "v1",
+      "code": "dl"
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0"
+     }
+    ]
+   },
+   "prompt_sha256": "7e599bb4cf31ebea7de21963701ee840a7be0140ada2553fcbc54f66bfc5497d",
+   "prompt_file": "jobs/j0013-base-real-anime/prompts/jn1-aa1-ba1-dl1-x01__sam.wenyang__samguk-world__chatgpt__1.txt"
+  },
+  {
+   "slot": "kn1-aa1-ba1-dl1-x01__sam.wenyang__samguk-world",
+   "file": "kn1-aa1-ba1-dl1-x01__sam.wenyang__samguk-world__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "4bc7624",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "bold",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "kn1-aa1-ba1-dl1-x01",
+    "name": "anime_brush_kr",
+    "display": "성인 애니 · 애니 붓질 · 색 선 — 밝은 자연광 · 무광 (한국 애니)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_anime",
+      "v": "v1",
+      "code": "kn"
+     },
+     {
+      "axis": "face",
+      "key": "anime_adult",
+      "v": "v1",
+      "code": "aa"
+     },
+     {
+      "axis": "paint",
+      "key": "brush_anime",
+      "v": "v1",
+      "code": "ba"
+     },
+     {
+      "axis": "light",
+      "key": "daylight",
+      "v": "v1",
+      "code": "dl"
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0"
+     }
+    ]
+   },
+   "prompt_sha256": "5764c2801e2c6dff0572b7538ebe8f28bfdb38d8ec7e6ca702c77698708facf0",
+   "prompt_file": "jobs/j0013-base-real-anime/prompts/kn1-aa1-ba1-dl1-x01__sam.wenyang__samguk-world__chatgpt__1.txt"
+  },
+  {
+   "slot": "jn1-aa1-ms1-oc1-x01__sam.wenyang__samguk-world",
+   "file": "jn1-aa1-ms1-oc1-x01__sam.wenyang__samguk-world__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "4bc7624",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "bold",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "jn1-aa1-ms1-oc1-x01",
+    "name": "anime_matte_jp",
+    "display": "성인 애니 · 무광 소프트 — 흐린 빛 · 차분한 색 (일본 애니)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "jp_anime",
+      "v": "v1",
+      "code": "jn"
+     },
+     {
+      "axis": "face",
+      "key": "anime_adult",
+      "v": "v1",
+      "code": "aa"
+     },
+     {
+      "axis": "paint",
+      "key": "matte_soft",
+      "v": "v1",
+      "code": "ms"
+     },
+     {
+      "axis": "light",
+      "key": "overcast",
+      "v": "v1",
+      "code": "oc"
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0"
+     }
+    ]
+   },
+   "prompt_sha256": "479a15419820bc7a81b6272993e44f4406611f81f7da65770392cb8d8de59f32",
+   "prompt_file": "jobs/j0013-base-real-anime/prompts/jn1-aa1-ms1-oc1-x01__sam.wenyang__samguk-world__chatgpt__1.txt"
+  },
+  {
+   "slot": "kn1-aa1-ms1-oc1-x01__sam.wenyang__samguk-world",
+   "file": "kn1-aa1-ms1-oc1-x01__sam.wenyang__samguk-world__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "4bc7624",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "bold",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "kn1-aa1-ms1-oc1-x01",
+    "name": "anime_matte_kr",
+    "display": "성인 애니 · 무광 소프트 — 흐린 빛 · 차분한 색 (한국 애니)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_anime",
+      "v": "v1",
+      "code": "kn"
+     },
+     {
+      "axis": "face",
+      "key": "anime_adult",
+      "v": "v1",
+      "code": "aa"
+     },
+     {
+      "axis": "paint",
+      "key": "matte_soft",
+      "v": "v1",
+      "code": "ms"
+     },
+     {
+      "axis": "light",
+      "key": "overcast",
+      "v": "v1",
+      "code": "oc"
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0"
+     }
+    ]
+   },
+   "prompt_sha256": "3fe4c1dbc88c105d9eb2e0ed7cc517f87119c5a4a2942d90a0d24df4544b375d",
+   "prompt_file": "jobs/j0013-base-real-anime/prompts/kn1-aa1-ms1-oc1-x01__sam.wenyang__samguk-world__chatgpt__1.txt"
+  },
+  {
+   "slot": "kg1-ag1-cg1-hp1-xs1__sam.wenyang__samguk-world",
+   "file": "kg1-ag1-cg1-hp1-xs1__sam.wenyang__samguk-world__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "4bc7624",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "bold",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "kg1-ag1-cg1-hp1-xs1",
+    "name": "anime_gloss_kr",
+    "display": "가챠 애니 · 큰 눈 · 홍조 · 선화 + 셀~그라데이션 — 하이키 파스텔 · 햇빛 광택 · 이펙트 부드럽게(블룸 · 작은 반짝임) (한국 가챠 애니)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_gacha",
+      "v": "v1",
+      "code": "kg"
+     },
+     {
+      "axis": "face",
+      "key": "anime_gacha",
+      "v": "v1",
+      "code": "ag"
+     },
+     {
+      "axis": "paint",
+      "key": "cel_gradient",
+      "v": "v1",
+      "code": "cg"
+     },
+     {
+      "axis": "light",
+      "key": "hikey_pastel",
+      "v": "v1",
+      "code": "hp"
+     },
+     {
+      "axis": "fx",
+      "key": "soft",
+      "v": "v1",
+      "code": "xs"
+     }
+    ]
+   },
+   "prompt_sha256": "583520bb5afe114be57beefcb81df769317a98d67b0074dfdfb73b94cfb5496b",
+   "prompt_file": "jobs/j0013-base-real-anime/prompts/kg1-ag1-cg1-hp1-xs1__sam.wenyang__samguk-world__chatgpt__1.txt"
+  }
+ ]
+}

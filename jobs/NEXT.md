@@ -4,15 +4,8 @@ GPT 세션: **묻지 않고 끝까지** 한다(그림을 보여 주고 확인을
 
 | 일감 | 차수 | 이름 | 그린 칸 | 모델 | 예약 |
 |---|---|---|---|---|---|
-| [j0003-base](j0003-base/REQUEST.md) | 1차 | base | 0 / 2 | chatgpt | — |
-| [j0004-base](j0004-base/REQUEST.md) | 1차 | base | 0 / 4 | chatgpt | — |
-| [j0005-base](j0005-base/REQUEST.md) | 1차 | base | 0 / 4 | chatgpt | — |
-| [j0006-base](j0006-base/REQUEST.md) | 1차 | base | 0 / 2 | chatgpt | — |
-| [j0007-real](j0007-real/REQUEST.md) | 1차 | real | 0 / 2 | chatgpt | — |
-| [j0008-real](j0008-real/REQUEST.md) | 1차 | real | 0 / 2 | chatgpt | — |
-| [j0009-anime](j0009-anime/REQUEST.md) | 1차 | anime | 0 / 4 | chatgpt | — |
-| [j0010-anime](j0010-anime/REQUEST.md) | 1차 | anime | 0 / 1 | chatgpt | — |
-| [j0011-anime](j0011-anime/REQUEST.md) | 1차 | anime | 0 / 4 | chatgpt | — |
-| [j0012-anime](j0012-anime/REQUEST.md) | 1차 | anime | 0 / 1 | chatgpt | — |
+| [j0013-base-real-anime](j0013-base-real-anime/REQUEST.md) | 1차 | base-real-anime | 0 / 9 | chatgpt | — |
+| [j0014-base-real-anime](j0014-base-real-anime/REQUEST.md) | 1차 | base-real-anime | 0 / 9 | chatgpt | — |
+| [j0015-base-real-anime](j0015-base-real-anime/REQUEST.md) | 1차 | base-real-anime | 0 / 8 | chatgpt | — |
 
 닫힌 일감 2개.

@@ -1,0 +1,416 @@
+{
+ "job": "j0015-base-real-anime",
+ "round": 1,
+ "created": "2026-11-10",
+ "model": "chatgpt",
+ "label": "base-real-anime",
+ "size": 8,
+ "merged_from": [
+  "j0006-base",
+  "j0008-real",
+  "j0011-anime",
+  "j0012-anime"
+ ],
+ "slots": [
+  {
+   "slot": "kp1-ss1-ob1-hn1-x01__el.fe__fantasy-world",
+   "file": "kp1-ss1-ob1-hn1-x01__el.fe__fantasy-world__chatgpt__1",
+   "subject": "el.fe",
+   "subject_commit": "74eb6d8",
+   "world": "fantasy",
+   "kind": "world",
+   "exposure": "bold",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "kp1-ss1-ob1-hn1-x01",
+    "name": "oil_hikey",
+    "display": "반실사 · 작고 부드러운 얼굴 · 유화 붓질 · 글레이즈 — 하이키 자연광 (한국 MMORPG 프로모)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_mmorpg_promo",
+      "v": "v1",
+      "code": "kp"
+     },
+     {
+      "axis": "face",
+      "key": "semi_soft",
+      "v": "v1",
+      "code": "ss"
+     },
+     {
+      "axis": "paint",
+      "key": "oil_brush",
+      "v": "v1",
+      "code": "ob"
+     },
+     {
+      "axis": "light",
+      "key": "hikey_natural",
+      "v": "v1",
+      "code": "hn"
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0"
+     }
+    ]
+   },
+   "prompt_sha256": "d752f4141eeecee899e48b2e91cfc489065a003f8061e9d3685effefb4049815",
+   "prompt_file": "jobs/j0015-base-real-anime/prompts/kp1-ss1-ob1-hn1-x01__el.fe__fantasy-world__chatgpt__1.txt"
+  },
+  {
+   "slot": "cc1-ci1-pc1-ch1-x01__el.fe__fantasy-world",
+   "file": "cc1-ci1-pc1-ch1-x01__el.fe__fantasy-world__chatgpt__1",
+   "subject": "el.fe",
+   "subject_commit": "74eb6d8",
+   "world": "fantasy",
+   "kind": "world",
+   "exposure": "bold",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "cc1-ci1-pc1-ch1-x01",
+    "name": "cgi_hikey",
+    "display": "CGI 이상화 얼굴 · 포토리얼 CGI 표면 — 시네마틱 하이키 · 앞쪽 보조광 (시네마틱 CGI)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "cinematic_cgi",
+      "v": "v1",
+      "code": "cc"
+     },
+     {
+      "axis": "face",
+      "key": "cgi_ideal",
+      "v": "v1",
+      "code": "ci"
+     },
+     {
+      "axis": "paint",
+      "key": "photoreal_cgi",
+      "v": "v1",
+      "code": "pc"
+     },
+     {
+      "axis": "light",
+      "key": "cine_hikey",
+      "v": "v1",
+      "code": "ch"
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0"
+     }
+    ]
+   },
+   "prompt_sha256": "9705e28a3bab2595974dc5dcea95132a6e1808b6dc339594e8a863585c0c392c",
+   "prompt_file": "jobs/j0015-base-real-anime/prompts/cc1-ci1-pc1-ch1-x01__el.fe__fantasy-world__chatgpt__1.txt"
+  },
+  {
+   "slot": "ps1-rn1-pp1-ch1-x01__el.fe__fantasy-world",
+   "file": "ps1-rn1-pp1-ch1-x01__el.fe__fantasy-world__chatgpt__1",
+   "subject": "el.fe",
+   "subject_commit": "74eb6d8",
+   "world": "fantasy",
+   "kind": "world",
+   "exposure": "bold",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "ps1-rn1-pp1-ch1-x01",
+    "name": "photo_real",
+    "display": "실제 사람 얼굴 · 사진 — 시네마틱 하이키 · 앞쪽 보조광 (실사 사진(영화 스틸))",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "photo_still",
+      "v": "v1",
+      "code": "ps"
+     },
+     {
+      "axis": "face",
+      "key": "real_natural",
+      "v": "v1",
+      "code": "rn"
+     },
+     {
+      "axis": "paint",
+      "key": "photo",
+      "v": "v1",
+      "code": "pp"
+     },
+     {
+      "axis": "light",
+      "key": "cine_hikey",
+      "v": "v1",
+      "code": "ch"
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0"
+     }
+    ]
+   },
+   "prompt_sha256": "88fe87a8cb86b10a7f6b21e4451bbb338424c88b06e080304b5d4ff102ad4e41",
+   "prompt_file": "jobs/j0015-base-real-anime/prompts/ps1-rn1-pp1-ch1-x01__el.fe__fantasy-world__chatgpt__1.txt"
+  },
+  {
+   "slot": "jn1-aa1-ba1-dl1-x01__el.fe__fantasy-world",
+   "file": "jn1-aa1-ba1-dl1-x01__el.fe__fantasy-world__chatgpt__1",
+   "subject": "el.fe",
+   "subject_commit": "74eb6d8",
+   "world": "fantasy",
+   "kind": "world",
+   "exposure": "bold",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "jn1-aa1-ba1-dl1-x01",
+    "name": "anime_brush_jp",
+    "display": "성인 애니 · 애니 붓질 · 색 선 — 밝은 자연광 · 무광 (일본 애니)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "jp_anime",
+      "v": "v1",
+      "code": "jn"
+     },
+     {
+      "axis": "face",
+      "key": "anime_adult",
+      "v": "v1",
+      "code": "aa"
+     },
+     {
+      "axis": "paint",
+      "key": "brush_anime",
+      "v": "v1",
+      "code": "ba"
+     },
+     {
+      "axis": "light",
+      "key": "daylight",
+      "v": "v1",
+      "code": "dl"
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0"
+     }
+    ]
+   },
+   "prompt_sha256": "fefcf17d8ca082952486d05784e305948a231fc11085254fe04eacbbb78709d9",
+   "prompt_file": "jobs/j0015-base-real-anime/prompts/jn1-aa1-ba1-dl1-x01__el.fe__fantasy-world__chatgpt__1.txt"
+  },
+  {
+   "slot": "kn1-aa1-ba1-dl1-x01__el.fe__fantasy-world",
+   "file": "kn1-aa1-ba1-dl1-x01__el.fe__fantasy-world__chatgpt__1",
+   "subject": "el.fe",
+   "subject_commit": "74eb6d8",
+   "world": "fantasy",
+   "kind": "world",
+   "exposure": "bold",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "kn1-aa1-ba1-dl1-x01",
+    "name": "anime_brush_kr",
+    "display": "성인 애니 · 애니 붓질 · 색 선 — 밝은 자연광 · 무광 (한국 애니)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_anime",
+      "v": "v1",
+      "code": "kn"
+     },
+     {
+      "axis": "face",
+      "key": "anime_adult",
+      "v": "v1",
+      "code": "aa"
+     },
+     {
+      "axis": "paint",
+      "key": "brush_anime",
+      "v": "v1",
+      "code": "ba"
+     },
+     {
+      "axis": "light",
+      "key": "daylight",
+      "v": "v1",
+      "code": "dl"
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0"
+     }
+    ]
+   },
+   "prompt_sha256": "cf80a7f841c00c3c43c5d8e974e6824cb8a08428b928153320bdfaae1f1fd9f7",
+   "prompt_file": "jobs/j0015-base-real-anime/prompts/kn1-aa1-ba1-dl1-x01__el.fe__fantasy-world__chatgpt__1.txt"
+  },
+  {
+   "slot": "jn1-aa1-ms1-oc1-x01__el.fe__fantasy-world",
+   "file": "jn1-aa1-ms1-oc1-x01__el.fe__fantasy-world__chatgpt__1",
+   "subject": "el.fe",
+   "subject_commit": "74eb6d8",
+   "world": "fantasy",
+   "kind": "world",
+   "exposure": "bold",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "jn1-aa1-ms1-oc1-x01",
+    "name": "anime_matte_jp",
+    "display": "성인 애니 · 무광 소프트 — 흐린 빛 · 차분한 색 (일본 애니)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "jp_anime",
+      "v": "v1",
+      "code": "jn"
+     },
+     {
+      "axis": "face",
+      "key": "anime_adult",
+      "v": "v1",
+      "code": "aa"
+     },
+     {
+      "axis": "paint",
+      "key": "matte_soft",
+      "v": "v1",
+      "code": "ms"
+     },
+     {
+      "axis": "light",
+      "key": "overcast",
+      "v": "v1",
+      "code": "oc"
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0"
+     }
+    ]
+   },
+   "prompt_sha256": "55dbac48bd02ab8b130eeeb06935b4dab5fb6aa83037d2321133724676d6c5cb",
+   "prompt_file": "jobs/j0015-base-real-anime/prompts/jn1-aa1-ms1-oc1-x01__el.fe__fantasy-world__chatgpt__1.txt"
+  },
+  {
+   "slot": "kn1-aa1-ms1-oc1-x01__el.fe__fantasy-world",
+   "file": "kn1-aa1-ms1-oc1-x01__el.fe__fantasy-world__chatgpt__1",
+   "subject": "el.fe",
+   "subject_commit": "74eb6d8",
+   "world": "fantasy",
+   "kind": "world",
+   "exposure": "bold",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "kn1-aa1-ms1-oc1-x01",
+    "name": "anime_matte_kr",
+    "display": "성인 애니 · 무광 소프트 — 흐린 빛 · 차분한 색 (한국 애니)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_anime",
+      "v": "v1",
+      "code": "kn"
+     },
+     {
+      "axis": "face",
+      "key": "anime_adult",
+      "v": "v1",
+      "code": "aa"
+     },
+     {
+      "axis": "paint",
+      "key": "matte_soft",
+      "v": "v1",
+      "code": "ms"
+     },
+     {
+      "axis": "light",
+      "key": "overcast",
+      "v": "v1",
+      "code": "oc"
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0"
+     }
+    ]
+   },
+   "prompt_sha256": "641d70f8aafc78e2c6278ccc0c0e7c9429adaba763a6b541270368ebedaab10e",
+   "prompt_file": "jobs/j0015-base-real-anime/prompts/kn1-aa1-ms1-oc1-x01__el.fe__fantasy-world__chatgpt__1.txt"
+  },
+  {
+   "slot": "kg1-ag1-cg1-hp1-xs1__el.fe__fantasy-world",
+   "file": "kg1-ag1-cg1-hp1-xs1__el.fe__fantasy-world__chatgpt__1",
+   "subject": "el.fe",
+   "subject_commit": "74eb6d8",
+   "world": "fantasy",
+   "kind": "world",
+   "exposure": "bold",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "kg1-ag1-cg1-hp1-xs1",
+    "name": "anime_gloss_kr",
+    "display": "가챠 애니 · 큰 눈 · 홍조 · 선화 + 셀~그라데이션 — 하이키 파스텔 · 햇빛 광택 · 이펙트 부드럽게(블룸 · 작은 반짝임) (한국 가챠 애니)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_gacha",
+      "v": "v1",
+      "code": "kg"
+     },
+     {
+      "axis": "face",
+      "key": "anime_gacha",
+      "v": "v1",
+      "code": "ag"
+     },
+     {
+      "axis": "paint",
+      "key": "cel_gradient",
+      "v": "v1",
+      "code": "cg"
+     },
+     {
+      "axis": "light",
+      "key": "hikey_pastel",
+      "v": "v1",
+      "code": "hp"
+     },
+     {
+      "axis": "fx",
+      "key": "soft",
+      "v": "v1",
+      "code": "xs"
+     }
+    ]
+   },
+   "prompt_sha256": "6bd27ad21d912bd4e8be259e716467753fea35bfc26576de1b913f055e1919b1",
+   "prompt_file": "jobs/j0015-base-real-anime/prompts/kg1-ag1-cg1-hp1-xs1__el.fe__fantasy-world__chatgpt__1.txt"
+  }
+ ]
+}

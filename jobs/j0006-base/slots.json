@@ -106,5 +106,10 @@
    "prompt_sha256": "d752f4141eeecee899e48b2e91cfc489065a003f8061e9d3685effefb4049815",
    "prompt_file": "jobs/j0006-base/prompts/kp1-ss1-ob1-hn1-x01__el.fe__fantasy-world__chatgpt__1.txt"
   }
+ ],
+ "retired": "2026-11-10",
+ "merged_into": [
+  "j0014-base-real-anime",
+  "j0015-base-real-anime"
  ]
 }
