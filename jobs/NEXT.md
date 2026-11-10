@@ -4,7 +4,6 @@ GPT 세션: **묻지 않고 끝까지** 한다(그림을 보여 주고 확인을
 
 | 일감 | 차수 | 이름 | 그린 칸 | 모델 | 예약 |
 |---|---|---|---|---|---|
-| [j0001-base](j0001-base/REQUEST.md) | 1차 | base | 0 / 4 | chatgpt | — |
 | [j0003-base](j0003-base/REQUEST.md) | 1차 | base | 0 / 2 | chatgpt | — |
 | [j0004-base](j0004-base/REQUEST.md) | 1차 | base | 0 / 4 | chatgpt | — |
 | [j0005-base](j0005-base/REQUEST.md) | 1차 | base | 0 / 4 | chatgpt | — |
@@ -15,6 +14,6 @@ GPT 세션: **묻지 않고 끝까지** 한다(그림을 보여 주고 확인을
 | [j0010-anime](j0010-anime/REQUEST.md) | 1차 | anime | 0 / 1 | chatgpt | — |
 | [j0011-anime](j0011-anime/REQUEST.md) | 1차 | anime | 0 / 4 | chatgpt | — |
 | [j0012-anime](j0012-anime/REQUEST.md) | 1차 | anime | 0 / 1 | chatgpt | — |
-| [j0002-base](j0002-base/REQUEST.md) | 1차 | base | 0 / 4 | chatgpt | 예약 중 · Codex ChatGPT / 31a05c1910f1 · 43분 전 |
+| [j0001-base](j0001-base/REQUEST.md) | 1차 | base | 0 / 4 | chatgpt | 예약 중 · - 일감: j0001-base · 3분 전 |
 
-닫힌 일감 0개.
+닫힌 일감 1개.

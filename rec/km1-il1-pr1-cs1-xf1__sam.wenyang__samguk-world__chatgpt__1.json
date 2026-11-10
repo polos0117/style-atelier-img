@@ -1,0 +1,70 @@
+{
+ "id": "km1-il1-pr1-cs1-xf1__sam.wenyang__samguk-world__chatgpt__1",
+ "job": "j0002-base",
+ "slot": "km1-il1-pr1-cs1-xf1__sam.wenyang__samguk-world",
+ "subject": "sam.wenyang",
+ "subject_commit": "4bc7624",
+ "world": "samguk",
+ "kind": "world",
+ "exposure": "bold",
+ "model": "chatgpt",
+ "n": 1,
+ "recipe": {
+  "id": "km1-il1-pr1-cs1-xf1",
+  "name": "illus_23d",
+  "display": "일러스트형(2.3D) · 정돈된 페인팅 · 재질 묘사 — 깨끗한 부드러운 빛 · 절제된 하이라이트 · 이펙트 옅게(발광은 가늘고 적게) (한국 MMORPG)",
+  "parts": [
+   {
+    "axis": "direction",
+    "key": "kr_mmorpg",
+    "v": "v1",
+    "code": "km"
+   },
+   {
+    "axis": "face",
+    "key": "illustrated",
+    "v": "v1",
+    "code": "il"
+   },
+   {
+    "axis": "paint",
+    "key": "painted_refined",
+    "v": "v1",
+    "code": "pr"
+   },
+   {
+    "axis": "light",
+    "key": "clean_soft",
+    "v": "v1",
+    "code": "cs"
+   },
+   {
+    "axis": "fx",
+    "key": "faint",
+    "v": "v1",
+    "code": "xf"
+   }
+  ]
+ },
+ "prompt_file": "jobs/j0002-base/prompts/km1-il1-pr1-cs1-xf1__sam.wenyang__samguk-world__chatgpt__1.txt",
+ "prompt_sha256": "190bf314d2a565d46e6d838288350923aec02292a4014c0fcf5fdfb11c66cbf2",
+ "file": "img/sam.wenyang/samguk/km1-il1-pr1-cs1-xf1__sam.wenyang__samguk-world__chatgpt__1.webp",
+ "thumb": "thumb/sam.wenyang/samguk/km1-il1-pr1-cs1-xf1__sam.wenyang__samguk-world__chatgpt__1.webp",
+ "size": [
+  1024,
+  1536
+ ],
+ "resized_from": null,
+ "source": {
+  "name": "km1-il1-pr1-cs1-xf1__sam.wenyang__samguk-world__chatgpt__1.webp",
+  "sha256": "d33f1b4ed424cf9591fb32cef85f25e2aab0bfaa33277b8fe211290aaf3bea4a",
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "note": null,
+ "generation": null,
+ "added": "2026-11-10",
+ "rating": null
+}

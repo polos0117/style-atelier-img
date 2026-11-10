@@ -1,0 +1,70 @@
+{
+ "id": "jg1-sp1-bl1-md1-x01__sam.wenyang__samguk-world__chatgpt__1",
+ "job": "j0002-base",
+ "slot": "jg1-sp1-bl1-md1-x01__sam.wenyang__samguk-world",
+ "subject": "sam.wenyang",
+ "subject_commit": "4bc7624",
+ "world": "samguk",
+ "kind": "world",
+ "exposure": "bold",
+ "model": "chatgpt",
+ "n": 1,
+ "recipe": {
+  "id": "jg1-sp1-bl1-md1-x01",
+  "name": "semi_paint_jp",
+  "display": "반실사 · 그린 얼굴 · 보이는 붓질 · 겹친 색 — 또렷한 키 라이트 · 깊은 명암 (일본 게임 페인팅)",
+  "parts": [
+   {
+    "axis": "direction",
+    "key": "jp_game_paint",
+    "v": "v1",
+    "code": "jg"
+   },
+   {
+    "axis": "face",
+    "key": "semi_paint",
+    "v": "v1",
+    "code": "sp"
+   },
+   {
+    "axis": "paint",
+    "key": "brush_layered",
+    "v": "v1",
+    "code": "bl"
+   },
+   {
+    "axis": "light",
+    "key": "modelled_deep",
+    "v": "v1",
+    "code": "md"
+   },
+   {
+    "axis": "fx",
+    "key": "none",
+    "v": "v1",
+    "code": "x0"
+   }
+  ]
+ },
+ "prompt_file": "jobs/j0002-base/prompts/jg1-sp1-bl1-md1-x01__sam.wenyang__samguk-world__chatgpt__1.txt",
+ "prompt_sha256": "3959aaa4f665254c9edc8b86e6536e42620790c30bfcd08afd00a2c7445346ad",
+ "file": "img/sam.wenyang/samguk/jg1-sp1-bl1-md1-x01__sam.wenyang__samguk-world__chatgpt__1.webp",
+ "thumb": "thumb/sam.wenyang/samguk/jg1-sp1-bl1-md1-x01__sam.wenyang__samguk-world__chatgpt__1.webp",
+ "size": [
+  1024,
+  1536
+ ],
+ "resized_from": null,
+ "source": {
+  "name": "jg1-sp1-bl1-md1-x01__sam.wenyang__samguk-world__chatgpt__1.webp",
+  "sha256": "a1250a0efb6a0327fb2a9a5c8f2ee3c9830d52dedf53df1cc4e8da6c31f85265",
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "note": null,
+ "generation": null,
+ "added": "2026-11-10",
+ "rating": null
+}

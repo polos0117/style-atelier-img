@@ -1,0 +1,70 @@
+{
+ "id": "fp1-si1-im1-dr1-x01__sam.wenyang__samguk-world__chatgpt__1",
+ "job": "j0002-base",
+ "slot": "fp1-si1-im1-dr1-x01__sam.wenyang__samguk-world",
+ "subject": "sam.wenyang",
+ "subject_commit": "4bc7624",
+ "world": "samguk",
+ "kind": "world",
+ "exposure": "bold",
+ "model": "chatgpt",
+ "n": 1,
+ "recipe": {
+  "id": "fp1-si1-im1-dr1-x01",
+  "name": "semi_impasto",
+  "display": "반실사 · 이상화 · 두꺼운 붓질 — 강한 방향광 (판타지 페인팅)",
+  "parts": [
+   {
+    "axis": "direction",
+    "key": "fantasy_paint",
+    "v": "v1",
+    "code": "fp"
+   },
+   {
+    "axis": "face",
+    "key": "semi_ideal",
+    "v": "v1",
+    "code": "si"
+   },
+   {
+    "axis": "paint",
+    "key": "impasto",
+    "v": "v1",
+    "code": "im"
+   },
+   {
+    "axis": "light",
+    "key": "directional",
+    "v": "v1",
+    "code": "dr"
+   },
+   {
+    "axis": "fx",
+    "key": "none",
+    "v": "v1",
+    "code": "x0"
+   }
+  ]
+ },
+ "prompt_file": "jobs/j0002-base/prompts/fp1-si1-im1-dr1-x01__sam.wenyang__samguk-world__chatgpt__1.txt",
+ "prompt_sha256": "ed39507464b5ee09902690c7953ae6f81364f79f0fe5958022a16491474b464c",
+ "file": "img/sam.wenyang/samguk/fp1-si1-im1-dr1-x01__sam.wenyang__samguk-world__chatgpt__1.webp",
+ "thumb": "thumb/sam.wenyang/samguk/fp1-si1-im1-dr1-x01__sam.wenyang__samguk-world__chatgpt__1.webp",
+ "size": [
+  1024,
+  1536
+ ],
+ "resized_from": null,
+ "source": {
+  "name": "fp1-si1-im1-dr1-x01__sam.wenyang__samguk-world__chatgpt__1.webp",
+  "sha256": "1c4402c55f753eadc0b6155ad76d602f100a0038a7880dfa36e4ee0cb1a6f8f0",
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "note": null,
+ "generation": null,
+ "added": "2026-11-10",
+ "rating": null
+}
