@@ -1,0 +1,60 @@
+{
+ "job": "j0012-anime",
+ "round": 1,
+ "created": "2026-11-10",
+ "model": "chatgpt",
+ "label": "anime",
+ "size": 1,
+ "slots": [
+  {
+   "slot": "kg1-ag1-cg1-hp1-xs1__el.fe__fantasy-world",
+   "file": "kg1-ag1-cg1-hp1-xs1__el.fe__fantasy-world__chatgpt__1",
+   "subject": "el.fe",
+   "subject_commit": "74eb6d8",
+   "world": "fantasy",
+   "kind": "world",
+   "exposure": "bold",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "kg1-ag1-cg1-hp1-xs1",
+    "name": "anime_gloss_kr",
+    "display": "가챠 애니 · 큰 눈 · 홍조 · 선화 + 셀~그라데이션 — 하이키 파스텔 · 햇빛 광택 · 이펙트 부드럽게(블룸 · 작은 반짝임) (한국 가챠 애니)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_gacha",
+      "v": "v1",
+      "code": "kg"
+     },
+     {
+      "axis": "face",
+      "key": "anime_gacha",
+      "v": "v1",
+      "code": "ag"
+     },
+     {
+      "axis": "paint",
+      "key": "cel_gradient",
+      "v": "v1",
+      "code": "cg"
+     },
+     {
+      "axis": "light",
+      "key": "hikey_pastel",
+      "v": "v1",
+      "code": "hp"
+     },
+     {
+      "axis": "fx",
+      "key": "soft",
+      "v": "v1",
+      "code": "xs"
+     }
+    ]
+   },
+   "prompt_sha256": "6bd27ad21d912bd4e8be259e716467753fea35bfc26576de1b913f055e1919b1",
+   "prompt_file": "jobs/j0012-anime/prompts/kg1-ag1-cg1-hp1-xs1__el.fe__fantasy-world__chatgpt__1.txt"
+  }
+ ]
+}

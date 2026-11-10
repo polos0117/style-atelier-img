@@ -1,0 +1,210 @@
+{
+ "job": "j0009-anime",
+ "round": 1,
+ "created": "2026-11-10",
+ "model": "chatgpt",
+ "label": "anime",
+ "size": 4,
+ "slots": [
+  {
+   "slot": "jn1-aa1-ba1-dl1-x01__sam.wenyang__samguk-world",
+   "file": "jn1-aa1-ba1-dl1-x01__sam.wenyang__samguk-world__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "4bc7624",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "bold",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "jn1-aa1-ba1-dl1-x01",
+    "name": "anime_brush_jp",
+    "display": "성인 애니 · 애니 붓질 · 색 선 — 밝은 자연광 · 무광 (일본 애니)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "jp_anime",
+      "v": "v1",
+      "code": "jn"
+     },
+     {
+      "axis": "face",
+      "key": "anime_adult",
+      "v": "v1",
+      "code": "aa"
+     },
+     {
+      "axis": "paint",
+      "key": "brush_anime",
+      "v": "v1",
+      "code": "ba"
+     },
+     {
+      "axis": "light",
+      "key": "daylight",
+      "v": "v1",
+      "code": "dl"
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0"
+     }
+    ]
+   },
+   "prompt_sha256": "7e599bb4cf31ebea7de21963701ee840a7be0140ada2553fcbc54f66bfc5497d",
+   "prompt_file": "jobs/j0009-anime/prompts/jn1-aa1-ba1-dl1-x01__sam.wenyang__samguk-world__chatgpt__1.txt"
+  },
+  {
+   "slot": "kn1-aa1-ba1-dl1-x01__sam.wenyang__samguk-world",
+   "file": "kn1-aa1-ba1-dl1-x01__sam.wenyang__samguk-world__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "4bc7624",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "bold",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "kn1-aa1-ba1-dl1-x01",
+    "name": "anime_brush_kr",
+    "display": "성인 애니 · 애니 붓질 · 색 선 — 밝은 자연광 · 무광 (한국 애니)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_anime",
+      "v": "v1",
+      "code": "kn"
+     },
+     {
+      "axis": "face",
+      "key": "anime_adult",
+      "v": "v1",
+      "code": "aa"
+     },
+     {
+      "axis": "paint",
+      "key": "brush_anime",
+      "v": "v1",
+      "code": "ba"
+     },
+     {
+      "axis": "light",
+      "key": "daylight",
+      "v": "v1",
+      "code": "dl"
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0"
+     }
+    ]
+   },
+   "prompt_sha256": "5764c2801e2c6dff0572b7538ebe8f28bfdb38d8ec7e6ca702c77698708facf0",
+   "prompt_file": "jobs/j0009-anime/prompts/kn1-aa1-ba1-dl1-x01__sam.wenyang__samguk-world__chatgpt__1.txt"
+  },
+  {
+   "slot": "jn1-aa1-ms1-oc1-x01__sam.wenyang__samguk-world",
+   "file": "jn1-aa1-ms1-oc1-x01__sam.wenyang__samguk-world__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "4bc7624",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "bold",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "jn1-aa1-ms1-oc1-x01",
+    "name": "anime_matte_jp",
+    "display": "성인 애니 · 무광 소프트 — 흐린 빛 · 차분한 색 (일본 애니)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "jp_anime",
+      "v": "v1",
+      "code": "jn"
+     },
+     {
+      "axis": "face",
+      "key": "anime_adult",
+      "v": "v1",
+      "code": "aa"
+     },
+     {
+      "axis": "paint",
+      "key": "matte_soft",
+      "v": "v1",
+      "code": "ms"
+     },
+     {
+      "axis": "light",
+      "key": "overcast",
+      "v": "v1",
+      "code": "oc"
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0"
+     }
+    ]
+   },
+   "prompt_sha256": "479a15419820bc7a81b6272993e44f4406611f81f7da65770392cb8d8de59f32",
+   "prompt_file": "jobs/j0009-anime/prompts/jn1-aa1-ms1-oc1-x01__sam.wenyang__samguk-world__chatgpt__1.txt"
+  },
+  {
+   "slot": "kn1-aa1-ms1-oc1-x01__sam.wenyang__samguk-world",
+   "file": "kn1-aa1-ms1-oc1-x01__sam.wenyang__samguk-world__chatgpt__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "4bc7624",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "bold",
+   "model": "chatgpt",
+   "n": 1,
+   "recipe": {
+    "id": "kn1-aa1-ms1-oc1-x01",
+    "name": "anime_matte_kr",
+    "display": "성인 애니 · 무광 소프트 — 흐린 빛 · 차분한 색 (한국 애니)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_anime",
+      "v": "v1",
+      "code": "kn"
+     },
+     {
+      "axis": "face",
+      "key": "anime_adult",
+      "v": "v1",
+      "code": "aa"
+     },
+     {
+      "axis": "paint",
+      "key": "matte_soft",
+      "v": "v1",
+      "code": "ms"
+     },
+     {
+      "axis": "light",
+      "key": "overcast",
+      "v": "v1",
+      "code": "oc"
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0"
+     }
+    ]
+   },
+   "prompt_sha256": "3fe4c1dbc88c105d9eb2e0ed7cc517f87119c5a4a2942d90a0d24df4544b375d",
+   "prompt_file": "jobs/j0009-anime/prompts/kn1-aa1-ms1-oc1-x01__sam.wenyang__samguk-world__chatgpt__1.txt"
+  }
+ ]
+}
