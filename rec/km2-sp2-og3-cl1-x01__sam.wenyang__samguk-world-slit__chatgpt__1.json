@@ -1,0 +1,104 @@
+{
+ "id": "km2-sp2-og3-cl1-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
+ "job": "j0059-r5-light",
+ "slot": "km2-sp2-og3-cl1-x01__sam.wenyang__samguk-world-slit",
+ "subject": "sam.wenyang",
+ "subject_commit": "89ab31a",
+ "world": "samguk",
+ "kind": "world",
+ "exposure": "slit",
+ "model": "chatgpt",
+ "n": 1,
+ "recipe": {
+  "id": "km2-sp2-og3-cl1-x01",
+  "name": null,
+  "display": "반실사 · 가볍게 이상화 · 유화 글레이즈 — 시네마틱 로키 · 한 줄기 빛 (한국 MMORPG)",
+  "parts": [
+   {
+    "axis": "direction",
+    "key": "kr_mmorpg",
+    "v": "v2",
+    "code": "km",
+    "ko": "한국 MMORPG",
+    "pairs": {
+     "face": [
+      "semi_soft",
+      "semi_paint",
+      "semi_ideal",
+      "illustrated",
+      "anime_adult"
+     ]
+    },
+    "requires": null
+   },
+   {
+    "axis": "face",
+    "key": "semi_paint",
+    "v": "v2",
+    "code": "sp",
+    "ko": "반실사 · 가볍게 이상화",
+    "pairs": {
+     "paint": [
+      "smooth",
+      "painted_refined",
+      "brush_layered",
+      "oil_glaze",
+      "oil_brush",
+      "impasto",
+      "matte_soft"
+     ]
+    },
+    "requires": null
+   },
+   {
+    "axis": "paint",
+    "key": "oil_glaze",
+    "v": "v3",
+    "code": "og",
+    "ko": "유화 글레이즈",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "light",
+    "key": "cine_lowkey",
+    "v": "v1",
+    "code": "cl",
+    "ko": "시네마틱 로키 · 한 줄기 빛",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "fx",
+    "key": "none",
+    "v": "v1",
+    "code": "x0",
+    "ko": "미지정",
+    "pairs": null,
+    "requires": null
+   }
+  ],
+  "untested": []
+ },
+ "prompt_file": "jobs/j0059-r5-light/prompts/km2-sp2-og3-cl1-x01__sam.wenyang__samguk-world-slit__chatgpt__1.txt",
+ "prompt_sha256": "88197057ce9843ca0a6ea0846d3947fde26635ec1c14e431bde02ca1d9e3a30c",
+ "file": "img/sam.wenyang/samguk/km2-sp2-og3-cl1-x01__sam.wenyang__samguk-world-slit__chatgpt__1.webp",
+ "thumb": "thumb/sam.wenyang/samguk/km2-sp2-og3-cl1-x01__sam.wenyang__samguk-world-slit__chatgpt__1.webp",
+ "size": [
+  1024,
+  1536
+ ],
+ "resized_from": null,
+ "source": {
+  "name": "km2-sp2-og3-cl1-x01__sam.wenyang__samguk-world-slit__chatgpt__1.webp",
+  "sha256": "512ed29e5dc46c7fae34b8163295154645aff4b6a3c453bd1e66b48d2de816e2",
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "note": null,
+ "generation": null,
+ "added": "2026-11-10",
+ "rating": null
+}
