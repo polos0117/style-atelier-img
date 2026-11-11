@@ -1,0 +1,109 @@
+{
+ "id": "km2-il2-ob3-rg2-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
+ "job": "j0091-r17-paint",
+ "slot": "km2-il2-ob3-rg2-x01__sam.wenyang__samguk-world-slit",
+ "subject": "sam.wenyang",
+ "subject_commit": "89ab31a",
+ "world": "samguk",
+ "kind": "world",
+ "exposure": "slit",
+ "model": "chatgpt",
+ "n": 1,
+ "recipe": {
+  "id": "km2-il2-ob3-rg2-x01",
+  "name": null,
+  "display": "그린 얼굴 · 가볍게 단순화 · 유화 붓 · 굵은 붓 자국 · 장식은 암시 — 림 라이트 · 강한 하이라이트 (한국 MMORPG)",
+  "parts": [
+   {
+    "axis": "direction",
+    "key": "kr_mmorpg",
+    "v": "v2",
+    "code": "km",
+    "ko": "한국 MMORPG",
+    "pairs": {
+     "face": [
+      "semi_soft",
+      "semi_paint",
+      "semi_ideal",
+      "illustrated",
+      "anime_adult"
+     ]
+    },
+    "requires": null
+   },
+   {
+    "axis": "face",
+    "key": "illustrated",
+    "v": "v2",
+    "code": "il",
+    "ko": "그린 얼굴 · 가볍게 단순화",
+    "pairs": {
+     "paint": [
+      "smooth",
+      "painted_refined",
+      "brush_layered",
+      "matte_soft",
+      "cel_gradient"
+     ]
+    },
+    "requires": null
+   },
+   {
+    "axis": "paint",
+    "key": "oil_brush",
+    "v": "v3",
+    "code": "ob",
+    "ko": "유화 붓 · 굵은 붓 자국 · 장식은 암시",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "light",
+    "key": "rim_gloss",
+    "v": "v2",
+    "code": "rg",
+    "ko": "림 라이트 · 강한 하이라이트",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "fx",
+    "key": "none",
+    "v": "v1",
+    "code": "x0",
+    "ko": "미지정",
+    "pairs": null,
+    "requires": null
+   }
+  ],
+  "untested": [
+   "face/illustrated 의 추천 짝 밖 — paint smooth · painted_refined · brush_layered · matte_soft · cel_gradient"
+  ]
+ },
+ "background": null,
+ "boost": null,
+ "skin": null,
+ "ref": null,
+ "casual": null,
+ "prompt_file": "jobs/j0091-r17-paint/prompts/km2-il2-ob3-rg2-x01__sam.wenyang__samguk-world-slit__chatgpt__1.txt",
+ "prompt_sha256": "2ad239c87d804bfbff331f2073af7a3301c985ce46187aeb4cc8f6c10e6f4563",
+ "file": "img/sam.wenyang/samguk/km2-il2-ob3-rg2-x01__sam.wenyang__samguk-world-slit__chatgpt__1.webp",
+ "thumb": "thumb/sam.wenyang/samguk/km2-il2-ob3-rg2-x01__sam.wenyang__samguk-world-slit__chatgpt__1.webp",
+ "size": [
+  1024,
+  1536
+ ],
+ "resized_from": null,
+ "source": {
+  "name": "km2-il2-ob3-rg2-x01__sam.wenyang__samguk-world-slit__chatgpt__1.webp",
+  "sha256": "403ab4c49fd73b095999e2a570df809f7d02baa3bef4341841baccadde72d6f3",
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "note": null,
+ "generation": null,
+ "added": "2026-11-11",
+ "rating": null
+}

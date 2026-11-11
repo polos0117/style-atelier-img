@@ -1,0 +1,107 @@
+{
+ "id": "km2-il2-bl3-rg2-x01__sam.wenyang__samguk-world-slit__chatgpt__1",
+ "job": "j0091-r17-paint",
+ "slot": "km2-il2-bl3-rg2-x01__sam.wenyang__samguk-world-slit",
+ "subject": "sam.wenyang",
+ "subject_commit": "89ab31a",
+ "world": "samguk",
+ "kind": "world",
+ "exposure": "slit",
+ "model": "chatgpt",
+ "n": 1,
+ "recipe": {
+  "id": "km2-il2-bl3-rg2-x01",
+  "name": null,
+  "display": "그린 얼굴 · 가볍게 단순화 · 겹친 붓질 · 얼굴만 또렷 · 바깥은 풀어짐 — 림 라이트 · 강한 하이라이트 (한국 MMORPG)",
+  "parts": [
+   {
+    "axis": "direction",
+    "key": "kr_mmorpg",
+    "v": "v2",
+    "code": "km",
+    "ko": "한국 MMORPG",
+    "pairs": {
+     "face": [
+      "semi_soft",
+      "semi_paint",
+      "semi_ideal",
+      "illustrated",
+      "anime_adult"
+     ]
+    },
+    "requires": null
+   },
+   {
+    "axis": "face",
+    "key": "illustrated",
+    "v": "v2",
+    "code": "il",
+    "ko": "그린 얼굴 · 가볍게 단순화",
+    "pairs": {
+     "paint": [
+      "smooth",
+      "painted_refined",
+      "brush_layered",
+      "matte_soft",
+      "cel_gradient"
+     ]
+    },
+    "requires": null
+   },
+   {
+    "axis": "paint",
+    "key": "brush_layered",
+    "v": "v3",
+    "code": "bl",
+    "ko": "겹친 붓질 · 얼굴만 또렷 · 바깥은 풀어짐",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "light",
+    "key": "rim_gloss",
+    "v": "v2",
+    "code": "rg",
+    "ko": "림 라이트 · 강한 하이라이트",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "fx",
+    "key": "none",
+    "v": "v1",
+    "code": "x0",
+    "ko": "미지정",
+    "pairs": null,
+    "requires": null
+   }
+  ],
+  "untested": []
+ },
+ "background": null,
+ "boost": null,
+ "skin": null,
+ "ref": null,
+ "casual": null,
+ "prompt_file": "jobs/j0091-r17-paint/prompts/km2-il2-bl3-rg2-x01__sam.wenyang__samguk-world-slit__chatgpt__1.txt",
+ "prompt_sha256": "6280686dc82aeaf3b0bfc06dad44255ec584037e5b7123b283ae60af26daf4ea",
+ "file": "img/sam.wenyang/samguk/km2-il2-bl3-rg2-x01__sam.wenyang__samguk-world-slit__chatgpt__1.webp",
+ "thumb": "thumb/sam.wenyang/samguk/km2-il2-bl3-rg2-x01__sam.wenyang__samguk-world-slit__chatgpt__1.webp",
+ "size": [
+  1024,
+  1536
+ ],
+ "resized_from": null,
+ "source": {
+  "name": "km2-il2-bl3-rg2-x01__sam.wenyang__samguk-world-slit__chatgpt__1.webp",
+  "sha256": "7fb480da831b22a484bf066674a81c20ad0b6751a2456481ff5577b28a53c3de",
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "note": null,
+ "generation": null,
+ "added": "2026-11-11",
+ "rating": null
+}
