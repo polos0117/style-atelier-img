@@ -1,0 +1,144 @@
+{
+ "id": "km2-il2-ba3-rg2-x01__sam.wenyang__fantasy-casual9=dw1__api26__1",
+ "job": "j0093-r18-casual",
+ "slot": "km2-il2-ba3-rg2-x01__sam.wenyang__fantasy-casual9=dw1",
+ "subject": "sam.wenyang",
+ "subject_commit": "89ab31a",
+ "world": "fantasy",
+ "kind": "casual9",
+ "exposure": "bold",
+ "model": "api26",
+ "n": 1,
+ "recipe": {
+  "id": "km2-il2-ba3-rg2-x01",
+  "name": "kr_drawn_brush_rim",
+  "display": "그린 얼굴 · 가볍게 단순화 · 2D 붓질 · 색 선 — 림 라이트 · 강한 하이라이트 (한국 MMORPG)",
+  "parts": [
+   {
+    "axis": "direction",
+    "key": "kr_mmorpg",
+    "v": "v2",
+    "code": "km",
+    "ko": "한국 MMORPG",
+    "pairs": {
+     "face": [
+      "semi_soft",
+      "semi_paint",
+      "semi_ideal",
+      "illustrated",
+      "anime_adult"
+     ]
+    },
+    "requires": null
+   },
+   {
+    "axis": "face",
+    "key": "illustrated",
+    "v": "v2",
+    "code": "il",
+    "ko": "그린 얼굴 · 가볍게 단순화",
+    "pairs": {
+     "paint": [
+      "smooth",
+      "painted_refined",
+      "brush_layered",
+      "matte_soft",
+      "cel_gradient"
+     ]
+    },
+    "requires": null
+   },
+   {
+    "axis": "paint",
+    "key": "brush_anime",
+    "v": "v3",
+    "code": "ba",
+    "ko": "2D 붓질 · 색 선",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "light",
+    "key": "rim_gloss",
+    "v": "v2",
+    "code": "rg",
+    "ko": "림 라이트 · 강한 하이라이트",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "fx",
+    "key": "none",
+    "v": "v1",
+    "code": "x0",
+    "ko": "미지정",
+    "pairs": null,
+    "requires": null
+   }
+  ],
+  "untested": [
+   "face/illustrated 의 추천 짝 밖 — paint smooth · painted_refined · brush_layered · matte_soft · cel_gradient"
+  ]
+ },
+ "background": null,
+ "boost": null,
+ "skin": {
+  "key": "dewy_body",
+  "v": "v1",
+  "code": "dw1",
+  "ko": "몸 피부 물광(얼굴 빼고)"
+ },
+ "ref": "km2-il2-ba3-rg2-x01__sam.wenyang__fantasy-world-slit=dw1__api26__1",
+ "casual": {
+  "from": "sam-atelier tools/casual-plan.cjs",
+  "card": "문앙",
+  "cut": 9,
+  "seed": 362067184,
+  "ofree": true,
+  "outfit_free": "a liquid-chrome look — a fitted silver lamé cowl-neck slip top cut very low with an open back held by fine crossed chains, and a micro-pleated gunmetal satin mini skirt slit high at one hip."
+ },
+ "prompt_file": "jobs/j0093-r18-casual/prompts/km2-il2-ba3-rg2-x01__sam.wenyang__fantasy-casual9=dw1__api26__1.txt",
+ "prompt_sha256": "65cacb85bb45b0ba1babf95fac4e09f7ea5bdfeb20eeecaf63d7acac4a0ccc1f",
+ "file": "img/sam.wenyang/fantasy/km2-il2-ba3-rg2-x01__sam.wenyang__fantasy-casual9=dw1__api26__1.webp",
+ "thumb": "thumb/sam.wenyang/fantasy/km2-il2-ba3-rg2-x01__sam.wenyang__fantasy-casual9=dw1__api26__1.webp",
+ "size": [
+  1024,
+  1536
+ ],
+ "resized_from": null,
+ "source": {
+  "name": "km2-il2-ba3-rg2-x01__sam.wenyang__fantasy-casual9=dw1__api26__1.png",
+  "sha256": "4fb3a18c29a9b8b6427da04c8ab848ced1af8f78050a8384ad12a1a71f8ce1f6",
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "note": null,
+ "generation": {
+  "tool": "tools/draw-api.cjs",
+  "model": "gpt-image-2.6-sunburst",
+  "endpoint": "images/edits",
+  "quality": "medium",
+  "ref": "km2-il2-ba3-rg2-x01__sam.wenyang__fantasy-world-slit=dw1__api26__1",
+  "usage": {
+   "input_tokens": 3139,
+   "input_tokens_details": {
+    "image_tokens": 1536,
+    "text_tokens": 1603
+   },
+   "output_tokens": 1132,
+   "output_tokens_details": {
+    "image_tokens": 1132,
+    "text_tokens": 0
+   },
+   "total_tokens": 4271
+  },
+  "seconds": 44.356,
+  "retries": 0,
+  "png_sha256": "4fb3a18c29a9b8b6427da04c8ab848ced1af8f78050a8384ad12a1a71f8ce1f6",
+  "date": "2026-11-11"
+ },
+ "added": "2026-11-11",
+ "rating": null
+}
