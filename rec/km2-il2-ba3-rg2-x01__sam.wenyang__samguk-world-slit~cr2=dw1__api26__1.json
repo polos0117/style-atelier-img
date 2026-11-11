@@ -1,0 +1,139 @@
+{
+ "id": "km2-il2-ba3-rg2-x01__sam.wenyang__samguk-world-slit~cr2=dw1__api26__1",
+ "job": "j0085-r15-canvas-dewy",
+ "slot": "km2-il2-ba3-rg2-x01__sam.wenyang__samguk-world-slit~cr2=dw1",
+ "subject": "sam.wenyang",
+ "subject_commit": "89ab31a",
+ "world": "samguk",
+ "kind": "world",
+ "exposure": "slit",
+ "model": "api26",
+ "n": 1,
+ "recipe": {
+  "id": "km2-il2-ba3-rg2-x01",
+  "name": "kr_drawn_brush_rim",
+  "display": "그린 얼굴 · 가볍게 단순화 · 2D 붓질 · 색 선 — 림 라이트 · 강한 하이라이트 (한국 MMORPG)",
+  "parts": [
+   {
+    "axis": "direction",
+    "key": "kr_mmorpg",
+    "v": "v2",
+    "code": "km",
+    "ko": "한국 MMORPG",
+    "pairs": {
+     "face": [
+      "semi_soft",
+      "semi_paint",
+      "semi_ideal",
+      "illustrated",
+      "anime_adult"
+     ]
+    },
+    "requires": null
+   },
+   {
+    "axis": "face",
+    "key": "illustrated",
+    "v": "v2",
+    "code": "il",
+    "ko": "그린 얼굴 · 가볍게 단순화",
+    "pairs": {
+     "paint": [
+      "smooth",
+      "painted_refined",
+      "brush_layered",
+      "matte_soft",
+      "cel_gradient"
+     ]
+    },
+    "requires": null
+   },
+   {
+    "axis": "paint",
+    "key": "brush_anime",
+    "v": "v3",
+    "code": "ba",
+    "ko": "2D 붓질 · 색 선",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "light",
+    "key": "rim_gloss",
+    "v": "v2",
+    "code": "rg",
+    "ko": "림 라이트 · 강한 하이라이트",
+    "pairs": null,
+    "requires": null
+   },
+   {
+    "axis": "fx",
+    "key": "none",
+    "v": "v1",
+    "code": "x0",
+    "ko": "미지정",
+    "pairs": null,
+    "requires": null
+   }
+  ],
+  "untested": [
+   "face/illustrated 의 추천 짝 밖 — paint smooth · painted_refined · brush_layered · matte_soft · cel_gradient"
+  ]
+ },
+ "background": {
+  "key": "canvas_rough",
+  "v": "v2",
+  "code": "cr2",
+  "ko": "거친 유화 붓질 캔버스 · 배경은 덜 그림"
+ },
+ "boost": null,
+ "skin": {
+  "key": "dewy_body",
+  "v": "v1",
+  "code": "dw1",
+  "ko": "몸 피부 물광(얼굴 빼고)"
+ },
+ "prompt_file": "jobs/j0085-r15-canvas-dewy/prompts/km2-il2-ba3-rg2-x01__sam.wenyang__samguk-world-slit~cr2=dw1__api26__1.txt",
+ "prompt_sha256": "bb487c8afc24bc28c739f3062e9637158edc50ecd6dfabb3590c11c3a21803f2",
+ "file": "img/sam.wenyang/samguk/km2-il2-ba3-rg2-x01__sam.wenyang__samguk-world-slit~cr2=dw1__api26__1.webp",
+ "thumb": "thumb/sam.wenyang/samguk/km2-il2-ba3-rg2-x01__sam.wenyang__samguk-world-slit~cr2=dw1__api26__1.webp",
+ "size": [
+  1024,
+  1536
+ ],
+ "resized_from": null,
+ "source": {
+  "name": "km2-il2-ba3-rg2-x01__sam.wenyang__samguk-world-slit~cr2=dw1__api26__1.png",
+  "sha256": "4c00a3312cd4ab109074f465dbc31d28a8be4b5063b802fa3fd13d1f7446b085",
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "note": null,
+ "generation": {
+  "tool": "tools/draw-api.cjs",
+  "model": "gpt-image-2.6-sunburst",
+  "endpoint": "images/generations",
+  "quality": "medium",
+  "usage": {
+   "input_tokens": 991,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 991
+   },
+   "output_tokens": 1132,
+   "output_tokens_details": {
+    "image_tokens": 1132,
+    "text_tokens": 0
+   },
+   "total_tokens": 2123
+  },
+  "seconds": 29.245,
+  "retries": 0,
+  "png_sha256": "4c00a3312cd4ab109074f465dbc31d28a8be4b5063b802fa3fd13d1f7446b085",
+  "date": "2026-11-11"
+ },
+ "added": "2026-11-11",
+ "rating": null
+}
