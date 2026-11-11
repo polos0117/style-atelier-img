@@ -1,0 +1,110 @@
+{
+ "job": "j0090-r17-paint",
+ "round": 17,
+ "created": "2026-11-11",
+ "model": "chatgpt",
+ "label": "r17-paint",
+ "size": 1,
+ "slots": [
+  {
+   "slot": "km2-il2-ba3-rg2-x01__sam.wenyang__samguk-world-slit",
+   "file": "km2-il2-ba3-rg2-x01__sam.wenyang__samguk-world-slit__chatgpt__5",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "samguk",
+   "kind": "world",
+   "exposure": "slit",
+   "model": "chatgpt",
+   "n": 5,
+   "recipe": {
+    "id": "km2-il2-ba3-rg2-x01",
+    "name": "kr_drawn_brush_rim",
+    "display": "그린 얼굴 · 가볍게 단순화 · 2D 붓질 · 색 선 — 림 라이트 · 강한 하이라이트 (한국 MMORPG)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_mmorpg",
+      "v": "v2",
+      "code": "km",
+      "ko": "한국 MMORPG",
+      "pairs": {
+       "face": [
+        "semi_soft",
+        "semi_paint",
+        "semi_ideal",
+        "illustrated",
+        "anime_adult"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "illustrated",
+      "v": "v2",
+      "code": "il",
+      "ko": "그린 얼굴 · 가볍게 단순화",
+      "pairs": {
+       "paint": [
+        "smooth",
+        "painted_refined",
+        "brush_layered",
+        "matte_soft",
+        "cel_gradient"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "brush_anime",
+      "v": "v3",
+      "code": "ba",
+      "ko": "2D 붓질 · 색 선",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "rim_gloss",
+      "v": "v2",
+      "code": "rg",
+      "ko": "림 라이트 · 강한 하이라이트",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0",
+      "ko": "미지정",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": [
+     "face/illustrated 의 추천 짝 밖 — paint smooth · painted_refined · brush_layered · matte_soft · cel_gradient"
+    ]
+   },
+   "subject_overrides": [
+    "head: character card illustration → character image",
+    "faceFrame:  in this style → ",
+    "costume: a plumed helmet or a war headband → a war headband with a single white plume",
+    "costume: a plumed helm or circlet → a circlet with a single white plume",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined",
+    "exposure: undefined → undefined"
+   ],
+   "background": null,
+   "boost": null,
+   "skin": null,
+   "prompt_sha256": "5255fe17755e9c53b7837bbd0d38c33ca6528a587142125f71fac38a04e24e93",
+   "prompt_file": "jobs/j0090-r17-paint/prompts/km2-il2-ba3-rg2-x01__sam.wenyang__samguk-world-slit__chatgpt__5.txt"
+  }
+ ],
+ "retired": "2026-11-11",
+ "merged_into": [
+  "j0091-r17-paint"
+ ]
+}
