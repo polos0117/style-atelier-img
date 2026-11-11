@@ -1,0 +1,622 @@
+{
+ "job": "j0092-r18-casual",
+ "round": 18,
+ "created": "2026-11-11",
+ "model": "api26",
+ "label": "r18-casual",
+ "size": 6,
+ "slots": [
+  {
+   "slot": "km2-il2-ba3-rg2-x01__sam.wenyang__samguk-casual7=dw1",
+   "file": "km2-il2-ba3-rg2-x01__sam.wenyang__samguk-casual7=dw1__api26__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "samguk",
+   "kind": "casual7",
+   "exposure": "bold",
+   "model": "api26",
+   "n": 1,
+   "recipe": {
+    "id": "km2-il2-ba3-rg2-x01",
+    "name": "kr_drawn_brush_rim",
+    "display": "그린 얼굴 · 가볍게 단순화 · 2D 붓질 · 색 선 — 림 라이트 · 강한 하이라이트 (한국 MMORPG)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_mmorpg",
+      "v": "v2",
+      "code": "km",
+      "ko": "한국 MMORPG",
+      "pairs": {
+       "face": [
+        "semi_soft",
+        "semi_paint",
+        "semi_ideal",
+        "illustrated",
+        "anime_adult"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "illustrated",
+      "v": "v2",
+      "code": "il",
+      "ko": "그린 얼굴 · 가볍게 단순화",
+      "pairs": {
+       "paint": [
+        "smooth",
+        "painted_refined",
+        "brush_layered",
+        "matte_soft",
+        "cel_gradient"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "brush_anime",
+      "v": "v3",
+      "code": "ba",
+      "ko": "2D 붓질 · 색 선",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "rim_gloss",
+      "v": "v2",
+      "code": "rg",
+      "ko": "림 라이트 · 강한 하이라이트",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0",
+      "ko": "미지정",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": [
+     "face/illustrated 의 추천 짝 밖 — paint smooth · painted_refined · brush_layered · matte_soft · cel_gradient"
+    ]
+   },
+   "subject_overrides": [],
+   "background": null,
+   "boost": null,
+   "skin": {
+    "key": "dewy_body",
+    "v": "v1",
+    "code": "dw1",
+    "ko": "몸 피부 물광(얼굴 빼고)"
+   },
+   "ref": "km2-il2-ba3-rg2-x01__sam.wenyang__samguk-world-slit=dw1__api26__1",
+   "casual": {
+    "from": "sam-atelier tools/casual-plan.cjs",
+    "card": "문앙",
+    "cut": 7,
+    "seed": 360699272,
+    "ofree": false,
+    "outfit_free": null
+   },
+   "prompt_sha256": "c75fe73d711afbdb01479133369ebade6d1ba501baf6e2e03b334831c2933f82",
+   "prompt_file": "jobs/j0092-r18-casual/prompts/km2-il2-ba3-rg2-x01__sam.wenyang__samguk-casual7=dw1__api26__1.txt"
+  },
+  {
+   "slot": "km2-il2-ba3-rg2-x01__sam.wenyang__samguk-casual8=dw1",
+   "file": "km2-il2-ba3-rg2-x01__sam.wenyang__samguk-casual8=dw1__api26__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "samguk",
+   "kind": "casual8",
+   "exposure": "bold",
+   "model": "api26",
+   "n": 1,
+   "recipe": {
+    "id": "km2-il2-ba3-rg2-x01",
+    "name": "kr_drawn_brush_rim",
+    "display": "그린 얼굴 · 가볍게 단순화 · 2D 붓질 · 색 선 — 림 라이트 · 강한 하이라이트 (한국 MMORPG)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_mmorpg",
+      "v": "v2",
+      "code": "km",
+      "ko": "한국 MMORPG",
+      "pairs": {
+       "face": [
+        "semi_soft",
+        "semi_paint",
+        "semi_ideal",
+        "illustrated",
+        "anime_adult"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "illustrated",
+      "v": "v2",
+      "code": "il",
+      "ko": "그린 얼굴 · 가볍게 단순화",
+      "pairs": {
+       "paint": [
+        "smooth",
+        "painted_refined",
+        "brush_layered",
+        "matte_soft",
+        "cel_gradient"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "brush_anime",
+      "v": "v3",
+      "code": "ba",
+      "ko": "2D 붓질 · 색 선",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "rim_gloss",
+      "v": "v2",
+      "code": "rg",
+      "ko": "림 라이트 · 강한 하이라이트",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0",
+      "ko": "미지정",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": [
+     "face/illustrated 의 추천 짝 밖 — paint smooth · painted_refined · brush_layered · matte_soft · cel_gradient"
+    ]
+   },
+   "subject_overrides": [],
+   "background": null,
+   "boost": null,
+   "skin": {
+    "key": "dewy_body",
+    "v": "v1",
+    "code": "dw1",
+    "ko": "몸 피부 물광(얼굴 빼고)"
+   },
+   "ref": "km2-il2-ba3-rg2-x01__sam.wenyang__samguk-world-slit=dw1__api26__1",
+   "casual": {
+    "from": "sam-atelier tools/casual-plan.cjs",
+    "card": "문앙",
+    "cut": 8,
+    "seed": 360699272,
+    "ofree": false,
+    "outfit_free": null
+   },
+   "prompt_sha256": "7b93ad5df1205f6f71dfd8ffda373796eb227776d3c40a950ba4299c23a2d6b4",
+   "prompt_file": "jobs/j0092-r18-casual/prompts/km2-il2-ba3-rg2-x01__sam.wenyang__samguk-casual8=dw1__api26__1.txt"
+  },
+  {
+   "slot": "km2-il2-ba3-rg2-x01__sam.wenyang__samguk-casual9=dw1",
+   "file": "km2-il2-ba3-rg2-x01__sam.wenyang__samguk-casual9=dw1__api26__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "samguk",
+   "kind": "casual9",
+   "exposure": "bold",
+   "model": "api26",
+   "n": 1,
+   "recipe": {
+    "id": "km2-il2-ba3-rg2-x01",
+    "name": "kr_drawn_brush_rim",
+    "display": "그린 얼굴 · 가볍게 단순화 · 2D 붓질 · 색 선 — 림 라이트 · 강한 하이라이트 (한국 MMORPG)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_mmorpg",
+      "v": "v2",
+      "code": "km",
+      "ko": "한국 MMORPG",
+      "pairs": {
+       "face": [
+        "semi_soft",
+        "semi_paint",
+        "semi_ideal",
+        "illustrated",
+        "anime_adult"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "illustrated",
+      "v": "v2",
+      "code": "il",
+      "ko": "그린 얼굴 · 가볍게 단순화",
+      "pairs": {
+       "paint": [
+        "smooth",
+        "painted_refined",
+        "brush_layered",
+        "matte_soft",
+        "cel_gradient"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "brush_anime",
+      "v": "v3",
+      "code": "ba",
+      "ko": "2D 붓질 · 색 선",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "rim_gloss",
+      "v": "v2",
+      "code": "rg",
+      "ko": "림 라이트 · 강한 하이라이트",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0",
+      "ko": "미지정",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": [
+     "face/illustrated 의 추천 짝 밖 — paint smooth · painted_refined · brush_layered · matte_soft · cel_gradient"
+    ]
+   },
+   "subject_overrides": [],
+   "background": null,
+   "boost": null,
+   "skin": {
+    "key": "dewy_body",
+    "v": "v1",
+    "code": "dw1",
+    "ko": "몸 피부 물광(얼굴 빼고)"
+   },
+   "ref": "km2-il2-ba3-rg2-x01__sam.wenyang__samguk-world-slit=dw1__api26__1",
+   "casual": {
+    "from": "sam-atelier tools/casual-plan.cjs",
+    "card": "문앙",
+    "cut": 9,
+    "seed": 360699272,
+    "ofree": false,
+    "outfit_free": null
+   },
+   "prompt_sha256": "8385236f9feb730bd16f1d01d4cb9dec185fbc1f7771d49bd52a8859167b44a8",
+   "prompt_file": "jobs/j0092-r18-casual/prompts/km2-il2-ba3-rg2-x01__sam.wenyang__samguk-casual9=dw1__api26__1.txt"
+  },
+  {
+   "slot": "km2-il2-ba3-rg2-x01__sam.wenyang__samguk-casual10=dw1",
+   "file": "km2-il2-ba3-rg2-x01__sam.wenyang__samguk-casual10=dw1__api26__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "samguk",
+   "kind": "casual10",
+   "exposure": "bold",
+   "model": "api26",
+   "n": 1,
+   "recipe": {
+    "id": "km2-il2-ba3-rg2-x01",
+    "name": "kr_drawn_brush_rim",
+    "display": "그린 얼굴 · 가볍게 단순화 · 2D 붓질 · 색 선 — 림 라이트 · 강한 하이라이트 (한국 MMORPG)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_mmorpg",
+      "v": "v2",
+      "code": "km",
+      "ko": "한국 MMORPG",
+      "pairs": {
+       "face": [
+        "semi_soft",
+        "semi_paint",
+        "semi_ideal",
+        "illustrated",
+        "anime_adult"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "illustrated",
+      "v": "v2",
+      "code": "il",
+      "ko": "그린 얼굴 · 가볍게 단순화",
+      "pairs": {
+       "paint": [
+        "smooth",
+        "painted_refined",
+        "brush_layered",
+        "matte_soft",
+        "cel_gradient"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "brush_anime",
+      "v": "v3",
+      "code": "ba",
+      "ko": "2D 붓질 · 색 선",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "rim_gloss",
+      "v": "v2",
+      "code": "rg",
+      "ko": "림 라이트 · 강한 하이라이트",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0",
+      "ko": "미지정",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": [
+     "face/illustrated 의 추천 짝 밖 — paint smooth · painted_refined · brush_layered · matte_soft · cel_gradient"
+    ]
+   },
+   "subject_overrides": [],
+   "background": null,
+   "boost": null,
+   "skin": {
+    "key": "dewy_body",
+    "v": "v1",
+    "code": "dw1",
+    "ko": "몸 피부 물광(얼굴 빼고)"
+   },
+   "ref": "km2-il2-ba3-rg2-x01__sam.wenyang__samguk-world-slit=dw1__api26__1",
+   "casual": {
+    "from": "sam-atelier tools/casual-plan.cjs",
+    "card": "문앙",
+    "cut": 10,
+    "seed": 360699272,
+    "ofree": false,
+    "outfit_free": null
+   },
+   "prompt_sha256": "972ada1da68d88b47aa8b0a1091169ec003256b76028dd7b83798e7b23d3de61",
+   "prompt_file": "jobs/j0092-r18-casual/prompts/km2-il2-ba3-rg2-x01__sam.wenyang__samguk-casual10=dw1__api26__1.txt"
+  },
+  {
+   "slot": "km2-il2-ba3-rg2-x01__sam.wenyang__samguk-casual11=dw1",
+   "file": "km2-il2-ba3-rg2-x01__sam.wenyang__samguk-casual11=dw1__api26__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "samguk",
+   "kind": "casual11",
+   "exposure": "bold",
+   "model": "api26",
+   "n": 1,
+   "recipe": {
+    "id": "km2-il2-ba3-rg2-x01",
+    "name": "kr_drawn_brush_rim",
+    "display": "그린 얼굴 · 가볍게 단순화 · 2D 붓질 · 색 선 — 림 라이트 · 강한 하이라이트 (한국 MMORPG)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_mmorpg",
+      "v": "v2",
+      "code": "km",
+      "ko": "한국 MMORPG",
+      "pairs": {
+       "face": [
+        "semi_soft",
+        "semi_paint",
+        "semi_ideal",
+        "illustrated",
+        "anime_adult"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "illustrated",
+      "v": "v2",
+      "code": "il",
+      "ko": "그린 얼굴 · 가볍게 단순화",
+      "pairs": {
+       "paint": [
+        "smooth",
+        "painted_refined",
+        "brush_layered",
+        "matte_soft",
+        "cel_gradient"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "brush_anime",
+      "v": "v3",
+      "code": "ba",
+      "ko": "2D 붓질 · 색 선",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "rim_gloss",
+      "v": "v2",
+      "code": "rg",
+      "ko": "림 라이트 · 강한 하이라이트",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0",
+      "ko": "미지정",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": [
+     "face/illustrated 의 추천 짝 밖 — paint smooth · painted_refined · brush_layered · matte_soft · cel_gradient"
+    ]
+   },
+   "subject_overrides": [],
+   "background": null,
+   "boost": null,
+   "skin": {
+    "key": "dewy_body",
+    "v": "v1",
+    "code": "dw1",
+    "ko": "몸 피부 물광(얼굴 빼고)"
+   },
+   "ref": "km2-il2-ba3-rg2-x01__sam.wenyang__samguk-world-slit=dw1__api26__1",
+   "casual": {
+    "from": "sam-atelier tools/casual-plan.cjs",
+    "card": "문앙",
+    "cut": 11,
+    "seed": 360699272,
+    "ofree": false,
+    "outfit_free": null
+   },
+   "prompt_sha256": "9e8366d370356faaca78e516355ac75637de2c2108391a213af075b824d27a39",
+   "prompt_file": "jobs/j0092-r18-casual/prompts/km2-il2-ba3-rg2-x01__sam.wenyang__samguk-casual11=dw1__api26__1.txt"
+  },
+  {
+   "slot": "km2-il2-ba3-rg2-x01__sam.wenyang__samguk-casual12=dw1",
+   "file": "km2-il2-ba3-rg2-x01__sam.wenyang__samguk-casual12=dw1__api26__1",
+   "subject": "sam.wenyang",
+   "subject_commit": "89ab31a",
+   "world": "samguk",
+   "kind": "casual12",
+   "exposure": "bold",
+   "model": "api26",
+   "n": 1,
+   "recipe": {
+    "id": "km2-il2-ba3-rg2-x01",
+    "name": "kr_drawn_brush_rim",
+    "display": "그린 얼굴 · 가볍게 단순화 · 2D 붓질 · 색 선 — 림 라이트 · 강한 하이라이트 (한국 MMORPG)",
+    "parts": [
+     {
+      "axis": "direction",
+      "key": "kr_mmorpg",
+      "v": "v2",
+      "code": "km",
+      "ko": "한국 MMORPG",
+      "pairs": {
+       "face": [
+        "semi_soft",
+        "semi_paint",
+        "semi_ideal",
+        "illustrated",
+        "anime_adult"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "face",
+      "key": "illustrated",
+      "v": "v2",
+      "code": "il",
+      "ko": "그린 얼굴 · 가볍게 단순화",
+      "pairs": {
+       "paint": [
+        "smooth",
+        "painted_refined",
+        "brush_layered",
+        "matte_soft",
+        "cel_gradient"
+       ]
+      },
+      "requires": null
+     },
+     {
+      "axis": "paint",
+      "key": "brush_anime",
+      "v": "v3",
+      "code": "ba",
+      "ko": "2D 붓질 · 색 선",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "light",
+      "key": "rim_gloss",
+      "v": "v2",
+      "code": "rg",
+      "ko": "림 라이트 · 강한 하이라이트",
+      "pairs": null,
+      "requires": null
+     },
+     {
+      "axis": "fx",
+      "key": "none",
+      "v": "v1",
+      "code": "x0",
+      "ko": "미지정",
+      "pairs": null,
+      "requires": null
+     }
+    ],
+    "untested": [
+     "face/illustrated 의 추천 짝 밖 — paint smooth · painted_refined · brush_layered · matte_soft · cel_gradient"
+    ]
+   },
+   "subject_overrides": [],
+   "background": null,
+   "boost": null,
+   "skin": {
+    "key": "dewy_body",
+    "v": "v1",
+    "code": "dw1",
+    "ko": "몸 피부 물광(얼굴 빼고)"
+   },
+   "ref": "km2-il2-ba3-rg2-x01__sam.wenyang__samguk-world-slit=dw1__api26__1",
+   "casual": {
+    "from": "sam-atelier tools/casual-plan.cjs",
+    "card": "문앙",
+    "cut": 12,
+    "seed": 360699272,
+    "ofree": true,
+    "outfit_free": "a mirrored-sequin masquerade look — a strapless midnight-violet bodice paved with small round mirror sequins and a plunging sweetheart edge, a high-cut asymmetric skirt of layered black tulle petals over bare legs, and long sheer black opera gloves."
+   },
+   "prompt_sha256": "e70ad704fe08a90b551d8611ca89ce3c164d4b7f91272daed5b8b6004ae4cab4",
+   "prompt_file": "jobs/j0092-r18-casual/prompts/km2-il2-ba3-rg2-x01__sam.wenyang__samguk-casual12=dw1__api26__1.txt"
+  }
+ ]
+}
